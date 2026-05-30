@@ -1,13 +1,9 @@
 import styles from '@/styles/BuilderDashboard/Desktop.module.css';
 import HolderCSS from "@/styles/CSS/UX.module.css";
 import { useEffect, useRef, useState } from "react";
-import MainContentLoader from '@/UI-Features/webComponent/pageComponent/MainContentLoader'
-import NavigationComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/NavigationComponent'
 import HeroComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/HeroComponent';
 import ProductComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/ProductComponent';
 import BannerComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/BannerComponent';
-import FormComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/FormComponent';
-import FooterComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/FooterComponent';
 
 
 export default function HomepageComponent() {
