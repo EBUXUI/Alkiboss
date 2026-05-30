@@ -578,7 +578,7 @@ export function AEIFWorkflowVisualizer({ theme, visible }: { theme: ThemeMode; v
                 />
                 <text x={node.x + 10} y={node.y + 14} fill={color} fontSize={11} fontFamily="'DM Sans', sans-serif">{node.icon}</text>
                 <text x={node.x + 26} y={node.y + 14} fill="#e2e8f0" fontSize={8.5} fontFamily="'DM Sans', sans-serif" fontWeight="600">{node.label.slice(0, 16)}</text>
-                <text x={node.x + 26} y={node.y + 26} fill="#475569" fontSize={7} fontFamily="'DM Sans', sans-serif" textTransform="uppercase">{node.type.toUpperCase()}</text>
+                <text x={node.x + 26} y={node.y + 26} fill="#475569" fontSize={7} fontFamily="'DM Sans', sans-serif">{node.type.toUpperCase()}</text>
                 {node.active && <circle cx={node.x + 105} cy={node.y + 8} r={4} fill="#22c55e"><animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" /></circle>}
               </g>
             );
