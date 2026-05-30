@@ -1,0 +1,264 @@
+{
+  "fixes": [
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Animation.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Desktop.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Digital.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\globals.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Bg\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\BuilderDashboard\\Desktop.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\BuilderDashboard\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Catalouge\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\devOps\\Desktop.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Documentation\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Dragons\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Dragons\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Headbar\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Hero\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Hero\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Kaprew\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Kaprew\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Legal\\Desktop.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Legal\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Menu\\White\\Digital.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Menu\\White\\globals.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Menu\\White\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Menu\\White\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Menu\\White\\Bg\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Moduled\\Desktop.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Moduled\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Soriyo\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Stats\\Desktop.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Stats\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\Stats\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\White\\Digital.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\White\\globals.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\White\\Home.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\White\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    },
+    {
+      "file": "D:\\Mine\\neatorganizer\\styles\\White\\Bg\\Main.module.css",
+      "replacements": {
+        "from": "Blue",
+        "to": "Green"
+      }
+    }
+  ],
+  "timestamp": "2025-08-24T10:51:42.452587"
+}

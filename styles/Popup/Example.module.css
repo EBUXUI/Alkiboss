@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
+/* Utilities */
+.flow>*:where(:not(:first-child)) {
+    margin-top: var(--flow-spacer, 1em);
+}
+
+/* Set core defaults */
+.CardBody {
+    background: linear-gradient(to right, #ffffff83, #010f3b), url(/content/images/Orange\ \(10\).jpg);
+    background-position: center;
+    background-size: contain;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Grid Example */
+
+.GrideExampleContain {
+    position: relative;
+}
+
+.GridExampleContain::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(#0c0331, #012446);
+    border-radius: 50%;
+    padding: 8rem 8rem;
+    transform: translate(-20px, -100px);
+}
+
+.GridTemplate {
+    background: #fdfdfd4b;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding-block: 2rem;
+    margin-inline: auto;
+    width: min(95%, 70rem);
+}
+
+.image {
+    --border-width: 5px;
+    max-width: 5vw;
+    clip-path: circle(40%);
+    background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(0, 0, 0, 0.137));
+}
+
+@media (min-width: 50em) {
+    .GridTemplate {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gridcolspan2 {
+        grid-column: span 2;
+    }
+
+    .cardfive {
+        grid-column-start: 4;
+        grid-row: 1/ span 2;
+    }
+}
+
+.position {
+    color: black;
+}
+
+.mantain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+}
+
+.mantaintext {
+    display: grid;
+    gap: 1rem;
+}
+
+.mantaintext>.FirstParag:first-of-type {
+    color: black;
+    font-weight: 700;
+}
+
+.mantaintext>.SecondParag:first-of-type {
+    color: black;
+    font-weight: 500;
+}
+
+.imagename {
+    display: grid;
+}
+
+.imagename .name {
+    line-height: 1;
+}
+
+.imagename .position {
+    opacity: 0.5;
+}
+
+.imagename>.position:first-of-type {
+    line-height: 1.5;
+}
+
+.imagename>.position:last-of-type {
+    opacity: 0.7;
+}
+
+.card {
+    padding: 2rem;
+    font-size: .8vw;
+    color: rgb(12, 6, 6);
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 5px -1px rgba(10, 99, 169, 0.16),
+        -2px -5px 8px -1px rgba(255, 255, 255, 0.70)
+}
+
+.card:hover,
+.card:active,
+.card:focus {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+        inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70)
+}
+
+.cardtwo {
+    background: #fdfdfd4b;
+}
+
+.cardthree {
+    background: #fdfdfdd7;
+}
+
+
+.cardfour {
+    background: #fdfdfd4b;
+}
+
+
+.cardfive {
+    background: #fdfdfdd7;
+    ;
+}
+
+/* Product Example */
+
+.ProductBody {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: grid;
+    place-content: center;
+    background: var(--Dark-Cloud);
+}
+
+.ProductExample {
+    position: relative;
+
+}
+
+.Example {
+    background: linear-gradient(#0657a84d, #101214c9);
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    padding-block: 2rem;
+    margin-inline: auto;
+    width: min(95%, 70rem);
+    display: grid;
+    gap: 1.5em;
+    grid-template-areas:
+        "gridone"
+        "gridtwo"
+    ;
+}
+
+.ProductExample::before {
+    position: absolute;
+    background: linear-gradient(#111417, #101214);
+    content: '';
+    clip-path: circle(50%);
+    padding: 8rem 8rem;
+    left: -5rem;
+}
+
+
+.Product {
+    text-align: center;
+    padding: 0.8rem 1rem;
+    border-radius: .5rem 0 .5rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    min-width: 50vw;
+    transition: all ease-in-out 500ms;
+}
+
+
+.ProductName {
+    color: #0e0d0d;
+}
+
+.Background {
+    position: relative;
+
+}
+
+.PGCard {
+    background: linear-gradient(160deg, #121213 0%, #212224 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+        inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+        inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+        1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    max-width: 100vw;
+    max-height: 50vh;
+    overflow: hidden;
+}
+
+
+.ProductDetails {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    opacity: 0.9;
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+    transition: all ease-in-out 500ms;
+}
+
+.ProductDetails .active,
+.ProductDetails:hover,
+.ProductDetails:active,
+.ProductDetails:focus {
+    gap: 15rem;
+}
+
+
+
+.ProductContainer {
+    background: linear-gradient(160deg, #0657a8d7 0%, #101214c9 100%);
+    text-align: center;
+    padding: .8rem .1rem;
+    font-weight: 800;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    transition: all ease-in-out 500ms;
+
+}
+
+
+.ProductButton {
+    background: rgba(0, 0, 0, 0.63);
+    padding: .5rem .5rem;
+    transition: all ease-in-out 500ms;
+    color: whitesmoke;
+
+}
+
+.ProductButton:hover {
+    background: var(--Dark-Cloud);
+}
+
+.ProductText {
+    font-size: 4vw;
+    color: whitesmoke;
+
+}
+
+.PriceText {
+    font-size: 4vw;
+}
+
+.CartBtn {
+    display: grid;
+    gap: 10rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.CartLink {
+    font-size: 3vw;
+    transition: all ease-in-out 500ms;
+}
+
+.CartLink:hover{
+    background: white;
+    color: black;
+    border-radius: 1rem;
+    padding: 0 .1rem;
+    font-weight: 700;
+    transition: all ease-in-out 500ms;
+}
+
+.ProductOne{
+    grid-area: gridone;
+}
+
+.ProductTwo{
+    grid-area: gridtwo;
+}
+
+
+@media only screen and (min-width:290px) and (max-width:549px) {
+
+    .ProductDetails:hover {
+        gap: 12rem;
+    }
+   
+
+
+}
+
+@media only screen and (min-width:550px) and (max-width:1025px) {
+    .ProductDetails:hover {
+        gap: 16rem;
+    }
+
+    .ProductText {
+        font-size: 1.8vw;
+    }
+
+    .PGCard {
+        max-width: 45vw;
+        max-height: 50vh;
+    }
+
+    .PriceText {
+        font-size: 2vw;
+    }
+    .CartLink {
+        font-size: 1.8vw;
+    }
+
+    .Example{
+        grid-template-areas: 
+        "gridone gridone gridtwo gridtwo gridtwo";
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .ProductText {
+        font-size: 1.5vw;
+    }
+
+    .PGCard {
+        max-width: 45vw;
+        max-height: 50vh;
+    }
+
+    .PriceText {
+        font-size: 1.5vw;
+    }
+    .CartLink {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (min-width:1285px) {}

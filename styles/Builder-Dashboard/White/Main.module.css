@@ -1,0 +1,6460 @@
+@media only screen and (min-width: 0px) and (max-width: 289px) {
+
+  /* -- Header --*/
+  .HeadercontentI {
+    display: none;
+  }
+
+  /* --Header --*/
+  /*-- Main-Content-Title --*/
+
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    background: var(--Light-Suit);
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    place-content: center;
+    min-width: 90vw;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 7vw;
+    font-weight: 800;
+    background: var(--Light-White);
+    color: var(--Dark-Black);
+  }
+
+  .AnywhereTitle {
+    font-size: 3vw;
+    font-weight: 800;
+    background: var(--Light-White);
+    color: var(--Dark-Black);
+  }
+
+  .GreatQualityTitle {
+    font-size: 3vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+  }
+
+  /* -- Main-Content-Title -- */
+  /* -- Main Hero -- */
+
+  .Herocontent {
+    display: grid;
+    min-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 120vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    background: rgba(0, 0, 0, 0.1);
+
+    box-shadow: -3px -3px 6px 2px rgba(0, 0, 0, 0.1),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .GridedContentModule {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    place-items: center;
+    gap: 0.4rem;
+    min-width: 100vw;
+  }
+
+  /* -- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    place-content: center;
+    background: rgba(0, 0, 0, 0.822);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 100vw;
+    gap: 1em;
+    max-height: 100vh;
+    place-items: center;
+  }
+
+  .MainProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0.4rem;
+    padding: 13rem 0;
+    transition: all ease-in-out 300ms;
+    
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 12.5rem 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GeniuneTitle {
+    font-size: .8rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    border-bottom: 0.2rem solid var(--Light-White);
+    margin: 0.5rem 0;
+    padding: .5rem .5rem;
+    text-align: center;
+    opacity: 0.95;
+  }
+
+  .DeliversTitle {
+    font-size: .5rem;
+    font-weight: 700;
+    background: var(--Dark-Space);
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    opacity: 0.95;
+    padding: 1rem 1rem;
+  }
+
+  .AnnotationTitle {
+    font-size: .6rem;
+    font-weight: 600;
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    margin: 0.5rem 0;
+    text-align: center;
+    opacity: 0.85;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    opacity: 0.9;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: .6rem;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: .5rem 2rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  /* -- Hero-Section-Title --*/
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /* -- Main-Hero --*/
+
+  /*-- Hero-Section-Product -- */
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px var(--Darker-Black),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .ProductMainTitle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 2vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .MainProductImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    gap: 1rem;
+  }
+
+  .ProductElement {
+    background: var(--Dark-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    max-width: 100vw;
+    padding: 5rem 0;
+    max-height: 10vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    min-height: 15vh;
+    padding: 6rem 0;
+    box-shadow: inset -3px -3px 5px 0px var(--Soriyo-StarI),
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Wrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .MainProductGridBg {
+    padding: 0.5rem 0.5rem;
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Product / Hero-Section-Title-- */
+
+
+  /* --Product-Banner - CatalougeBanner --*/
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    place-content: center;
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0;
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: 1rem;
+    background: var(--Dark-Space);
+    font-weight: 800;
+    color: var(--Lighter-White);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    max-width: 100vw;
+    min-height: 50vh;
+    overflow: hidden;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    place-items: center;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 80vw;
+    padding: 4rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 10rem 0;
+    min-width: 45vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+    max-width: 75vw;
+  }
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: .8rem;
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+    font-size: .8rem;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+  }
+
+  /* Product Banner - Catalouge Banner -*/
+  /*-- Login Pictorial --*/
+
+  .LoginBackground {
+    position: fixed;
+    max-width: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: LoginEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes LoginEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .LoginImage {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginSlideRousel {
+    margin: 0.1rem 0.1rem;
+  }
+
+  .LoginRousel {
+    transition: all ease-in-out 300ms;
+    /*margin: 0 50rem 0 0;*/
+    overflow: hidden;
+  }
+
+  .LoginRouselCenter {
+    position: relative;
+    display: grid;
+    border-radius: 0.4rem;
+    min-width: 20vw;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* --- Login Pictorial --*/
+
+  /* -- Login Content --*/
+
+  .LoginContent {
+    display: grid;
+    min-width: 100vw;
+    place-content: center;
+    max-height: 100vh;
+    position: relative;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    overflow: scroll;
+    margin: 1rem 0;
+  }
+
+  .LoginHero {
+    min-width: 92vw;
+    min-height: 80vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+  }
+
+  .LoginHeroII {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1rem);
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginGridII {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginComponentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .LoginComponent {
+    border-radius: 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .LoginCharacter {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+  }
+
+  .LoginCharacterElement {
+    background: var(--Light-Space);
+    min-width: 100vw;
+    max-height: 50vh;
+    padding: 12rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterElement:hover {
+    background: var(--Dark-Black);
+    padding: 12rem 4rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: -2px -3px 5px -1px var(--Lighter-Orange),
+      2px 3px 5px -1px var(--Dark-Black);
+  }
+
+  .LoginCharacterNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterNumber:hover {
+    color: var(--Lighter-White);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg {
+    background: var(--Dark-Fade-Black);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    padding: 1rem 0.5rem;
+    backdrop-filter: blur(1rem);
+    margin: 9rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg:hover {
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .LoginCharacterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  /* Login Content */
+
+  /* Menu Content */
+  .Menucontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MenuTitle {
+    list-style-type: none;
+  }
+
+  .MenuFlex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .MenuMain {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .Menuhero {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+    min-width: 90vw;
+    border-radius: 1rem 1rem 0 0;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px var(--Darker-Black),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.17), 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuIcon .active,
+  .MenuIcon:hover,
+  .MenuIcon:active,
+  .MenuIcon:focus {
+    border: 2px solid var(--Dark-Black);
+    outline: none;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset -3px -3px 5px 0px var(--Dark-Black),
+      -1px -1px 4px 0px var(--Darker-Black),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .MenuIcon {
+    font-weight: 600;
+    background: #f8f8f8;
+    text-align: center;
+    color: #000000;
+    max-width: 10vw;
+    max-height: 5vh;
+    transition: all ease-in-out 300ms;
+    padding: 0.5rem 0.5rem;
+    clip-path: circle(40%);
+    box-shadow: 10px 10px 10px -1px var(--Dark-Black),
+      -10px -10px 10px -1px var(--Darker-Black);
+  }
+
+  .MenuLink {
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuLink:hover {
+    color: #b6b6b6;
+    background: black;
+    color: #f8f8f8;
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem 1rem 0 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* -- Menu Content -- */
+
+
+  /* Grid Header */
+  .GridHeaderI {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleI {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 50vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 3vw;
+  }
+
+  .GridHeader {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 50vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 3vw;
+  }
+
+  .GridHeaderII {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleII {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 50vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 3vw;
+  }
+
+  /*.GridSubII {
+    font-size: 1rem;
+    text-align: center;
+    margin: 4rem 0 0 0;
+  }/*
+  /* Grid Header */
+  /* -- Footer -- */
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    clip-path: circle(50%);
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+    margin: 0 0.5rem;
+  }
+
+  .SocialMediaIcons {
+    display: flex;
+    gap: 0.3em;
+    margin: 0 0.1rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterStatement {
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    font-size: 3.5vw;
+    color: var(--Dark-Black);
+  }
+
+  .FooterIcon {
+    min-width: 7vw;
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    clip-path: circle(40%);
+    padding: 0.5rem 0.5rem;
+  }
+
+  .FooterIcon:hover {
+    background: var(--Green-Space);
+    cursor: pointer;
+  }
+
+  .FooterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 40vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    font-size: 3.5vw;
+    gap: 2rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    font-size: 3.5vw;
+    gap: 2rem;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+
+  /* -- Footer -- */
+}
+
+@media only screen and (min-width: 290px) and (max-width: 549px) {
+
+  /* -- Header --*/
+  .HeadercontentI {
+    display: none;
+  }
+
+  /* --Header --*/
+
+  /*-- Main-Content-Title --*/
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    place-content: center;
+    min-width: 90vw;
+    gap: 0.3em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 7vw;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    max-width: 60vw;
+    text-align: center;
+    margin: 0 0 0 12rem;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.85;
+  }
+
+  .AnywhereTitle {
+    font-size: 3vw;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    max-width: 60vw;
+    text-align: center;
+    margin: 0 0 0 12rem;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.85;
+  }
+
+  .GreatQualityTitle {
+    font-size: 2vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    max-width: 60vw;
+    text-align: center;
+    margin: 0 0 0 12rem;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.85;
+  }
+
+  /*-- Main-Content-Title --*/
+  /* -- Main Hero -- */
+
+  .Herocontent {
+    display: grid;
+    min-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 120vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    background: rgba(0, 0, 0, 0.1);
+
+    box-shadow: -3px -3px 6px 2px rgba(0, 0, 0, 0.1),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .GridedContentModule {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    place-items: center;
+    gap: 0.4rem;
+    min-width: 100vw;
+  }
+
+  /* -- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    place-content: center;
+    background: rgba(0, 0, 0, 0.822);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 100vw;
+    gap: 1em;
+    max-height: 100vh;
+    place-items: center;
+  }
+
+  .MainProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0.4rem;
+    padding: 13rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 12.5rem 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GeniuneTitle {
+    font-size: 1rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    border-bottom: 0.2rem solid var(--Light-White);
+    margin: 0.5rem 0;
+    text-align: center;
+    opacity: 0.95;
+  }
+
+  .DeliversTitle {
+    font-size: .8rem;
+    font-weight: 700;
+    background: var(--Dark-Space);
+    text-align: center;
+    color: var(--Light-White);
+    opacity: 0.95;
+    padding: 1rem 1rem;
+  }
+
+  .AnnotationTitle {
+    font-size: .7rem;
+    font-weight: 600;
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    margin: 0.5rem 0;
+    text-align: center;
+    opacity: 0.85;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    font-weight: 800;
+    font-size: 4vw;
+    opacity: 0.9;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: .7rem;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  /* -- Hero-Section-Title --*/
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /* -- Main-Hero --*/
+
+  /*-- Hero-Section-Product -- */
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    margin: 0 .5rem;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px var(--Darker-Black),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+
+  }
+
+  .ProductMainTitle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: .1rem;
+    background: var(--Dark-Cloud);
+    border-radius: 1rem 1rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--Light-White);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 20vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 1rem 1rem;
+  }
+
+  .MainProductImage {
+    display: grid;
+    gap: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement {
+    background: var(--Dark-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    max-width: 100vw;
+    padding: 6rem 0;
+    max-height: 10vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Soriyo-Cloud);
+    color: var(--Light-White);
+    min-height: 36vh;
+    padding: 8.5rem 0;
+    box-shadow: inset -3px -3px 5px 0px var(--Soriyo-StarI-I),
+      -1px -1px 4px 0px var(--Soriyo-StarI),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Wrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .MainProductGridBg {
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber {
+     display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Product / Hero-Section-Title-- */
+
+
+  /* -- Product Banner - Catalouge Banner --*/
+
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: rgba(240, 239, 239, 0.699);
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    margin: 0;
+    place-content: center;
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+    place-content: center;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI-I),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 80vw;
+    padding: 8rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 10rem 0;
+    min-width: 80vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px var(--Soriyo-StarI),
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+    max-width: 100vw;
+  }
+
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+    box-shadow: -3px -3px 6px 2px var(--Darker-Black),
+      5px 5px 8px 0px rgba(22, 22, 22, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    box-shadow: inset -10px -10px 6px 2px #ffffff, inset 5px 5px 8px 0px #fbf8e6,
+      1px 2px 2px 0px rgb(0, 0, 0);
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  /* -- Product Banner - Catalouge Banner --*/
+  /*-- Login Pictorial --*/
+
+  .LoginBackground {
+    position: fixed;
+    min-width: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: LoginEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes LoginEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .LoginImage {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginSlideRousel {
+    margin: 0.1rem 0.1rem;
+  }
+
+  .LoginRousel {
+    transition: all ease-in-out 300ms;
+    /*margin: 0 50rem 0 0;*/
+    overflow: hidden;
+  }
+
+  .LoginRouselCenter {
+    position: relative;
+    display: grid;
+    border-radius: 0.4rem;
+    min-width: 20vw;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- Login Pictorial --*/
+  /* -- Login Content --*/
+
+  .LoginContent {
+    display: grid;
+    place-content: center;
+    max-height: 100vh;
+    position: relative;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    margin: 3rem 0;
+    overflow-y: scroll;
+  }
+
+  .LoginHero {
+    min-width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+  }
+
+  .LoginHeroII {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1rem);
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginGridII {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginComponentGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .LoginComponent {
+    border-radius: 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .LoginCharacter {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+  }
+
+  .LoginCharacterElement {
+    background: var(--Light-Space);
+    min-width: 80vw;
+    max-height: 20vh;
+    padding: 12rem 0;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    overflow-y: scroll;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterElement:hover {
+    background: var(--Dark-Black);
+    padding: 12rem 3rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: -2px -3px 5px -1px var(--Lighter-Orange),
+      2px 3px 5px -1px var(--Dark-Black);
+  }
+
+  .LoginCharacterNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterNumber:hover {
+    color: var(--Lighter-White);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg {
+    background: var(--Dark-Fade-Black);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    padding: 1rem 0.5rem;
+    backdrop-filter: blur(1rem);
+    margin: 9rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg:hover {
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .LoginCharacterWrap {
+    position: relative;
+    min-height: 10vh;
+    border-radius: 0.4rem;
+    max-width: 20vw;
+    overflow: hidden;
+  }
+
+  /* Login Content */
+
+  /* Menu Content */
+  .Menucontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MenuTitle {
+    list-style-type: none;
+  }
+
+  .MenuFlex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .MenuMain {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .Menuhero {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    min-width: 85vw;
+    border-radius: 1rem 1rem 0 0;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px var(--Darker-Black),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.17), 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuIcon .active,
+  .MenuIcon:hover,
+  .MenuIcon:active,
+  .MenuIcon:focus {
+    border: 2px solid #fafafa;
+    outline: none;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .MenuIcon {
+    font-weight: 600;
+    background: #f8f8f8;
+    text-align: center;
+    color: var(--Darker-Black);
+    max-width: 10vw;
+    max-height: 5vh;
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+    clip-path: circle(40%);
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .MenuLink {
+    font-size: 2.8vw;
+    font-weight: 500;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuLink:hover {
+    color: var(--Darker-Black);
+    font-weight: 700;
+    background: var(--Lighter-White);
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem 1rem 0 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Menu Content */
+  /* Grid Header */
+  .GridHeaderI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleI {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 3rem 1rem;
+    min-width: 40vw;
+    min-height: 10vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 3vw;
+  }
+
+  .GridSubI {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .GridHeaderII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleII {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 8rem 0.2rem 0.1rem 0;
+    margin: 1rem 1rem 0 0;
+    min-width: 40vw;
+    min-height: 5vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+    font-size: 1rem;
+  }
+
+  .GridSubII {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 7rem 0 0 0;
+  }
+
+  .GridHeader {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 5rem 1rem;
+    max-width: 100vw;
+    max-height: 20vw;
+    margin: 3rem 0 0 0;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1rem;
+  }
+
+  .GridSub {
+    font-size: 1rem;
+    text-align: center;
+    margin: 4rem 0 0 0;
+  }
+
+  /* Grid Header */
+  /* -- Footer -- */
+  .FooterWrap {
+    position: relative;
+    min-height: 25vh;
+    border-radius: 0.4rem;
+    max-width: 50vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    place-content: center;
+    place-items: center;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    clip-path: circle(50%);
+    padding: 2rem 5rem;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+    margin: 0.5rem 0.5rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterStatement {
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    color: var(--Dark-Black);
+    font-size: 0.8rem;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2.5rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    font-size: 2.8vw;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2.5rem;
+    font-size: 2.8vw;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+
+  /* -- Footer --*/
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1024px) {
+
+  /* -- Header --*/
+  .HeadercontentI {
+    display: none;
+  }
+
+  /* --Header --*/
+
+  /*-- Main Content Title --*/
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 7vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .AnywhereTitle {
+    font-size: 3vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .GreatQualityTitle {
+    font-size: 2vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    min-width: 50vw;
+  }
+
+  /*-- Main-Content-Title --*/
+  /* -- Main Hero -- */
+
+  .Herocontent {
+    display: grid;
+    min-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 120vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    background: rgba(0, 0, 0, 0.1);
+
+    box-shadow: -3px -3px 6px 2px rgba(0, 0, 0, 0.1),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .GridedContentModule {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    place-items: center;
+    gap: 0.4rem;
+    min-width: 100vw;
+  }
+
+  /* -- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    place-content: center;
+    background: rgba(0, 0, 0, 0.822);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 100vw;
+    gap: 1em;
+    max-height: 100vh;
+    place-items: center;
+  }
+
+  .MainProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0.4rem;
+    padding: 20rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 20.5rem 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GeniuneTitle {
+    font-size: 2rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    border-bottom: 0.2rem solid var(--Light-White);
+    margin: 0.5rem 0;
+    text-align: center;
+    opacity: 0.95;
+  }
+
+  .DeliversTitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: var(--Dark-Space);
+    text-align: center;
+    color: var(--Light-White);
+    opacity: 0.95;
+    padding: 1rem 1rem;
+  }
+
+  .AnnotationTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    margin: 0.5rem 0;
+    text-align: center;
+    opacity: 0.85;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    font-weight: 800;
+    opacity: 0.9;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  /* -- Hero-Section-Title --*/
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /* -- Main-Hero --*/
+
+  /*-- Hero-Section-Product -- */
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 2rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    margin: 0 1rem;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .ProductMainTitle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    text-align: center;
+    gap: 1rem;
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 5vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .MainProductImage {
+    display: grid;
+    place-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement {
+    background: var(--Dark-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 13rem 5rem;
+    max-height: 40vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    padding: 13.5rem 0;
+    box-shadow: inset -3px -3px 5px 0px var(--Soriyo-StarI),
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Wrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .MainProductGridBg {
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber {
+     display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 800;
+    font-size: .9rem;
+    backdrop-filter: blur(1rem);
+    text-align: center;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Product / Hero-Section-Title-- */
+
+
+  /* -- Product Banner - Catalouge Banner --*/
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 1rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 80vw;
+    padding: 12rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 10rem 0;
+    min-width: 45vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+  }
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    min-width: 100vw;
+    min-height: 50vh;
+    overflow: hidden;
+    padding: 1rem 5rem;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3.5rem;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+    max-width: 80vw;
+  }
+
+  /* -- Product Banner - Catalouge Banner --*/
+  /*-- Login Pictorial --*/
+
+  .LoginBackground {
+    position: fixed;
+    max-width: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: LoginEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes LoginEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .LoginImage {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginSlideRousel {
+    margin: 0.1rem 0.1rem;
+  }
+
+  .LoginRousel {
+    transition: all ease-in-out 300ms;
+    /*margin: 0 50rem 0 0;*/
+    overflow: hidden;
+  }
+
+  .LoginRouselCenter {
+    position: relative;
+    display: grid;
+    border-radius: 0.4rem;
+    min-width: 20vw;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- Login Pictorial --*/
+
+  /* -- Login Content --*/
+
+  .LoginContent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    overflow-y: scroll;
+  }
+
+  .LoginHero {
+    min-width: 92vw;
+    min-height: 80vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+  }
+
+  .LoginHeroII {
+    min-width: 92vw;
+    min-height: 40vh;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1rem);
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginGridII {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginComponentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 1rem;
+  }
+
+  .LoginComponent {
+    border-radius: 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .LoginCharacter {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+  }
+
+  .LoginCharacterElement {
+    background: var(--Light-Space);
+    min-width: 40vw;
+    max-height: 20vh;
+    padding: 12rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterElement:hover {
+    background: var(--Dark-Black);
+    padding: 12rem 7rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: -2px -3px 5px -1px var(--Lighter-Orange),
+      2px 3px 5px -1px var(--Dark-Black);
+  }
+
+  .LoginCharacterNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterNumber:hover {
+    color: var(--Lighter-White);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg {
+    background: var(--Dark-Fade-Black);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    padding: 1rem 0.5rem;
+    backdrop-filter: blur(1rem);
+    margin: 9rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg:hover {
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .LoginCharacterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  /* Login Content */
+  /* Menu Content */
+  .Menucontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MenuTitle {
+    list-style-type: none;
+  }
+
+  .MenuMain {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .MenuFlex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .Menuhero {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    min-width: 80vw;
+    min-height: 8vw;
+    border-radius: 1rem 1rem 0 0;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17),
+      1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuIcon .active,
+  .MenuIcon:hover,
+  .MenuIcon:active,
+  .MenuIcon:focus {
+    border: 2px solid #fafafa;
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuIcon {
+    font-weight: 600;
+    background: #f8f8f8;
+    text-align: center;
+    color: #000000;
+    max-width: 8vw;
+    max-height: 8vh;
+    padding: 1rem 1rem;
+    clip-path: circle(40%);
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuLink {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuLink:hover {
+    color: var(--Darker-Black);
+    background: var(--Lighter-White);
+    padding: 0.1rem 0.5rem;
+    font-weight: 700;
+    border-radius: 1rem 1rem 0 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MenuNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* Menu Content */
+
+  /* Grid Header */
+
+  .GridHeaderI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleI {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1rem;
+  }
+
+  .GridSubI {
+    text-align: center;
+  }
+
+  .GridHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 40vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 2rem;
+  }
+
+  .GridSub {
+    text-align: center;
+  }
+
+  .GridHeaderII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleII {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 2rem 1rem;
+    max-width: 50vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+    font-size: 1.5rem;
+  }
+
+  .GridSubII {
+    text-align: center;
+  }
+
+  /* Grid Header */
+  /* -- Footer -- */
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-content: center;
+    place-items: center;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Suit),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    clip-path: circle(50%);
+    border-radius: 0.4rem;
+    padding: 5rem 6rem;
+    transition: all ease-in-out 300ms;
+    margin: 0 0.5rem;
+  }
+
+  .SocialMediaIcons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    margin: 0 2rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterStatement {
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .FooterIcon {
+    max-width: 4vw;
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    clip-path: circle(40%);
+    padding: 0.5rem 0.5rem;
+  }
+
+  .FooterIcon:hover {
+    background: var(--Green-Space);
+    cursor: pointer;
+  }
+
+  .FooterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 14vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+
+  /* -- Footer -- */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  /*-- Main-Content-Title --*/
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .AnywhereTitle {
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .GreatQualityTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*-- Main-Content-Title --*/
+
+  /*-- Hero-Section-Product --*/
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    margin: 0 5rem;
+    background: var(--Light-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 2rem 4rem;
+  }
+
+  .ProductMainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1vw;
+    margin: 0 0 1rem 0;
+    font-weight: 800;
+    color: var(--Darker-Black);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 1vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  /* --Hero-Sectio-Title / Hero-Section-Product --*/
+  .MainProductImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    gap: 1rem;
+  }
+
+  /* --Hero-Sectio-Title / Hero-Section-Product --*/
+
+  .Wrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .MainProductGridBg {
+    background: var(--Dark-SpaceI);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    background: var(--Soriyo-StarI);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber {
+     display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: 800;
+    font-size: 0.8rem;
+    backdrop-filter: blur(1rem);
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber:hover {
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Product --*/
+
+  /*-- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    background: var(--Soriyo-Light-Suit);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .MainProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 16em 0;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 16.5em 0;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 20vw;
+    gap: 0.8em;
+    max-height: 20vh;
+    place-items: center;
+  }
+
+  .DeliversTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--Light-White);
+  }
+
+  .AnnotationTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Darker-Black);
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Title --*/
+
+  /* -- Product Banner - CatalougeBanner */
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    border-radius: 1em;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+    background: var(--Light-Cloud);
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8vw;
+    border-radius: 1em 1em 0 0;
+    font-weight: 800;
+    color: var(--Lighter-White);
+    align-items: center;
+    justify-content: center;
+    background: var(--Dark-Space);
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    min-width: 100vw;
+    min-height: 50vh;
+    overflow: hidden;
+    padding: 1rem 5rem;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 8rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 8.5rem 0;
+    min-width: 40vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    backdrop-filter: blur(1em);
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+    gap: 4em;
+  }
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+  }
+
+  /* -- Product Banner - CatalougeBanner */
+
+  /* HeadBar */
+  .HeadercontentI {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+  }
+
+  .Headerhero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+    background: var(--Soriyo-Space);
+    backdrop-filter: blur(1em);
+    box-shadow: -3px -3px 6px 2px var(--Soriyo-StarI),
+      5px 5px 8px 0px var(--Soriyo-StarI-I), 1px 2px 2px 0px var(--Soriyo-StarI);
+    transition: all ease-in-out 300ms;
+    opacity: 0.9;
+  }
+
+  .Headerhero .active,
+  .Headerhero:hover,
+  .Headerhero:active,
+  .Headerhero:focus {
+    border: 2px solid #fafafa;
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderNav {
+    font-weight: 700;
+    font-size: 0.6rem;
+
+    background: var(--Light-Suit);
+    background: var(--Dark-Space);
+    text-align: center;
+    color: var(--Lighter-White);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    padding: 0.8rem 2rem;
+    box-shadow: 10px 10px 10px -1px var(--Soriyo-StarI),
+      -10px -10px 10px -1px var(--Soriyo-StarI);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderNav:hover {
+    background: var(--Light-Suit);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .HeaderOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20vw;
+    gap: 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.5em;
+    background: var(--Dark-Black);
+    color: var(--Lighter-White);
+  }
+
+  .HeaderOut:hover {
+    background: var(--Soriyo-StarI);
+    color: var(--Lighter-White);
+    cursor: pointer;
+  }
+
+  .HeroIcon {
+    background: var(--Lighter-White);
+    min-width: 1.4vw;
+    padding: 0.3rem;
+    clip-path: circle(0.55rem);
+    color: var(--Darker-Black);
+  }
+
+  .HeroIcon:hover {
+    color: var(--Soriyo-StarI);
+  }
+
+  .HeaderGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+
+  .HeaderFlex {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+
+  .HeaderTitle {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+  }
+
+  /*-- Header--*/
+
+  /* -- Main Hero -- */
+
+  .Herocontent {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .GridedContentModule {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 1rem;
+    place-items: center;
+    gap: 0.4rem;
+    max-width: 20vw;
+  }
+
+  /* -- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    background: var(--Soriyo-Light-Suit);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 20vw;
+    gap: 0.8em;
+    max-height: 20vh;
+    place-items: center;
+  }
+
+  .GeniuneTitle {
+    font-size: 1vw;
+    font-weight: 800;
+    padding: 0.2rem 0.8rem;
+    box-shadow: 2px 2px 2px -1px var(--Soriyo-StarI),
+      -2px -2px 2px -1px var(--Light-White);
+    border-radius: 0 0 0.5em 0.5em;
+    color: var(--Lighter-White);
+    background: var(--Dark-Space);
+  }
+
+  .DeliversTitle {
+    font-size: 0.7vw;
+    font-weight: 500;
+    max-width: 10vw;
+    color: var(--Lighter-White);
+    background: var(--Soriyo-StarI);
+    padding: 0 0.3rem;
+    border-radius: 0.4em;
+    box-shadow: inset 2px 2px 2px -1px var(--Soriyo-StarI),
+      inset -2px -2px 2px -1px var(--Soriyo-StarI);
+  }
+
+  .AnnotationTitle {
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: var(--Darker-Black);
+  }
+
+  .ProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 20vw;
+    min-height: 30vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Light-Cloud);
+    color: var(--Light-White);
+    min-height: 3vh;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- Hero-Section-Title --*/
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /* -- Main-Hero --*/
+
+  /*-- Login Pictorial --*/
+
+  .LoginBackground {
+    position: fixed;
+    min-width: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: LoginEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes LoginEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .LoginImage {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginSlideRousel {
+    margin: 0.1rem 0.1rem;
+  }
+
+  .LoginRousel {
+    transition: all ease-in-out 300ms;
+    /*margin: 0 50rem 0 0;*/
+    overflow: hidden;
+  }
+
+  .LoginRouselCenter {
+    position: relative;
+    display: grid;
+    border-radius: 0.4rem;
+    min-width: 20vw;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- OperatingManager Content --*/
+
+  .OperatingManagerContent {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OperatingManagerHero {
+    min-width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
+
+  .OperatingManagerComponent {
+    border-radius: 1rem;
+    background: var(--Dark-Black);
+    backdrop-filter: blur(1rem);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .OperatingSidebarComponent {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1em);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    min-width: 30vw;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .SidebarGridII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .SidebarGridedIII {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    padding: 0.5rem 0.5rem;
+    gap: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OperatingMainManagerComponent {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: inset -10px -10px 10px -1px var(--Lighter-white),
+      inset -10px -10px 10px -1px var(--Light-White);
+    backdrop-filter: blur(1rem);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /*--- Login Pictorial --*/
+  /* -- Login Content --*/
+
+  .LoginContent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginHero {
+    min-width: 92vw;
+    min-height: 80vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
+
+  .LoginHeroII {
+    min-width: 92vw;
+    min-height: 70vh;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1rem);
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginGridII {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginComponentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0;
+  }
+
+  .LastLoginComponentChild {
+    grid-column: span 3;
+  }
+
+  .LoginComponent {
+    border-radius: 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .LoginCharacter {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+  }
+
+  .LoginCharacterElement {
+    background: var(--Light-Space);
+    min-width: 25vw;
+    max-height: 50vh;
+    padding: 12rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterElement:hover {
+    background: var(--Dark-Black);
+    padding: 12rem 7rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: -2px -3px 5px -1px var(--Lighter-Orange),
+      2px 3px 5px -1px var(--Dark-Black);
+  }
+
+  .LoginCharacterNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterNumber:hover {
+    color: var(--Lighter-White);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg {
+    background: var(--Dark-Fade-Black);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    padding: 1rem 0.5rem;
+    backdrop-filter: blur(1rem);
+    margin: 9rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg:hover {
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .LoginCharacterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  /* Login Content */
+  /* Menu Content */
+  .Menucontent {
+    display: none;
+  }
+
+  /* Menu Content */
+
+  /* Grid Header */
+  .GridHeaderI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleI {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  .GridHeaderII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleII {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+    font-size: 1rem;
+  }
+
+  .GridHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  /*-- Grid Header --*/
+
+  /* -- Footer -- */
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    clip-path: circle(50%);
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+
+    min-width: 20vw;
+    padding: 1rem 1rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -2px -3px 5px -1px var(--Lighter-Orange),
+      inset 2px 3px 5px -1px var(--Mid-Light-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterStatement {
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .FooterWrap {
+    position: relative;
+    min-height: 40vh;
+    border-radius: 0.4rem;
+    max-width: 10vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+
+  /* -- Footer --*/
+}
+
+@media only screen and (min-width: 1285px) and (max-width:1790px) {
+
+  /*-- Main-Content-Title --*/
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .AnywhereTitle {
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .GreatQualityTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*-- Main-Content-Title --*/
+
+  /*-- Hero-Section-Product --*/
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    margin: 0 5rem;
+    background: var(--Light-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 2rem 4rem;
+  }
+
+  .ProductMainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1vw;
+    margin: 0 0 1rem 0;
+    font-weight: 800;
+    color: var(--Darker-Black);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 1vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+  }
+
+  /* --Hero-Sectio-Title / Hero-Section-Product --*/
+  .MainProductImage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainRouselButton {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.2rem;
+    padding: 0 2rem;
+    margin: 0 0 2rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductImageI {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    gap: 1rem;
+  }
+
+  /* --Hero-Sectio-Title / Hero-Section-Product --*/
+  .ProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 16vw;
+    min-height: 35vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Light-Cloud);
+    color: var(--Light-White);
+    min-height: 35vh;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Wrap {
+    position: relative;
+    min-height: 30vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .MainProductGridBg {
+    background: var(--Dark-Morph);
+    backdrop-filter: blur(1rem);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    transition: all ease-in-out 300ms;
+    box-shadow: 0;
+  }
+
+  .MainProductGridNumber {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+
+   .FooterContentTitle {
+        display: grid;
+        min-width: 50vw;
+        margin-bottom: 1rem;
+        place-content: center;
+        position: relative;
+        transition: all ease-in-out 300ms;
+    }
+
+     .FooterTitleModule {
+        max-width: 100vw;
+        max-height: 100vh;
+        border-radius: 1rem;
+        transition: all ease-in-out 300ms;
+    }
+
+       .GridedFooterModule {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        gap: .4em;
+        transition: all ease-in-out 300ms;
+    }
+
+     .ShopTitle {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-weight: 800;
+        font-size: .8rem;
+        color: var(--Darker-Black);
+    }
+
+       .MedicalTitle {
+        background: var(--Light-Morph);
+        backdrop-filter: blur(1rem);
+        max-height: 5vh;
+        padding: 0 1rem;
+    }
+
+
+    .WithTitle {
+        font-weight: 800;
+        color: var(--Lighter-White);
+        background: var(--Dark-Space);
+        max-height: 5vh;
+        padding: 0 1rem;
+    }
+
+
+  .ProductPrice{
+     font-weight: 800;
+    font-size: 0.8rem;
+    color: var(--Lighter-Green);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductPrice:hover {
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBgI {
+    background: var(--Lighter-Morph);
+    backdrop-filter: blur(1rem);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+    
+  }
+
+  .MainProductGridBgI:hover {
+    background: var(--Dark-BlackI);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumberI{
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: var(--Darker-Black);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+
+  }
+
+  .MainProductGridNumberI:hover {
+    color: var(--Light-Green);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  /*-- Hero-Section-Product --*/
+
+  /*-- Hero-Section-Title --*/
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    background: var(--Red-Cloud-90g);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(3, 1fr);
+    gap: .7rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .MainProductElement {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElementImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10vw;
+    max-height: 50vh;
+  }
+
+  
+  .MainProductElementXV {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElementII {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 30vw;
+    padding: 16em 0;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElementII:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 16.5em 0;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ReadInt {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem 2rem;
+    max-height: 101vw;
+  }
+
+  .AnnotationTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Darker-Black);
+  }
+
+
+
+  /*-- Hero-Section-Title --*/
+
+  /* -- Product Banner - CatalougeBanner */
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    border-radius: 1em;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+    background: var(--Light-Cloud);
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8vw;
+    border-radius: 1em 1em 0 0;
+    font-weight: 800;
+    color: var(--Lighter-White);
+    align-items: center;
+    justify-content: center;
+    background: var(--Dark-Space);
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    min-width: 100vw;
+    min-height: 50vh;
+    overflow: hidden;
+    padding: 1rem 5rem;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 8rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 8.5rem 0;
+    min-width: 40vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    backdrop-filter: blur(1em);
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+    gap: 4em;
+  }
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+  }
+
+  /* -- Product Banner - CatalougeBanner */
+
+  /* HeadBar */
+  .HeadercontentI {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+  }
+
+  .Headerhero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+    background: var(--Red-Cloud-90e);
+    backdrop-filter: blur(1rem);
+    box-shadow: -3px -3px 6px 2px var(--Lighter-Red),
+      5px 5px 8px 0px var(--Mid-Light-Red),
+      1px 2px 2px 0px var(--Light-Red);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Headerhero .active,
+  .Headerhero:hover,
+  .Headerhero:active,
+  .Headerhero:focus {
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px var(--Mid-Dark-Red),
+      -1px -1px 4px 0px var(--Darker-Red),
+      inset 5px 5px 10px 0px var(--Matte-Red),
+      inset 2px 2px 3px 0px var(--Dark-Red),
+      1px 2px 3px 0px var(--Darker-Red);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderNav {
+    font-weight: 700;
+    font-size: 0.6rem;
+    text-align: center;
+    color: var(--Lighter-White);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    padding: 0.8rem 2rem;
+    box-shadow: 10px 10px 10px -1px var(--Matte-Red),
+      -10px -10px 10px -1px var(--Dark-Red);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderNav:hover {
+    background: var(--Light-Suit);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .HeaderOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20vw;
+    gap: 1rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: .3rem;
+    border-radius: 0.5em;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px var(--Darker-Red);
+    color: var(--Lighter-White);
+  }
+
+  .HeaderOut:hover {
+    background: var(--Lighter-White);
+    color: var(--Darker-Green);
+    cursor: pointer;
+    box-shadow: inset -3px -3px 6px 2px var(--Lighter-White),
+      2px 2px 4px 0px var(--Light-White),
+      inset 1px 2px 2px 0px var(--Light-White);
+  }
+
+  .HeroIcon {
+    background: var(--Lighter-White);
+    min-width: 1.4vw;
+    padding: 0.3rem;
+    clip-path: circle(0.55rem);
+    color: var(--Darker-Black);
+  }
+
+  .HeroIcon:hover {
+    color: var(--Lighter-Green);
+  }
+
+  .HeaderGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+
+  .HeaderFlex {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+
+  .HeaderTitle {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+  }
+
+  /*-- Header--*/
+
+  /* -- Main Hero -- */
+
+  .Herocontent {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainHeroII {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 2em 0;
+  } 
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .GridedContentModule {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 1rem;
+    place-items: center;
+    gap: 0.4rem;
+    max-width: 20vw;
+    
+  }
+  
+  /* -- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 50vw;
+    transition: all ease-in-out 300ms;
+    place-items: center;
+    border: none;
+    backdrop-filter: blur(1rem);
+    outline: none;
+  }
+
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 20vw;
+    gap: 0.8em;
+    place-items: center;
+  }
+
+  .GridedTitleModuleIII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 20vw;
+    gap: 2rem;
+    place-items: center;
+  }
+  .GeniuneTitle {
+    font-size: 1vw;
+    font-weight: 800;
+    padding: 0.2rem 0.8rem;
+    box-shadow: 2px 2px 2px -1px var(--Dark-Red),
+      -2px -2px 2px -1px var(--Darker-Red);
+    border-radius: 0 0 0.5em 0.5em;
+    color: var(--Lighter-White);
+    background: var(--Dark-Space);
+  }
+
+  .DeliversTitle {
+    font-size: 0.8vw;
+    font-weight: 700;
+    max-width: 10vw;
+    color: var(--Lighter-White);
+    background: var(--Dark-Space);
+    padding: .5rem 1rem;
+    border-radius: 0.4em;
+    box-shadow: inset 2px 2px 2px -1px var(--Darker-Red),
+      inset -2px -2px 2px -1px var(--Dark-Red);
+  }
+
+  .AnnotationTitle {
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: var(--Darker-Black);
+  }
+
+  .ProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 16vw;
+    min-height: 35vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Light-Cloud);
+    color: var(--Light-White);
+    min-height: 35vh;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 100ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: .7rem;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 100ms;
+    text-align: center;
+  }
+
+  .FieldIntroLink:hover {
+    background: var(--Dark-Space);
+    box-shadow: inset 10px 10px 10px -1px var(--Darker-Black),
+      inset -10px -10px 10px -1px var(--Dark-Black);
+    transition: all ease-in-out 100ms;
+    color: var(--Lighter-White);
+  }
+
+
+  /* -- Hero-Section-Title --*/
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /* -- Main-Hero --*/
+
+  /*-- Login Pictorial --*/
+
+  .LoginBackground {
+    position: fixed;
+    min-width: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: LoginEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes LoginEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .LoginImage {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  /*--.LoginSlideRousel {
+    margin: 0.1rem 0.1rem;
+  }
+   ---*/
+
+  .LoginRousel {
+    transition: all ease-in-out 300ms;
+    /*margin: 0 50rem 0 0;*/
+    overflow: hidden;
+  }
+
+  .LoginRouselCenter {
+    position: relative;
+    display: grid;
+    min-width: 20vw;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- OperatingManager Content --*/
+
+  .OperatingManagerContent {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OperatingManagerHero {
+    min-width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
+
+  .OperatingManagerComponent {
+    border-radius: 1rem;
+    background: var(--Dark-Black);
+    backdrop-filter: blur(1rem);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .OperatingSidebarComponent {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1em);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    min-width: 30vw;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .SidebarGridII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .SidebarGridedIII {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    padding: 0.5rem 0.5rem;
+    gap: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OperatingMainManagerComponent {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: inset -10px -10px 10px -1px var(--Lighter-white),
+      inset -10px -10px 10px -1px var(--Light-White);
+    backdrop-filter: blur(1rem);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /*--- Login Pictorial --*/
+  /* -- Login Content --*/
+
+  .LoginContent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginHero {
+    min-width: 92vw;
+    min-height: 80vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
+
+  .LoginHeroII {
+    min-width: 92vw;
+    min-height: 70vh;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1rem);
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginGridII {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginComponentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0;
+  }
+
+  .LastLoginComponentChild {
+    grid-column: span 3;
+  }
+
+  .LoginComponent {
+    border-radius: 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .LoginCharacter {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+  }
+
+  .LoginCharacterElement {
+    background: var(--Light-Space);
+    min-width: 25vw;
+    max-height: 50vh;
+    padding: 12rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterElement:hover {
+    background: var(--Dark-Black);
+    padding: 12rem 7rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: -2px -3px 5px -1px var(--Lighter-Orange),
+      2px 3px 5px -1px var(--Dark-Black);
+  }
+
+  .LoginCharacterNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterNumber:hover {
+    color: var(--Lighter-White);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg {
+    background: var(--Dark-Fade-Black);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    padding: 1rem 0.5rem;
+    backdrop-filter: blur(1rem);
+    margin: 9rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg:hover {
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .LoginCharacterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  /* Login Content */
+  /* Menu Content */
+  .Menucontent {
+    display: none;
+  }
+
+  /* Menu Content */
+
+  /* Grid Header */
+  .GridHeaderI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleI {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  .GridHeaderII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleII {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+    font-size: 1rem;
+  }
+
+  .GridHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  /*-- Grid Header --*/
+
+  /* -- Footer -- */
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    clip-path: circle(50%);
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+
+    min-width: 20vw;
+    padding: 1rem 1rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -2px -3px 5px -1px var(--Lighter-Orange),
+      inset 2px 3px 5px -1px var(--Mid-Light-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterStatement {
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .FooterWrap {
+    position: relative;
+    min-height: 40vh;
+    border-radius: 0.4rem;
+    max-width: 10vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+
+  /* -- Footer --*/
+}
+
+@media only screen and (min-width: 1791px) {
+
+  /*-- Main-Content-Title --*/
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .AnywhereTitle {
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .GreatQualityTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+  }
+
+  /*-- Main-Content-Title --*/
+
+  /*-- Hero-Section-Product --*/
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    margin: 0 5rem;
+    background: var(--Light-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 2rem 4rem;
+  }
+
+  .ProductMainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1vw;
+    margin: 0 0 1rem 0;
+    font-weight: 800;
+    color: var(--Darker-Black);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 1vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  /* --Hero-Sectio-Title / Hero-Section-Product --*/
+  .MainProductImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    gap: 1rem;
+  }
+
+  /* --Hero-Sectio-Title / Hero-Section-Product --*/
+  .ProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 16vw;
+    min-height: 35vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Light-Cloud);
+    color: var(--Light-White);
+    min-height: 35vh;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Wrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .MainProductGridBg {
+    background: var(--Dark-SpaceI);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    background: var(--Soriyo-StarI);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    backdrop-filter: blur(1rem);
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridNumber:hover {
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Product --*/
+
+  /*-- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    background: var(--Soriyo-Light-Suit);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .MainProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 30vw;
+    padding: 25em 0;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 16.5em 0;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 20vw;
+    gap: 0.8em;
+    max-height: 20vh;
+    place-items: center;
+  }
+
+  .GeniuneTitle {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--Light-White);
+    border-bottom: 0.2rem solid var(--Lighter-White);
+  }
+
+  .DeliversTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--Light-White);
+  }
+
+  .AnnotationTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Darker-Black);
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*-- Hero-Section-Title --*/
+
+  /* -- Product Banner - CatalougeBanner */
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    border-radius: 1em;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+    background: var(--Light-Cloud);
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8vw;
+    border-radius: 1em 1em 0 0;
+    font-weight: 800;
+    color: var(--Lighter-White);
+    align-items: center;
+    justify-content: center;
+    background: var(--Dark-Space);
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    min-width: 100vw;
+    min-height: 50vh;
+    overflow: hidden;
+    padding: 1rem 5rem;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Soriyo-StarI),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 8rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 8.5rem 0;
+    min-width: 40vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Soriyo-StarI-I),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    backdrop-filter: blur(1em);
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+    gap: 4em;
+  }
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+  }
+
+  /* -- Product Banner - CatalougeBanner */
+
+  /* HeadBar */
+  .HeadercontentI {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+  }
+
+  .Headerhero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+    background: var(--Soriyo-Space);
+    backdrop-filter: blur(1em);
+    box-shadow: -3px -3px 6px 2px var(--Soriyo-StarI),
+      5px 5px 8px 0px var(--Soriyo-StarI-I), 1px 2px 2px 0px var(--Soriyo-StarI);
+    transition: all ease-in-out 300ms;
+    opacity: 0.9;
+  }
+
+  .Headerhero .active,
+  .Headerhero:hover,
+  .Headerhero:active,
+  .Headerhero:focus {
+    border: 2px solid #fafafa;
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px var(--Darker-Black),
+      -1px -1px 4px 0px var(--Soriyo-StarI),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderNav {
+    font-weight: 700;
+    font-size: 1rem;
+    background: var(--Light-Suit);
+    background: var(--Dark-Space);
+    text-align: center;
+    color: var(--Lighter-White);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    padding: 0.8rem 2rem;
+    box-shadow: 10px 10px 10px -1px var(--Soriyo-StarI),
+      -10px -10px 10px -1px var(--Soriyo-StarI);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderNav:hover {
+    background: var(--Light-Suit);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .HeaderOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20vw;
+    gap: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5em;
+    background: var(--Dark-Black);
+    color: var(--Lighter-White);
+  }
+
+  .HeaderOut:hover {
+    background: var(--Soriyo-StarI);
+    color: var(--Lighter-White);
+    cursor: pointer;
+  }
+
+  .HeroIcon {
+    background: var(--Lighter-White);
+    min-width: 1.4vw;
+    padding: 0.3rem;
+    clip-path: circle(0.55rem);
+    color: var(--Darker-Black);
+  }
+
+  .HeroIcon:hover {
+    color: var(--Soriyo-StarI);
+  }
+
+  .HeaderGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+
+  .HeaderFlex {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+
+  .HeaderTitle {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+  }
+
+  /*-- Header--*/
+
+  /* -- Main Hero -- */
+
+  .Herocontent {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .GridedContentModule {
+    display: grid;
+    gap: 3rem;
+  }
+
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 1rem;
+    place-items: center;
+    gap: 0.4rem;
+    max-width: 20vw;
+  }
+
+  /* -- Hero-Section-Title --*/
+  .HeroContentTitle {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border: none;
+    outline: none;
+  }
+
+  .HeroTitleModule {
+    min-width: 100vw;
+    display: grid;
+    background: var(--Soriyo-Light-Suit);
+    backdrop-filter: blur(1em);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    border: none;
+    outline: none;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    max-width: 20vw;
+    gap: 0.8em;
+    max-height: 20vh;
+    place-items: center;
+  }
+
+  .GeniuneTitle {
+    font-size: 1vw;
+    font-weight: 800;
+    padding: 0.2rem 0.8rem;
+    box-shadow: 2px 2px 2px -1px var(--Soriyo-StarI),
+      -2px -2px 2px -1px var(--Light-White);
+    border-radius: 0 0 0.5em 0.5em;
+    color: var(--Lighter-White);
+    background: var(--Dark-Space);
+  }
+
+  .DeliversTitle {
+    font-size: 0.7vw;
+    font-weight: 500;
+    max-width: 10vw;
+    color: var(--Lighter-White);
+    background: var(--Soriyo-StarI);
+    padding: 0 0.3rem;
+    border-radius: 0.4em;
+    box-shadow: inset 2px 2px 2px -1px var(--Soriyo-StarI),
+      inset -2px -2px 2px -1px var(--Soriyo-StarI);
+  }
+
+  .AnnotationTitle {
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: var(--Darker-Black);
+  }
+
+  .ProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 16vw;
+    min-height: 35vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Light-Cloud);
+    color: var(--Light-White);
+    min-height: 35vh;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .FieldIntroLink:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- Hero-Section-Title --*/
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /* -- Main-Hero --*/
+
+  /*-- Login Pictorial --*/
+
+  .LoginBackground {
+    position: fixed;
+    min-width: 100vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: LoginEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes LoginEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .LoginImage {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginSlideRousel {
+    margin: 0.1rem 0.1rem;
+  }
+
+  .LoginRousel {
+    transition: all ease-in-out 300ms;
+    /*margin: 0 50rem 0 0;*/
+    overflow: hidden;
+  }
+
+  .LoginRouselCenter {
+    position: relative;
+    display: grid;
+    border-radius: 0.4rem;
+    min-width: 20vw;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- OperatingManager Content --*/
+
+  .OperatingManagerContent {
+    display: grid;
+    min-width: 100vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OperatingManagerHero {
+    min-width: 100vw;
+    min-height: 100vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
+
+  .OperatingManagerComponent {
+    border-radius: 1rem;
+    background: var(--Dark-Black);
+    backdrop-filter: blur(1rem);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .OperatingSidebarComponent {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1em);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    min-width: 30vw;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .SidebarGridII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .SidebarGridedIII {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    padding: 0.5rem 0.5rem;
+    gap: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OperatingMainManagerComponent {
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: inset -10px -10px 10px -1px var(--Lighter-white),
+      inset -10px -10px 10px -1px var(--Light-White);
+    backdrop-filter: blur(1rem);
+    margin: 1rem 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  /*--- Login Pictorial --*/
+  /* -- Login Content --*/
+
+  .LoginContent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginHero {
+    min-width: 92vw;
+    min-height: 80vh;
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
+
+  .LoginHeroII {
+    min-width: 92vw;
+    min-height: 70vh;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1rem);
+    /*box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);*/
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginGridII {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginComponentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0;
+  }
+
+  .LastLoginComponentChild {
+    grid-column: span 3;
+  }
+
+  .LoginComponent {
+    border-radius: 1rem;
+    color: var(--Light-White);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .LoginCharacter {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    place-items: center;
+  }
+
+  .LoginCharacterElement {
+    background: var(--Light-Space);
+    min-width: 25vw;
+    max-height: 50vh;
+    padding: 12rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterElement:hover {
+    background: var(--Dark-Black);
+    padding: 12rem 7rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: -2px -3px 5px -1px var(--Lighter-Orange),
+      2px 3px 5px -1px var(--Dark-Black);
+  }
+
+  .LoginCharacterNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterNumber:hover {
+    color: var(--Lighter-White);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg {
+    background: var(--Dark-Fade-Black);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    padding: 1rem 0.5rem;
+    backdrop-filter: blur(1rem);
+    margin: 9rem 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginCharacterBg:hover {
+    background: var(--Dark-Space);
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .LoginCharacterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  /* Login Content */
+  /* Menu Content */
+  .Menucontent {
+    display: none;
+  }
+
+  /* Menu Content */
+
+  /* Grid Header */
+  .GridHeaderI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleI {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  .GridHeaderII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitleII {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+    font-size: 1rem;
+  }
+
+  .GridHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  /*-- Grid Header --*/
+
+  /* -- Footer -- */
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    clip-path: circle(50%);
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+
+    min-width: 20vw;
+    padding: 1rem 1rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -2px -3px 5px -1px var(--Lighter-Orange),
+      inset 2px 3px 5px -1px var(--Mid-Light-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterStatement {
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .FooterWrap {
+    position: relative;
+    min-height: 40vh;
+    border-radius: 0.4rem;
+    max-width: 10vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Green);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+
+  /* -- Footer --*/
+}

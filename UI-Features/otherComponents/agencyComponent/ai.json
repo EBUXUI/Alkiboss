@@ -1,0 +1,22 @@
+{
+    "bingPrompts": [
+        {
+            "id": 1,
+            "name": "Bing Car Accessory Prompt",
+            "thePrompt": "Ultra-realistic 4K banner with a plain vibrant lightest white background, revealing a car dashboard in sleek carpeted setting in a minimalistic store setting in vibrant white, in high-fidelity car dashboard being showcased in an emerald green spark scene erupting from the screen — The car dashboard in an official furred setting with blurred focus on the other car dashboard under furred carpet with expensive design taste levitates within the entire bright white scene.",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "name": "Bing Car Leather Seats Accessory Prompt",
+            "thePrompt": "Ultra-realistic 4K banner with a plain vibrant lightest white background, showcasing different car leather seats placed on a carpeted sales set in a minimalistic store in vibrant white being showcased in an emerald green spark scene erupting from the entire scene — The car leather seats in an official furred setting with blurred focus on the other car accessories under furred carpet with expensive design taste levitates within the entire bright white scene.",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "name": "Bing Car Leather Wheels Accessory Prompt",
+            "thePrompt":"Ultra-realistic 4K banner with a plain vibrant lightest white background, showcasing different car wheels placed on a carpeted sales set in a minimalistic store in vibrant white being showcased in an emerald green spark scene erupting from the entire scene — The car wheels in an official furred setting with blurred focus on the other car wheels under furred carpet with expensive design taste levitates within the entire bright white scene.", 
+            "isActive": true
+        }
+    ]
+}

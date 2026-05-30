@@ -1,0 +1,215 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: var(--Light-Space), url(/images/pexels-tan-danh-1329711.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container .box {
+    min-width: 100vw;
+    text-align: center;
+  }
+
+  }
+
+  .container::before {
+    content: '';
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    background: linear-gradient(#550025, #21002A);
+    transform: translate(-490px, -150px);
+  }
+
+  .container::after {
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(#00028f, #AC7FFF);
+    transform: translate(490px, 170px);
+  }
+
+  .container .ballone {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: linear-gradient(#30007F, #AC7FFF);
+    transform: translate(-250px, 200px);
+    position: absolute;
+  }
+
+  .container .balltwo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: linear-gradient(#03FFE0, #D994FF);
+    transform: translate(-10px, -220px);
+    position: absolute;
+  }
+
+  .container .ballthree {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(#EA0C32, #33051C);
+    transform: translate(150px, 250px);
+    position: absolute;
+  }
+
+  .container .box {
+    height: 86vh;
+    width: 90%;
+    padding: 0, 20px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
+  }
+
+  .container .box .NavigationBar {
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+  }
+
+  .container .box .NavigationBar .Unordered .Ordered {
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  .container .box .NavigationBar .Unordered .Ordered .PagedLink {
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .container .box .NavigationBar .Unordered .Ordered .PagedLink:hover {
+    color: var(--Dark-Blue);
+    font-weight: 800;
+    font-size: 14px;
+    transition: .4500ms all ease-in-out;
+    transition-delay: .2500ms;
+  }
+
+  .container .box .contains {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-top: 8%;
+    padding-left: 30px;
+  }
+
+  .container .box .contains .sectionone {
+    position: absolute;
+    margin-top: 70px;
+    padding: 3rem 1rem;
+    border-radius: 1.5rem;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    transition: all ease-in-out .500ms;
+  }
+
+  .container .box .contains .sectionone:hover {
+    position: absolute;
+    margin-top: 70px;
+    padding: 3rem 1rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    background: linear-gradient(#FFFFFF, #d0e5f42c);
+  }
+
+  .container .box .contains .sectionone .Title {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+  }
+
+  .container .box .contains .sectionone .SubTitle .Agency {
+
+    color: var(--Dark-Blue);
+    font-weight: 800;
+  }
+
+  .container .box .contains .sectionone .SubTitle .Agency:hover {
+    cursor: pointer;
+    color: rgb(121, 121, 121);
+    font-weight: 800;
+  }
+
+  .container .box .contains .sectionone .SideBarNav {
+    max-width: 1vw;
+    margin-left: 0.6rem;
+    color: #000;
+  }
+
+  .container .box .contains .sectionone .SubTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .container .box .contains .sectionone .parag {
+    margin-top: 25px;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .container .box .contains .sectionone .button {
+    margin-top: 2.1rem;
+    min-height: 1vh;
+    border-radius: 1rem;
+    align-items: center;
+
+
+  }
+
+  .container .box .contains .sectionone .button .ButtonLink {
+    padding: 10px 20px;
+    background: #ebeef13a;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 15px;
+    border-radius: 2rem;
+    transition: all ease-in-out .1500ms;
+    transition-delay: .700ms;
+  }
+
+  .container .box .contains .sectionone .button .ButtonLink:hover {
+    color: var(--Dark-Blue);
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70)
+  }
+
+  .container .box .contains .sectiontwo .DigitalBackgroundImage {
+    max-width: 50vw;
+    height: auto;
+    margin-top: 4rem;
+    transform: translateX(530px);
+  }

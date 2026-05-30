@@ -1,0 +1,102 @@
+.hero {
+  background: var(--Dark-Space);
+  border: 2px dashed var(--Lighter-Green);
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  color: var(--Lighter-White);
+  align-items: center;
+}
+/* GrapesJS dark mode styles */
+.gjs-editor {
+  background: var(--Dark-Space) !important;
+  color: #e0e0e0 !important;
+}
+
+/* Panels and toolbar */
+.gjs-pn-panel,
+.gjs-pn-btn,
+.gjs-pn-commands,
+.gjs-pn-buttons {
+  background-color: var(--Dark-Space) !important;
+  color: #e0e0e0 !important;
+  border: none !important;
+}
+
+.gjs-pn-btn:hover {
+  background-color: var(--Dark-Space) !important;
+}
+
+/* Sidebar Block manager */
+.gjs-block {
+  background: var(--Dark-Space) !important;
+  color: #e0e0e0 !important;
+  border-radius: 8px !important;
+}
+.gjs-block-label {
+  color: #fff !important;
+}
+
+/* Traits & style manager sidebar */
+.gjs-trt-label,
+.gjs-trt-traits {
+  color: #e0e0e0 !important;
+}
+.gjs-field input,
+.gjs-field select {
+  background: var(--Dark-Space) !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #444 !important;
+}
+
+
+/* XS: 0 - 289px */
+@media only screen and (min-width: 0px) and (max-width: 289px) {
+  .hero {
+    min-width: 100px;
+    min-height: 30vh;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+/* SM: 290px - 549px */
+@media only screen and (min-width: 290px) and (max-width: 549px) {
+  .hero {
+    min-width: 240px;
+    min-height: 40vh;
+    margin: 1rem;
+    padding: 0.75rem;
+  }
+}
+
+/* MD: 550px - 1025px */
+@media only screen and (min-width: 550px) and (max-width: 1025px) {
+  .hero {
+    min-width: 400px;
+    min-height: 50vh;
+    margin: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+/* LG: 1025px - 1280px */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .hero {
+    min-width: 600px;
+    min-height: 60vh;
+    margin: 2rem;
+    padding: 1.5rem;
+  }
+}
+
+/* XL: 1285px and above */
+@media only screen and (min-width: 1285px) {
+  .hero {
+    max-width: 75vw;
+    min-height: 100vh;
+    margin: 3rem;
+    padding: 2rem;
+  }
+}
