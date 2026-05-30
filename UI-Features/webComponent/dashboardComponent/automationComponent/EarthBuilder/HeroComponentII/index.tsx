@@ -5,7 +5,6 @@ import HeroComponent from '@/UI-Features/webComponent/dashboardComponent/automat
 import ProductComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/ProductComponent';
 import BannerComponent from '@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/BannerComponent';
 
-
 export default function HomepageComponent() {
   const heroRef = useRef<HTMLElement>(null);
   const [cssValues, setCssValues] = useState({
