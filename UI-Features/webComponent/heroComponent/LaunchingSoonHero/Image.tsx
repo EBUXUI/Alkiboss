@@ -1,13 +1,13 @@
 import styles from '@/styles/Legal/Home.module.css';
 import Image from "next/image";
 import Link from "next/link";
-import HeroImage from "@/UI-Features/UI-Gallery/CancerDetection/BioTechV.jpg"
-import HeroImageII from "@/UI-Features/UI-Gallery/CancerDetection/CancerCommunityI.jpg"
-import HeroImageIII from "@/UI-Features/UI-Gallery/CancerDetection/DisabledCommunity.jpg"
-import HeroImageIV from "@/UI-Features/UI-Gallery/CancerDetection/CancerCommunity.jpg"
-import HeroImageV from "@/UI-Features/UI-Gallery/CancerDetection/CrowdI.jpg"
-import HeroImageVI from "@/UI-Features/UI-Gallery/CancerDetection/DisabledCommunityI.jpg"
-import HeroImageVII from "@/UI-Features/UI-Gallery/CancerDetection/CrowdIII.jpg"
+import HeroImage from "@/MyPotraits/MainB.png"
+import HeroImageII from "@/MyPotraits/MainC.png"
+import HeroImageIII from "@/MyPotraits/MainD.png"
+import HeroImageIV from "@/MyPotraits/MainE.png"
+import HeroImageV from "@/MyPotraits/MainF.png"
+import HeroImageVI from "@/MyPotraits/MainG.png"
+import HeroImageVII from "@/MyPotraits/MainH.png"
 import { Carousel } from 'react-responsive-carousel';
 export default function DonationHeroImageComponent() {
   const images = [
