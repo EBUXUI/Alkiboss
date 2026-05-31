@@ -15,25 +15,25 @@ export default function programmesModule() {
 
   const videoData = [
     {
-      video: "/Videos/VideoI.mp4",
+      video: "/Videos/VideoA.mp4",
       title: "Grace Funding Platform",
       link: "/FoundationEntry/CrowdFunding",
       preview: "/FoundationEntry/CrowdFunding",
     },
     {
-      video: "/Videos/VideoJ.mp4",
+      video: "/Videos/VideoC.mp4",
       title: "Grace Virtual Platform",
       link: "/GlobalParticipation/Volunteering/VirtualVolunteering",
       preview: "/GlobalParticipation/Volunteering/VirtualVolunteering",
     },
     {
-      video: "/Videos/VideoK.mp4",
+      video: "/Videos/VideoE.mp4",
       title: "Grace Community Seminar",
       link: "/GlobalParticipation/Awareness/CommunitySeminar",
       preview: "/GlobalParticipation/Awareness/CommunitySeminar",
     },
     {
-      video: "/Videos/VideoC.mp4",
+      video: "/Videos/VideoP.mp4",
       title: "Grace Medical Training",
       link: "/LaunchingSoon",
       preview: "/LaunchingSoon",
