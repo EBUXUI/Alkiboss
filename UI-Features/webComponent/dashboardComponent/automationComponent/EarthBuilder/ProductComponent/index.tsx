@@ -2,7 +2,7 @@
 
 import ProductCss from "@/styles/Builder-Dashboard/White/Main.module.css";
 import Link from "next/link";
-import ServiceBg from '@/MyPotraits/GreenWhite/GreenVII.jpg';
+import ServiceBg from '@/MyPotraits/GreenWhite/GreenX.jpg';
 import {
     AEIF_CONTACTS,
     AEIFCommandBar,
