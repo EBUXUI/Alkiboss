@@ -70,7 +70,7 @@ export default function BlogProductComponent() {
             preview: "/TikTokContent/PublicReactions",
         },
         {
-            video: "/Videos/VideoD.mp4",
+            video: "/Videos/VideoA.mp4",
             title: "Cinematic Lifestyle Scenes",
             link: "/TikTokContent/CinematicLifestyle",
             preview: "/TikTokContent/CinematicLifestyle",
