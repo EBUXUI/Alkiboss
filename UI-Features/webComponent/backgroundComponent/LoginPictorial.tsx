@@ -1,9 +1,9 @@
 import styles from "@/styles/Bg/Main.module.css";
-import ForestBackground from "@/MyPotraits/Main.png";
-import ForestBackgroundII from "@/MyPotraits/Main.png";
-import ForestBackgroundIII from "@/MyPotraits/MainB.png";
-import ForestBackgroundIV from "@/MyPotraits/MainC.png";
-import ForestBackgroundV from "@/MyPotraits/MainD.png";
+import ForestBackground from "@/MyPotraits/GreenWhite/GreenX.jpg";
+import ForestBackgroundII from "@/MyPotraits/GreenWhite/GreenVIII.jpg";
+import ForestBackgroundIII from "@/MyPotraits/GreenWhite/GreenX.jpg";
+import ForestBackgroundIV from "@/MyPotraits/GreenWhite/GreenX.jpg";
+import ForestBackgroundV from "@/MyPotraits/GreenWhite/GreenX.jpg";
 import Image from "next/image";
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
