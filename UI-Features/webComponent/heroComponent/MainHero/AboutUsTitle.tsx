@@ -44,16 +44,6 @@ export default function WorkshopTitle() {
                     fill={true}
                     style={{ objectFit: "cover" }}
                   />
-                  <div
-                    className={`${styles["MainProductGridNumber"]} ${styles["MainProductGridBg"]}`}
-                  >
-                    <Link href="InnovativeSolutions/CancerDetection/SelfConduct" className={styles.ProductName}>
-                      Essential Donation
-                    </Link>
-                    <Link href="InnovativeSolutions/CancerDetection/SelfConduct" className={styles.ProductPrice}>
-                      Donate
-                    </Link>
-                  </div>
                 </div>
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
