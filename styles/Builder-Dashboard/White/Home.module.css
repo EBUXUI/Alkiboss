@@ -2719,7 +2719,7 @@
     transition: all ease-in-out 300ms;
     background: var(--Lighter-White);
     padding: 0 3rem;
-    max-width: 70vw;
+    min-width: 60vw;
     min-height: 60vw;
   }
 
