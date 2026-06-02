@@ -29,7 +29,7 @@ export default function WorkshopTitle() {
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
                 >
-                  <Link href="https://shrinkme.click/Alkiboss">Visit Tiktok Channel</Link>
+                  <Link target="_blank" href="https://shrinkme.click/Alkiboss">Visit Tiktok Channel</Link>
                 </div>
               </div>
               <div className={styles.FieldI}>
@@ -48,7 +48,7 @@ export default function WorkshopTitle() {
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
                 >
-                  <Link href="https://shrinkme.click/AlkibossKe">Visit Youtube Channel</Link>
+                  <Link target="_blank" href="https://shrinkme.click/AlkibossKe">Visit Youtube Channel</Link>
                 </div>
               </div>
             </div>
