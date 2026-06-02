@@ -43,7 +43,7 @@ export default function Home() {
                 <div id="AllContent">
                     <HeroComponentII/>
                 </div>
-                <div id="FormComponent">
+                <div id="ContactUs">
                     <FormComponent/>
                 </div>
                 <ProgrammesModule />
