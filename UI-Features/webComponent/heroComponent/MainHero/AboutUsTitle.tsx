@@ -9,7 +9,7 @@ export default function WorkshopTitle() {
     <>
       <div className={styles.FooterContentTitle}>
         <div className={styles.FooterTitleModule}>
-          <div className={styles.GridedFooterModuleI}>
+          <div className={styles.GridedFooterModuleII}>
             <div className={styles.GridPropertyIII}>
               <div className={styles.FieldI}>
                 <div
