@@ -4475,9 +4475,9 @@
   .GridedContentModuleXV{
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: .8rem;
     justify-content: center;
-    max-width: 60vw;
+    min-width: 60vw;
     margin: 0 0 0 10rem;
   }
 
