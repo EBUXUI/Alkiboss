@@ -762,7 +762,16 @@
 
   }
 
-  .GridedContentModule {
+  .GridedContentModuleXV{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 0 0 0 20rem;
+  }
+
+.GridedContentModule {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(1, 1fr);
@@ -4463,7 +4472,16 @@
     max-width: 52vw;
   }
 
-  .GridedContentModule {
+  .GridedContentModuleXV{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 0 0 0 20rem;
+  }
+
+.GridedContentModule {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2em;
@@ -7292,7 +7310,16 @@
 
   }
 
-  .GridedContentModule {
+  .GridedContentModuleXV{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 0 0 0 20rem;
+  }
+
+.GridedContentModule {
     display: grid;
     gap: 3rem;
     grid-template-columns: repeat(1, 1fr);
@@ -10548,7 +10575,16 @@
 
   }
 
-  .GridedContentModule {
+  .GridedContentModuleXV{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 0 0 0 20rem;
+  }
+
+.GridedContentModule {
     display: grid;
     gap: 3rem;
     place-items: center;
@@ -13782,7 +13818,16 @@
 
   }
 
-  .GridedContentModule {
+  .GridedContentModuleXV{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 0 0 0 20rem;
+  }
+
+.GridedContentModule {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
@@ -16911,7 +16956,16 @@
     justify-content: center;
   }
 
-  .GridedContentModule {
+  .GridedContentModuleXV{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 0 0 0 20rem;
+  }
+
+.GridedContentModule {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
