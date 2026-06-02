@@ -39,7 +39,7 @@ export default function Home() {
             <MenuHero />
             <PageFormat>
                 <MainHero />
-                <HeroComponentII/>
+                <HeroComponentII id="AllContent"/>
                 <ProgrammesModule />
                 <ProgrammesModuleII/>                
                 <HomePictorial />
