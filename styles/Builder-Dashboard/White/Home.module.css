@@ -3,6 +3,19 @@
     display: none;
   }
 
+  
+  .MainHeroII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 0 3rem;
+    max-width: 50vw;
+    min-height: 40vw;
+  }
+
+
   .HeadercontentII {
     display: grid;
     place-content: center;
@@ -2699,6 +2712,18 @@
     display: none;
   }
 
+    .MainHeroII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 0 3rem;
+    max-width: 50vw;
+    min-height: 40vw;
+  }
+
+
   .GridedHeroContentModuleII {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -5383,6 +5408,18 @@
   .HeadercontentI {
     display: none;
   }
+
+    .MainHeroII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 0 3rem;
+    max-width: 50vw;
+    min-height: 40vw;
+  }
+
 
   .Menucontent {
     display: flex;
@@ -8208,6 +8245,18 @@
     color: var(--Dark-Black);
     background: var(--Light-White);
   }
+
+    .MainHeroII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 0 3rem;
+    max-width: 50vw;
+    min-height: 40vw;
+  }
+
 
   .IntroState :nth-child(1) {
     padding: 2rem 2rem;
@@ -12196,13 +12245,6 @@
 
   /*-------------- Main Hero --------------------*/
 
-  .MainHero {
-    display: grid;
-    place-content: center;
-    position: relative;
-    transition: all ease-in-out 300ms;
-    margin: 1em 0;
-  }
   
   .MainHeroII {
     display: flex;
@@ -12213,6 +12255,14 @@
     padding: 0 3rem;
     max-width: 50vw;
     min-height: 40vw;
+  }
+
+.MainHero {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    margin: 1em 0;
   }
   
   .MainModule {
@@ -16278,7 +16328,19 @@
 
   /*-------------- Main Hero --------------------*/
 
-  .MainHero {
+  
+  .MainHeroII {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 0 3rem;
+    max-width: 50vw;
+    min-height: 40vw;
+  }
+
+.MainHero {
     display: grid;
     place-content: center;
     position: relative;
