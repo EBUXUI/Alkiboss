@@ -1634,6 +1634,15 @@
     transition: all ease-in-out 300ms;
   }
 
+    .InnovativeSolutionElementXV {
+    background: var(--Dark-Space);
+    border-radius: 0.4rem;
+    min-height: 50vh;
+    min-width: 25vw;
+    transition: all ease-in-out 300ms;
+  }
+
+
 
   .InnovativeSolutionElement:hover {
     background: var(--Dark-Black);
@@ -4161,7 +4170,7 @@
 
   .GridPropertyIII {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     place-items: center;
     grid-gap: 1rem;
     border-radius: 1rem;
@@ -4538,6 +4547,15 @@
     min-width: 20vw;
     transition: all ease-in-out 300ms;
   }
+
+    .InnovativeSolutionElementXV {
+    background: var(--Dark-Space);
+    border-radius: 0.4rem;
+    min-height: 50vh;
+    min-width: 25vw;
+    transition: all ease-in-out 300ms;
+  }
+
 
 
   .InnovativeSolutionElement:hover {
@@ -8396,6 +8414,15 @@
     transition: all ease-in-out 300ms;
   }
 
+    .InnovativeSolutionElementXV {
+    background: var(--Dark-Space);
+    border-radius: 0.4rem;
+    min-height: 30vh;
+    min-width: 25vw;
+    transition: all ease-in-out 300ms;
+  }
+
+
 
   .InnovativeSolutionElement:hover {
     background: var(--Dark-Black);
@@ -11500,6 +11527,15 @@
     min-width: 20vw;
     transition: all ease-in-out 300ms;
   }
+
+    .InnovativeSolutionElementXV {
+    background: var(--Dark-Space);
+    border-radius: 0.4rem;
+    min-height: 50vh;
+    min-width: 25vw;
+    transition: all ease-in-out 300ms;
+  }
+
 
 
   .InnovativeSolutionElement:hover {
