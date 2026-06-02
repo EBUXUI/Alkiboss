@@ -1638,7 +1638,7 @@
     background: var(--Dark-Space);
     border-radius: 0.4rem;
     min-height: 50vh;
-    min-width: 25vw;
+    min-width: 50vw;
     transition: all ease-in-out 300ms;
   }
 
@@ -4552,7 +4552,7 @@
     background: var(--Dark-Space);
     border-radius: 0.4rem;
     min-height: 50vh;
-    min-width: 25vw;
+    min-width: 50vw;
     transition: all ease-in-out 300ms;
   }
 
@@ -8417,8 +8417,8 @@
     .InnovativeSolutionElementXV {
     background: var(--Dark-Space);
     border-radius: 0.4rem;
-    min-height: 30vh;
-    min-width: 25vw;
+    min-height: 50vh;
+    min-width: 50vw;
     transition: all ease-in-out 300ms;
   }
 
