@@ -29,7 +29,7 @@ export default function WorkshopTitle() {
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
                 >
-                  <Link href="InnovativeSolutions/CancerDetection/ScheduleConsultation">Visit Tiktok Channel</Link>
+                  <Link href="https://shrinkme.click/Alkiboss">Visit Tiktok Channel</Link>
                 </div>
               </div>
               <div className={styles.FieldI}>
@@ -48,7 +48,7 @@ export default function WorkshopTitle() {
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
                 >
-                  <Link href="InnovativeSolutions/CancerDetection/SelfConduct">Visit Youtube Channel</Link>
+                  <Link href="https://shrinkme.click/AlkibossKe">Visit Youtube Channel</Link>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function WorkshopTitle() {
               <div
                 className={`${styles["DonationProductGridNumberI"]} ${styles["InnovativeProductGridBgI"]}`}
               >
-                <Link href="InnovativeSolutions/CancerDetection">
+                <Link href="#AllContent">
                   Explore The Creator Universe
                 </Link>
               </div>
