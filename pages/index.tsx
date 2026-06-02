@@ -12,6 +12,7 @@ import DisabilityHero from '@/UI-Features/webComponent/heroComponent';
 import MainHero from '@/UI-Features/webComponent/heroComponent/MainHero';
 import Stats from "@/UI-Features/webComponent/heroComponent/CompanyStatsComponent/MainStatsComponent";
 import HeroComponentII from "@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/HeroComponentII";
+import FormComponent from "@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/FormComponent";
 
 export default function Home() {
     return (
@@ -41,6 +42,9 @@ export default function Home() {
                 <MainHero />
                 <div id="AllContent">
                     <HeroComponentII/>
+                </div>
+                <div id="FormComponent">
+                    <FormComponent/>
                 </div>
                 <ProgrammesModule />
                 <ProgrammesModuleII/>                
