@@ -187,7 +187,7 @@ export default function AgencyTitle() {
               <div
                 className={`${styles["MenuMainTitle"]} ${styles["MenuTitleBg"]}`}
               >
-                <Link href="/CreatorUniverse/JoinCommunity">
+                <Link href="https://www.youtube.com/@alkibossclassic">
                   Join Community
                 </Link>
               </div>
@@ -201,8 +201,8 @@ export default function AgencyTitle() {
               <div
                 className={`${styles["MenuMainTitle"]} ${styles["MenuTitleBg"]}`}
               >
-                <Link href="/CreatorUniverse/FanPortal">
-                  Fan Portal
+                <Link href="https://www.tiktok.com/@alkiboss_classic">
+                  Creator Universe
                 </Link>
               </div>
             </div>
@@ -215,8 +215,8 @@ export default function AgencyTitle() {
               <div
                 className={`${styles["MenuMainTitle"]} ${styles["MenuTitleBg"]} `}
               >
-                <Link href="/CreatorUniverse/MerchStore">
-                  Merch Store
+                <Link href="https://www.instagram.com/alkiboss_classic">
+                  Comedy Reels
                 </Link>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function AgencyTitle() {
               <div
                 className={`${styles["MenuMainTitle"]} ${styles["MenuTitleBg"]}`}
               >
-                <Link href="/CreatorUniverse/Contact">
+                <Link href="#ContactUs">
                   Contact Us
                 </Link>
               </div>
