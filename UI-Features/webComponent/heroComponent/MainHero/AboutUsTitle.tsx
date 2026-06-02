@@ -29,7 +29,7 @@ export default function WorkshopTitle() {
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
                 >
-                  <Link href="InnovativeSolutions/CancerDetection/ScheduleConsultation">Save A Child</Link>
+                  <Link href="InnovativeSolutions/CancerDetection/ScheduleConsultation">Visit Tiktok Channel</Link>
                 </div>
               </div>
               <div className={styles.FieldI}>
@@ -48,7 +48,7 @@ export default function WorkshopTitle() {
                 <div
                   className={`${styles["FieldNumber"]} ${styles["FieldBg"]}`}
                 >
-                  <Link href="InnovativeSolutions/CancerDetection/SelfConduct">Give Items of Hope</Link>
+                  <Link href="InnovativeSolutions/CancerDetection/SelfConduct">Visit Youtube Channel</Link>
                 </div>
               </div>
             </div>
