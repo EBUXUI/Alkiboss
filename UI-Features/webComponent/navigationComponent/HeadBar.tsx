@@ -164,16 +164,16 @@ export default function HeadBar() {
               {HM && (
                 <div className={styles.HamburgerMenu}>
                   <div onClick={() => { setIS(!IS) }} className={styles.HeaderNav}>
-                    <Link href="/VideoCatalog">Video Catalog</Link>
+                    <Link href="https://www.tiktok.com/@alkiboss_classic">Video Catalog</Link>
                   </div>
                   <div onClick={() => { setGP(!GP) }} className={styles.HeaderNav}>
-                    <Link href="/MusicCatalog">Music Catalog</Link>
+                    <Link href="https://www.youtube.com/@alkibossclassic">Music Catalog</Link>
                   </div>
                   <div onClick={() => { setOF(!OF) }} className={styles.HeaderNav}>
-                    <Link href="/ChooseAPath">Choose A Path</Link>
+                    <Link href="#AllContent">Choose A Path</Link>
                   </div>
                   <div onClick={() => { setFB(!FB) }} className={styles.HeaderNav}>
-                    <Link href="/TheBlog"> The Blog </Link>
+                    <Link href="https://www.instagram.com/alkiboss_classic"> Reel Catalog </Link>
                   </div>
                   <div onClick={() => { setNA(!NA) }} className={styles.HeaderNav}>
                     <Link href="">Our Search Panel</Link>
@@ -183,16 +183,16 @@ export default function HeadBar() {
             </div>
             <div className={styles.HeaderGrid}>
               <li onClick={() => { setIS(!IS) }} className={styles.HeaderNav}>
-                <Link href="/VideoCatalog">Video Catalog</Link>
+                <Link href="https://www.tiktok.com/@alkiboss_classic">Video Catalog</Link>
               </li>
               <li onClick={() => { setGP(!GP) }} className={styles.HeaderNav}>
-                <Link href="/MusicCatalog">Music Catalog</Link>
+                <Link href="https://www.youtube.com/@alkibossclassic">Music Catalog</Link>
               </li>
               <li onClick={() => { setOF(!OF) }} className={styles.HeaderNav}>
-                <Link href="/ChooseAPath">Choose A Path</Link>
+                <Link href="#AllContent">Choose A Path</Link>
               </li>
               <li onClick={() => { setFB(!FB) }} className={styles.HeaderNav}>
-                <Link href="/TheBlog"> The Blog </Link>
+                <Link href="https://www.instagram.com/alkiboss_classic"> Reel Catalog </Link>
               </li>
               <li onClick={() => { setNA(!NA) }} className={styles.HeaderNav}>
                 <Link href="">Our Search Panel</Link>
