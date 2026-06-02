@@ -52,7 +52,10 @@ export default function Home() {
                 <Stats/>
                 {/*<MusicCatalog/>*/}
                 <DisabilityHero/>
-                <HeroComponentII/>
+                <div id="BrandPartnerships">
+                    <HeroComponentII/>
+                </div>
+                
                 <MainHero />
                  <Menu />
             </PageFormat>
