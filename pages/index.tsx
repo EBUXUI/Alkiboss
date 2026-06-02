@@ -39,7 +39,9 @@ export default function Home() {
             <MenuHero />
             <PageFormat>
                 <MainHero />
-                <HeroComponentII id="AllContent"/>
+                <div id="AllContent">
+                    <HeroComponentII/>
+                </div>
                 <ProgrammesModule />
                 <ProgrammesModuleII/>                
                 <HomePictorial />
