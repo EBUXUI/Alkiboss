@@ -138,6 +138,18 @@
     place-items: center;
   }
 
+  
+  .MainProductElementXV {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+
   .MainProductElement {
     background: var(--Light-Space);
     box-shadow: -2px -3px 5px -1px var(--Light-Green),
@@ -1139,6 +1151,19 @@
     place-items: center;
   }
 
+  
+  .MainProductElementXV {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+
+
   .MainProductElement {
     background: var(--Light-Space);
     box-shadow: -2px -3px 5px -1px var(--Light-Green),
@@ -2127,6 +2152,18 @@
     max-height: 100vh;
     place-items: center;
   }
+
+  
+  .MainProductElementXV {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
 
   .MainProductElement {
     background: var(--Light-Space);
@@ -3147,6 +3184,18 @@
     border: none;
     outline: none;
   }
+
+  
+  .MainProductElementXV {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
 
   .MainProductElement {
     background: var(--Light-Space);
@@ -4372,6 +4421,18 @@
     outline: none;
   }
 
+  
+  .MainProductElementXV {
+    background: var(--Dark-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-White),
+                 2px 3px 5px -1px var(--Mid-Light-White);
+    min-width: 22vw;
+    min-height: 50vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+
   .MainProductElement {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
@@ -4391,15 +4452,6 @@
   }
 
   
-  .MainProductElementXV {
-    background: var(--Dark-Space);
-    box-shadow: 2px -3px 5px -1px var(--Darker-White),
-                 2px 3px 5px -1px var(--Mid-Light-White);
-    min-width: 22vw;
-    min-height: 50vh;
-    text-align: center;
-    transition: all ease-in-out 300ms;
-  }
 
   .MainProductElement:hover {
     background: var(--Light-Space);
