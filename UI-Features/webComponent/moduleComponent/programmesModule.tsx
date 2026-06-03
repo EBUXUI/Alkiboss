@@ -14,30 +14,30 @@ export default function programmesModule() {
   const [oneWay, setOneWay] = useState(false);
 
   const videoData = [
-    {
-      video: "/Videos/VideoA.mp4",
-      title: "Grace Funding Platform",
-      link: "/FoundationEntry/CrowdFunding",
-      preview: "/FoundationEntry/CrowdFunding",
-    },
-    {
-      video: "/Videos/VideoC.mp4",
-      title: "Grace Virtual Platform",
-      link: "/GlobalParticipation/Volunteering/VirtualVolunteering",
-      preview: "/GlobalParticipation/Volunteering/VirtualVolunteering",
-    },
-    {
-      video: "/Videos/VideoE.mp4",
-      title: "Grace Community Seminar",
-      link: "/GlobalParticipation/Awareness/CommunitySeminar",
-      preview: "/GlobalParticipation/Awareness/CommunitySeminar",
-    },
-    {
-      video: "/Videos/VideoP.mp4",
-      title: "Grace Medical Training",
-      link: "/LaunchingSoon",
-      preview: "/LaunchingSoon",
-    },
+        {
+            video: "/Videos/VideoK.mp4",
+            title: "Afro Fusion Storytelling",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7637590092445404423",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7637590092445404423",
+        },
+        {
+            video: "/Videos/VideoC.mp4",
+            title: "Blind Character Reactions",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7521858014177955077",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/752185801417795507",
+        },
+        {
+            video: "/Videos/VideoA.mp4",
+            title: "Cinematic Lifestyle Scenes",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7405118961689431302",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7405118961689431302",
+        },
+        {
+            video: "/Videos/VideoE.mp4",
+            title: "Viral Comedy Moments",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7521858014177955077",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7521858014177955077",
+        }
   ];
 
   interface VideoProps {
