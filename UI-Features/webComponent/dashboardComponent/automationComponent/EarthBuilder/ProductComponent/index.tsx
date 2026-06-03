@@ -48,38 +48,38 @@ export default function BlogProductComponent() {
         {
             video: "/Videos/VideoI.mp4",
             title: "Blind Man Public Banter",
-            link: "/TikTokContent/BlindComedyI",
-            preview: "/TikTokContent/BlindComedyI",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7640303838066543880",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7640303838066543880",
         },
         {
             video: "/Videos/VideoJ.mp4",
             title: "Luxury Street Comedy",
-            link: "/TikTokContent/LuxuryStreetComedy",
-            preview: "/TikTokContent/LuxuryStreetComedy",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7633490547537251591",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7633490547537251591",
         },
         {
             video: "/Videos/VideoK.mp4",
             title: "Afro Fusion Storytelling",
-            link: "/TikTokContent/AfroFusionMoments",
-            preview: "/TikTokContent/AfroFusionMoments",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7637590092445404423",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7637590092445404423",
         },
         {
             video: "/Videos/VideoC.mp4",
             title: "Blind Character Reactions",
-            link: "/TikTokContent/PublicReactions",
-            preview: "/TikTokContent/PublicReactions",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7521858014177955077",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/752185801417795507",
         },
         {
             video: "/Videos/VideoA.mp4",
             title: "Cinematic Lifestyle Scenes",
-            link: "/TikTokContent/CinematicLifestyle",
-            preview: "/TikTokContent/CinematicLifestyle",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7405118961689431302",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7405118961689431302",
         },
         {
             video: "/Videos/VideoE.mp4",
             title: "Viral Comedy Moments",
-            link: "/TikTokContent/ViralMoments",
-            preview: "/TikTokContent/ViralMoments",
+            link: "https://www.tiktok.com/@alkiboss_classic/video/7521858014177955077",
+            preview: "https://www.tiktok.com/@alkiboss_classic/video/7521858014177955077",
         }
     ];
 
