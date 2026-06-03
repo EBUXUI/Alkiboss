@@ -54,7 +54,6 @@ export default function Home() {
                 </div>
                 
                 <MainHero />
-                 <Menu />
             </PageFormat>
             <PageFormatII>
             <MenuHero />
