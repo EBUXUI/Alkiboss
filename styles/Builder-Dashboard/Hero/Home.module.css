@@ -3,6 +3,16 @@
     display: none;
   }
 
+  .MainHeroII {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 2em 0;
+  } 
+  
+
   .HeadercontentII {
     display: grid;
     place-content: center;
@@ -2870,6 +2880,16 @@
     display: none;
   }
 
+  .MainHeroII {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 2em 0;
+  } 
+  
+
   .GridedHeroContentModuleII {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -5724,6 +5744,16 @@
   .HeadercontentI {
     display: none;
   }
+
+  .MainHeroII {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 2em 0;
+  } 
+  
 
   .Menucontent {
     display: flex;
@@ -8719,6 +8749,16 @@
     color: var(--Dark-Black);
     background: var(--Light-White);
   }
+
+  .MainHeroII {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 2em 0;
+  } 
+  
 
   .IntroState :nth-child(1) {
     padding: 2rem 2rem;
@@ -11776,7 +11816,3202 @@
   }
 }
 
-@media only screen and (min-width: 1285px) {
+@media only screen and (min-width: 1285px) and (max-width: 1790px) {
+  .Menucontent {
+    display: none;
+  }
+
+  .ProductText {
+    font-size: 1.5vw;
+  }
+
+  .PGCard {
+    max-width: 45vw;
+    max-height: 50vh;
+  }
+
+  .PriceText {
+    font-size: 1.5vw;
+  }
+
+  .CartLink {
+    font-size: 1.5vw;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Profile {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Products {
+    min-height: 80vh;
+    min-width: 80vw;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.274);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Products h1 {
+    margin: 1rem 1rem;
+    background: white;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.4rem black;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Products h1:hover {
+    box-shadow: 0 0 1rem blue;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Background {
+    position: fixed;
+    min-width: 300vh;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    animation-name: AnimationEntry;
+    animation-duration: 2500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes AnimationEntry {
+    0% {
+      opacity: 0;
+      transform: rotate(60deg);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+
+  .Image {
+    padding-bottom: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .OrderFromTitle {
+    font-size: 7vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .AnywhereTitle {
+    font-size: 3vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .GreatQualityTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+  }
+
+  .FooterContentModule {
+    display: grid;
+    /*margin: 3rem 1rem;*/
+    place-content: center;
+  }
+
+  .FooterContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .HeroProductContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductModule {
+    max-width: 100vw;
+    max-height: 55vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .CatalougeMainContentTitle {
+    display: grid;
+    min-width: 50vw;
+    place-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeMainTitleModule {
+    max-width: 35vw;
+    max-height: 23vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeGridedMainModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeTitle {
+    font-size: 1vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .SupplyRangeTitle {
+    font-size: 3vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+  }
+
+  .CatalougeParagTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+    margin: 2rem 0;
+  }
+
+  .CatalougeProductContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    place-content: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductModule {
+    max-width: 100vw;
+    max-height: 55vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    background: var(--Dark-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .CatalougeProductImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductGridBg {
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 35vw;
+    min-height: 50vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeSectionProductDefined:nth-child(11) {
+    grid-column: span 2;
+  }
+
+  .CatalougePagecontent {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePageModule {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: 0 0 3px var(--Ocean-Blue);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePageIcon {
+    max-width: 2vw;
+  }
+
+  .CatalougePageGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .PageContentModule {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .CatalougePageContent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .CatalougePageModuleII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+  }
+
+  .CatalougePageContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+  }
+
+  .CatalougeBannerContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougeBannerGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .CatalougeBannerChangeTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: var(--Lighter-White);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ChangeCatalougeBannerImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeCatalougeBannerGridBg {
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeCatalougeBannerGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 8rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    padding: 10rem 0;
+    min-width: 45vw;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeDealershipBannerElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 100rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeDealershipBannerElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeCatalougeBannerButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+  }
+
+  .ChangeCatalougeBannerButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+  }
+
+  .ChangeCatalougeBannerLink {
+    margin: 0 0.5rem;
+  }
+
+  .CatalougeBannerMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .CatalougeBannerColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .CatalougePurchaseModule {
+    display: grid;
+    place-content: center;
+  }
+
+  .CatalougeBoldTitle {
+    font-weight: 800;
+    margin: 1rem 0;
+    font-size: 1.5vw;
+  }
+
+  .CatalougeFineStatement {
+    font-weight: 600;
+    margin: 1rem 0;
+    font-size: 1.2vw;
+  }
+
+  .CatalougePrimecontent {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+    margin: 1rem 0;
+  }
+
+  .CatalougePrimehero .active,
+  .CatalougePrimehero:hover,
+  .CatalougePrimehero:active,
+  .CatalougePrimehero:focus {
+    box-shadow: inset -3px -3px 5px 0px var(--Lighter-Green),
+      -1px -1px 4px 0px var(--Light-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePrimehero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+    /*box-shadow: -3px -3px 5px 0px var(--Light-Blue),
+                          -1px -1px 4px 0px var(--Lighter-Green),
+             5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+             2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+            1px 2px 3px 0px rgba(0, 0, 0, 0.1);*/
+    transition: all ease-in-out 300ms;
+    background: var(--Dark-Morph);
+    backdrop-filter: blur(1rem);
+  }
+
+  .CatalougePrimeNav {
+    font-weight: 800;
+    font-size: 1vw;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: #000;
+    border-radius: 0.5rem;
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .CatalougePrimeNav:hover {
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+
+    color: black;
+    cursor: pointer;
+  }
+
+  .CatalougePrimeGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .MedicalCatalouge {
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .MedicalCatalougeMessage {
+    font-weight: 500;
+    color: var(--Light-White);
+    font-size: 0.7vw;
+  }
+
+  .ConstructionCatalougeMessage {
+    font-weight: 500;
+    color: var(--Light-White);
+    font-size: 0.7vw;
+  }
+
+  .ConstructionCatalouge {
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .AdCatalougecontent {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+  }
+
+  .AdCatalougehero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17),
+      1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+
+    opacity: 0.9;
+  }
+
+  .AdCatalougeTitle {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+  }
+
+  .AdCatalougeCompanyLogo {
+    font-weight: 800;
+    margin: 1rem;
+    text-transform: uppercase;
+  }
+
+  .AdCatalougeNav {
+    font-weight: 800;
+    font-size: 1vw;
+    background: #ebeef1;
+    text-align: center;
+    color: #000;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .AdCatalougeNav:hover {
+    background: var(--Light-Suit);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .AdCatalougeGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+
+  .AdCatalougehero .active,
+  .AdCatalougehero:hover,
+  .AdCatalougehero:active,
+  .AdCatalougehero:focus {
+    border: 2px solid #fafafa;
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  /*.AdCatalougeTitle {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+      margin: 1rem 1rem;
+    }*/
+
+  .AdCatalougeLoginBtn {
+    border: none;
+    outline: none;
+    margin: 0rem 1rem;
+    font-weight: 800;
+    background: #ebeef1;
+    text-align: center;
+    color: #000;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .AdCatalougeLoginBtn:hover {
+    background: white;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductCatalouge {
+    font-weight: 800;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1.3vw;
+  }
+
+  .ProductCatalougeMessage {
+    font-weight: 500;
+    color: var(--Dark-Black);
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .PrivacyPolicy {
+    text-align: left;
+    font-weight: 600;
+    display: grid;
+    gap: 3rem;
+    color: var(--Dark-Black);
+  }
+
+  .PrivacyHeader {
+    font-weight: 800;
+  }
+
+  .PrivacySubHeader {
+    font-weight: 700;
+    font-size: 3vw;
+  }
+
+  .FontBold {
+    font-weight: 800;
+    font-size: 2vw;
+  }
+
+  .GridedProductDescription {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .ProductMainTitle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    font-size: 1vw;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .FirstProductDescription {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+  }
+
+  .SecondProductDescription {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+  }
+
+  .MainProductImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg {
+    background: var(--DrBlMorph);
+    backdrop-filter: blur(1rem);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductGridBg:hover {
+    background: var(--Lighter-Morph);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  .MainProductGridNumber {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+
+  }
+
+  .MainProductGridNumber:hover {
+    color: var(--Darker-Black);
+  }
+
+
+  .MainProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 25vw;
+    max-height: 20vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  /* -- Intro Catalouge --*/
+
+  .MainProductImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.2rem;
+    padding: 2rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .IntroProductElement {
+    background: var(--Light-Space);
+    box-shadow: 2px -3px 5px -1px var(--Darker-Blue),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 22vw;
+    min-height: 60vh;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .IntroProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 10.5em 0;
+    min-width: 20vw;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Lighter-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainProductButton {
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    font-weight: 800;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .MainProductButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+  }
+
+  .ProductLink {
+    margin: 0 0.5rem;
+  }
+
+  .Herocontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainHeroII {
+    display: grid;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    background: var(--Lighter-White);
+    padding: 2em 0;
+  } 
+  
+  .HeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8rem 1rem;
+
+    align-content: center;
+
+    justify-content: center;
+
+    align-self: center;
+
+    gap: 2rem;
+
+    max-width: 50vw;
+  }
+
+  .HeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5em;
+  }
+
+  .HeroModule {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: 0 0 3px var(--Ocean-Blue);
+    border-radius: 1rem;
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeroGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .HeroIcon {
+    margin: 0.5rem 0;
+    max-width: 2vw;
+  }
+
+  .HeroContentBg {
+    display: grid;
+  }
+
+  .GridedContentModule {
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+  }
+
+  .FooterContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    place-content: center;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+
+
+  .FooterTitleModule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 1rem;
+    place-items: center;
+    transition: all ease-in-out 300ms;
+    gap: 1em;
+  }
+
+  .WorkshopTitleModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 1rem;
+    place-items: center;
+    margin: .6em;
+    backdrop-filter: blur(.8em);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+
+  .GridedFooterModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    border-radius: 0 1em 1em 0;
+    margin: 4rem 0;
+    grid-gap: 1em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .DonationProductGridNumberI {
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+
+  }
+
+  .DonationProductGridNumberI:hover {
+    transition: all ease-in-out 300ms;
+  }
+
+  .DonationProductGridBgI {
+    background: var(--Lighter-Green);
+    backdrop-filter: blur(1rem);
+    padding: 1.5rem 0.5rem;
+    max-width: 20vw;
+    transition: all ease-in-out 300ms;
+    border-radius: .4rem;
+
+
+  }
+
+  .DonationProductGridBgI:hover {
+    transition: all ease-in-out 300ms;
+    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
+      3px 3px 3px -1px var(--Dark-Blue);
+  }
+
+  .InnovativeProductGridBgI {
+    background: var(--Lighter-Green);
+    backdrop-filter: blur(1rem);
+    padding: 1.5rem 0.5rem;
+    margin: 0 1rem;
+    max-width: 20vw;
+    transition: all ease-in-out 300ms;
+    border-radius: .4rem;
+
+
+  }
+
+  .InnovativeProductGridBgI:hover {
+    transition: all ease-in-out 300ms;
+    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
+      3px 3px 3px -1px var(--Dark-Blue);
+  }
+
+
+
+  .MedicalTitle {
+    background: var(--Light-Morph);
+    backdrop-filter: blur(1rem);
+    max-height: 5vh;
+    padding: 0 1rem;
+  }
+
+  .ShopTitle {
+    margin: 0 .8rem;
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--Lighter-Green);
+  }
+
+  .WithTitle {
+    font-weight: 600;
+    color: var(--Darker-Black);
+    font-size: .8rem;
+    margin: 0 1rem;
+  }
+
+  .VisionTitle {
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--Darker-Black);
+    margin: 0 .8rem;
+  }
+
+  .InnovativeTitle {
+    margin: 0 .8rem;
+    font-weight: 800;
+    font-size: 3rem;
+    color: var(--Lighter-White);
+  }
+
+  .InnovativeSubTitle {
+    font-weight: 800;
+    color: var(--Lighter-White);
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .InnovativeMessage {
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--Lighter-White);
+    margin: 0 .8rem;
+  }
+
+  .PurchaseTitle {
+    font-size: 7vw;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .NoticeTitle {
+    font-size: 3vw;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .PurchaseStatementTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Light-White);
+    background: var(--Dark-Space);
+    padding: 0.5rem 0.5rem;
+  }
+
+  .MainProductButton {
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    font-weight: 800;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .MainProductButton:hover {
+    background: var(--Light-Suit);
+    color: var(--Dark-Black);
+    box-shadow: -3px -3px 6px 2px var(--Lighter-White),
+      5px 5px 8px 0px rgba(0, 0, 0, 0.699), 1px 2px 2px 0px rgb(0, 0, 0);
+  }
+
+  .GridedTitle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+    align-items: center;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 1rem 1rem;
+    max-width: 5vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedHeroContentModuleII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+  }
+
+  .ArticleContentModule:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .GridedHeroContentModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .HeroContentTitle {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .HeroContentTitleI {
+    display: grid;
+    min-width: 50vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+    border-radius: 1rem;
+    background: var(--Darker-Morph);
+    backdrop-filter: blur(1rem);
+  }
+
+  .HeroTitleModule {
+    max-width: 25vw;
+    max-height: 15vh;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridedTitleModuleII {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    margin: 2rem 0;
+  }
+
+  .GridedTitleModule {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GeniuneTitle {
+    font-size: 2vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+    border-bottom: 0.2rem solid var(--Lighter-White);
+  }
+
+  .DeliversTitle {
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: var(--Dark-Grey);
+  }
+
+  .AnnotationTitle {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Lighter-Black);
+  }
+
+  .GeniuneTitleI {
+    font-size: 2vw;
+    font-weight: 800;
+    color: var(--Dark-Black);
+    border-bottom: 0.2rem solid var(--Dark-Black);
+  }
+
+  .DeliversTitleI {
+    font-size: 2vw;
+    font-weight: 500;
+    color: var(--Dark-Grey);
+  }
+
+  .AnnotationTitleI {
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--Dark-Black);
+  }
+
+  .HeroTitle {
+    display: grid;
+    place-content: center;
+    align-items: center;
+  }
+
+  .Signature {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .SignatureSketch {
+    padding: 1rem 1rem;
+    box-shadow: 0 0 1rem var(--Light-White);
+    background: var(--Dark-Space);
+    display: grid;
+    place-content: center;
+    color: var(--Light-White);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .DateSketch {
+    padding: 1rem 1rem;
+    box-shadow: 0 0 1rem var(--Light-White);
+    background: var(--Dark-Space);
+    display: grid;
+    place-content: center;
+    color: var(--Light-White);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .SignatureIcon {
+    max-width: 2vw;
+  }
+
+  .FormPurchaseModule {
+    background: var(--Light-Cloud);
+    box-shadow: 0 0 1rem var(--Dark-Black);
+    padding: 0.5rem 0.4rem;
+    text-align: center;
+  }
+
+  .FirstProductCenter {
+    text-align: center;
+  }
+
+  .ProductContent {
+    display: grid;
+    max-width: 100vw;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductModule {
+    max-width: 100vw;
+    max-height: 60vh;
+    opacity: 0.95;
+    border-radius: 1rem;
+    background: var(--Light-Space);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductGrided {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    transition: all ease-in-out 300ms;
+    margin: 0 1rem;
+  }
+
+  .ProductChangeTitle {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: var(--Darker-Black);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ChangeProductImage {
+    display: grid;
+    transition: all ease-in-out 300ms;
+    place-content: center;
+  }
+
+  .ChangeProductGridBg {
+    background: var(--Dark-Suit);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeProductGridBg:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeProductGridNumber {
+    font-weight: 800;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+    text-align: center;
+  }
+
+  .ChangeProductGridNumber:hover {
+    color: var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 40vw;
+    padding: 9rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeProductElement:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    padding: 0 0 3rem 0;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ChangeProductButton {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin: 1rem 0;
+    box-shadow: -3px -3px 6px 2px #ffffff,
+      5px 5px 8px 0px rgba(240, 239, 239, 0.699),
+      1px 2px 2px 0px rgb(167, 167, 167);
+  }
+
+  .ChangeProductButton:hover {
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    box-shadow: inset -10px -10px 6px 2px var(--Dark-Black),
+      inset 5px 5px 8px 0px rvar(--Light-White) 1px 2px 2px 0px rvar(--Darker-Black);
+  }
+
+  .ChangeProductLink {
+    margin: 0 0.5rem;
+  }
+
+  .content {
+    display: grid;
+    min-width: 50vw;
+    margin: 1rem 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .hero {
+    min-width: 92vw;
+    min-height: 80vh;
+    box-shadow: 0 0 3px var(--Ocean-Blue);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .Grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .SliderI {
+    min-width: 30vw;
+    min-height: 65vh;
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    border-radius: 1rem;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+    margin: 1.5rem 0;
+  }
+
+  .SliderIHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .companyname {
+    color: var(--Dark-Black);
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 80vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 600;
+    transition: all ease-in-out 300ms;
+    font-size: 1.5vw;
+  }
+
+  .SlideNumber {
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #0e0d0d;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem 0 0.5rem 0;
+    font-weight: 800;
+    transition: all ease-in-out 300ms;
+    font-size: 1vw;
+  }
+
+  .GridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    transition: all ease-in-out 300ms;
+    padding: 2.5rem 3.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Suit),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 35vw;
+    padding: 9rem 0;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    padding: 0 0 6rem 0;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+  }
+
+  .BtnBrowse {
+    background: var(--Dark-Black);
+    color: var(--Light-White);
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    padding: 1rem 3rem;
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+  }
+
+  .BtnBrowse:hover {
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff,
+      -1px -1px 4px 0px var(--Lighter-Green),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    background: var(--Dark-Blue);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CarouselContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .BannerCarousel {
+    transition: all ease-in-out 300ms;
+    min-width: 100vw;
+    min-height: 50vh;
+    overflow: hidden;
+    padding: 1rem 5rem;
+  }
+
+  .ItemGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+
+  .CarouselCenter {
+    position: relative;
+    border-radius: 0.4rem;
+    min-width: 10vw;
+    min-height: 60vh;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CarouselImage {
+    max-width: 100%;
+    max-height: 100%;
+    transition: all ease-in-out 300ms;
+  }
+
+  .qimage {
+    display: grid;
+    gap: 5em;
+    transition: all ease-in-out 300ms;
+  }
+
+  .BannerIndex {
+    z-index: 10;
+    transition: all ease-in-out 300ms;
+  }
+
+  .item {
+    max-height: 8vw;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Center {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    min-width: 38vw;
+    overflow: hidden;
+  }
+
+  .BgWrap {
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+  }
+
+  .Wrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 38vw;
+    overflow: hidden;
+  }
+
+  .InvitationSlider .SliderI .questiontext {
+    background: var(--Dark-Space);
+    border-radius: 1rem;
+    color: var(--Light-White);
+    min-width: 70vw;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .InvitationSlider .SliderI .qtext {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--Mid-Light-Yellow);
+  }
+
+  .InvitationSlider .SliderI .ptext {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .InvitationSlider .SliderI .storytext {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--Light-White);
+  }
+
+  .InvitationSlider .SliderI .styletext {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--Light-White);
+  }
+
+  .InvitationSlider .SliderI .stylegreat {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--Mid-Light-Yellow);
+  }
+
+  .AboutUscontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutUsModule {
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: 0 0 3px var(--Ocean-Blue);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutUsGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .AboutUsContentBg {
+    display: grid;
+  }
+
+  .AboutCarousel {
+    transition: all ease-in-out 300ms;
+    min-width: 33vw;
+    min-height: 50vh;
+    overflow: hidden;
+  }
+
+  .Aboutcontent {
+    display: grid;
+    min-width: 50vw;
+    margin: 1rem 1rem;
+    position: relative;
+  }
+
+  .Abouthero {
+    min-height: 70vh;
+    box-shadow: 0 0 3px var(--Ocean-Blue);
+    border-radius: 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    border-radius: 1rem;
+    opacity: 0.9;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutHeader {
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+  }
+
+  .AboutTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    color: #000;
+    padding: 0.8rem 2rem;
+    max-width: 26vw;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    font-size: 1vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutTitle:hover {
+    color: #b6b6b6;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+  }
+
+  .AboutIcon {
+    font-weight: 600;
+    background: #000000;
+    text-align: center;
+    color: #f8f8f8;
+    max-width: 3.2vw;
+    max-height: 3.2vh;
+    padding: 0.4rem 0.5rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutIcon:hover {
+    background: white;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+  }
+
+  .SideBarcontent {
+    display: grid;
+    min-width: 50vw;
+    margin: 1rem 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .SideBarHeader {
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+  }
+
+  .SiderBarTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    font-size: 1.5vw;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .SideBarIcon {
+    font-weight: 600;
+    background: #000000;
+    text-align: center;
+    color: #f8f8f8;
+    max-width: 5vw;
+    max-height: 5vh;
+    padding: 0.4rem 0.5rem;
+    border-radius: 50%;
+    transition: all ease-in-out 300ms;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .SideBarIcon:hover {
+    background: white;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .SectionHeader {
+    background: var(--Dark-Black);
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+  }
+
+  .SectionTitle {
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000;
+    padding: 0.8rem 1rem;
+    max-width: 20vw;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    font-size: 1.5vw;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .SectionIcon {
+    font-weight: 600;
+    background: #000000;
+    text-align: center;
+    color: #f8f8f8;
+    max-width: 5vw;
+    max-height: 5vh;
+    padding: 0.4rem 0.5rem;
+    border-radius: 50%;
+    transition: all ease-in-out 300ms;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .SectionIcon:hover {
+    background: white;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .CompanyLogo {
+    font-weight: 800;
+    margin: 1rem;
+    text-transform: uppercase;
+    color: var(--Darker-Black);
+  }
+
+  .HeaderTitle {
+    background: linear-gradient(180deg, var(--Lighter-Morph), var(--BlMorph));
+    backdrop-filter: blur(.5rem);
+    margin: 0 0 .8rem 0;
+  }
+
+  .HeaderOut {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .HeaderLogo {
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    margin: 0.5rem 1.5rem;
+    max-height: 6vh;
+    max-width: 4vw;
+    padding: .6rem .5rem;
+    border-radius: 50%;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px var(--Darker-Black),
+      inset -10px -10px 10px -1px var(--Dark-Black);
+  }
+
+  .HeaderLogo:hover {
+    background: var(--Light-Morph);
+    color: var(--Darker-Black);
+    box-shadow: inset 10px 10px 10px -1px var(--Lighter-White),
+      inset -10px -10px 10px -1px var(--Light-White);
+    cursor: pointer;
+  }
+
+  .HeaderNav {
+    font-weight: 800;
+    font-family: var(--paragraph-font);
+    font-size: .7vw;
+    text-align: center;
+    min-width: 12vw;
+    max-height: 8vh;
+    background: var(--Darker-Black);
+    backdrop-filter: blur(1rem);
+    color: #000;
+    border-radius: 0.5rem 0.5rem 0 0;
+    transition: all ease-in-out 300ms;
+
+  }
+
+  .HeaderNav:hover {
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    color: black;
+    cursor: pointer;
+  }
+
+  .HeaderGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.8rem;
+  }
+
+  .CompanyDetailscontent {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+    margin: 1rem 0;
+  }
+
+  .CompanyDetailshero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17),
+      1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+
+    opacity: 0.9;
+  }
+
+  .CompanyDetailsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+
+  .CompanyDetailshero .active,
+  .CompanyDetailshero:hover,
+  .CompanyDetailshero:active,
+  .CompanyDetailshero:focus {
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CompanyDetailsNav {
+    font-weight: 800;
+    font-size: 1vw;
+    padding: 6rem 2rem;
+    background: #ebeef1;
+    text-align: center;
+    color: #000;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px var(--Dark-Black),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CompanyDetailsNav:hover {
+    background: var(--Light-Space);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .CompanyGridedhero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17),
+      1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+
+    opacity: 0.9;
+  }
+
+  .CompanyGridedGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .CompanyGridedNav:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .CompanyGridedNav {
+    font-weight: 800;
+    font-size: 1vw;
+    padding: 6rem 2rem;
+    background: #ebeef1;
+    text-align: center;
+    color: #000;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px var(--Dark-Black),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .CompanyGridedNav:hover {
+    background: var(--Light-Suit);
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .AboutGridedcontent {
+    display: grid;
+    min-width: 100vw;
+    margin: 1rem 1rem;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutGridedhero {
+    min-width: 92vw;
+    border-radius: 0.6rem;
+
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.17),
+      1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+
+    opacity: 0.9;
+  }
+
+  .AboutGridedNav {
+    font-weight: 800;
+    font-size: 1vw;
+    padding: 6rem 2rem;
+    background: #ebeef1;
+    text-align: center;
+    color: #000;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px var(--Dark-Black),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .AboutGridedNav:hover {
+    background: var(--Light-Suit);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .AboutGridedGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+  }
+
+  .ChangeProductGridColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ProductGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .ProductNav {
+    font-weight: 800;
+    min-height: 20vh;
+    min-width: 20vw;
+    font-size: 1vw;
+    background: #ebeef1;
+    text-align: center;
+    color: #000;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductNav:hover {
+    background: var(--Light-Suit);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+  }
+
+  .CompanyGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .CompanyGridII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+  }
+
+  .CompanyGridedLogo:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .CompanyGridedLogo:nth-child(6) {
+    grid-column: span 2;
+  }
+
+  .CompanyGridedLogo:nth-child(9) {
+    grid-column: span 2;
+  }
+
+  .CompanyGridedLogo:nth-child(12) {
+    grid-column: span 2;
+  }
+
+  .CompanyGridedLogo {
+    display: grid;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    padding: 1.5rem 1.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    transition: all ease-in-out 300ms;
+    background: rgba(0, 0, 0, 0.63);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductNumber:hover {
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+    background: var(--Dark-Cloud);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Dark-Black),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    min-width: 16vw;
+    min-height: 30vh;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductElement:hover {
+    background: var(--Light-Cloud);
+    color: var(--Light-White);
+    min-height: 35vh;
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .ProductGridColumn {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 700;
+    opacity: 0.9;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 8rem 0;
+    text-align: center;
+  }
+
+  .ProductGridColumn:hover {
+    background: var(--Light-Suit);
+    font-weight: 800;
+    text-align: center;
+    color: var(--Dark-Black);
+  }
+
+  .GridedHeader {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .HeadercontentI {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 100vw;
+  }
+
+  .Headerhero .active,
+  .Headerhero:hover,
+  .Headerhero:active,
+  .Headerhero:focus {
+    border: 2px solid #fafafa;
+    outline: none;
+    box-shadow: inset -3px -3px 5px 0px #ffffff, -1px -1px 4px 0px #ffffff,
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+
+
+  .LoginBtn {
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    margin: 0rem 1rem;
+    font-weight: 800;
+    background: white;
+    text-align: center;
+    color: #000;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .LoginBtn:hover {
+    background: white;
+    cursor: pointer;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .NavigateFlex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .NavigateHero {
+    min-width: 12vw;
+    min-height: 30vh;
+    opacity: 0.9;
+  }
+
+  .NavigateIcon {
+    font-weight: 600;
+    background: #000000;
+    text-align: center;
+    color: #f8f8f8;
+    max-width: 10vw;
+    padding: 2rem 2rem;
+    max-height: 10vh;
+    clip-path: circle(30%);
+    transition: all ease-in-out 300ms;
+  }
+
+  .NavigateIcon:hover {
+    color: #000000;
+    background: #f8f8f8;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Introcontent {
+    display: grid;
+    min-width: 50vw;
+    place-content: center;
+    max-height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .IntroImage {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: var(--Dark-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Dark-Black),
+      inset 10px 10px 10px 1px var(--Darker-Black);
+    border-radius: 50%;
+    padding: 15rem 0;
+    opacity: 0.95;
+    animation-name: Entry;
+    animation-duration: 500ms;
+    /*animation-iteration-count: infinite;*/
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  .IntroImageII {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: var(--Blue-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Dark-Blue),
+      inset 10px 10px 10px 1px var(--Darker-Blue);
+    border-radius: 50%;
+    padding: 3rem 0;
+    animation-name: Entry;
+    animation-duration: 500ms;
+    /*animation-iteration-count: infinite;*/
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  .IntroImageIII {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Dark-Green),
+      inset 10px 10px 10px 1px var(--Darker-Green);
+    border-radius: 50%;
+    padding: 3rem 0;
+    animation-name: Entry;
+    animation-duration: 500ms;
+    /*animation-iteration-count: infinite;*/
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  .IntroAnimation {
+    animation-name: EntryRepeat;
+    animation-duration: 5500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: all ease-in-out 300ms;
+  }
+
+  @keyframes EntryRepeat {
+    0% {
+      transform: rotateY(0);
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes Entry {
+    0% {
+      transform: translate(-2rem, 2rem);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+
+  .CompanyLogo {
+    font-weight: 800;
+    margin: 1rem;
+    text-transform: uppercase;
+  }
+
+  .IntroTitle {
+    display: grid;
+    place-content: center;
+    text-align: center;
+  }
+
+  .IntroductionTitle {
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color: var(--Lighter-White);
+    background: var(--Darker-Black);
+    text-align: center;
+    margin: 0 0 0 2rem;
+    border-radius: 1rem;
+  }
+
+  .IntroCo {
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .IntroGrid {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: 2em;
+    margin-top: 1rem;
+  }
+
+  .GetStartedTitle {
+    display: grid;
+    place-content: center;
+    text-align: center;
+  }
+
+  .GetStarted {
+    background: var(--Dark-Space);
+    min-width: 50vw;
+    min-height: 10vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Light-White);
+    text-align: center;
+    box-shadow: 10px 10px 10px -1px var(--Dark-Black),
+      -10px -10px 10px -1px var(--Darker-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GetStarted:hover {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: bolder;
+    box-shadow: inset 10px 10px 10px -1px var(--Darker-Black),
+      inset -20px -16px 8px -1px var(--Dark-Black);
+  }
+
+  .LinkTitle:hover {
+    background: var(--Dark-Space);
+    backdrop-filter: blur(1rem);
+    color: var(--Lighter-Green);
+    padding: 0.8rem 1.8rem;
+    border-radius: 1.2rem;
+    box-shadow: inset 10px 10px 10px -1px var(--Darker-Black),
+      inset -10px -10px 10px -1px var(--Dark-Black);
+  }
+
+  .Introhero {
+    max-width: 60vw;
+    max-height: 100vh;
+    opacity: 0.9;
+    border-radius: 1rem 1rem 0 0;
+    opacity: 0.95;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Welcomecontent {
+    display: grid;
+    min-width: 50vw;
+    margin: 0.5rem 1rem;
+    /*--overflow: scroll;--*/
+    position: relative;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Welcomehero {
+    min-width: 92vw;
+    min-height: 100vh;
+    border-radius: 1rem;
+    background: var(--Dark-Morph);
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    padding-bottom: 1.8rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridWelcome {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  .GridWelcomeCol {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+  }
+
+  .WelcomeLogo {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    padding: 8rem 0;
+    margin: 5rem 0;
+    border-radius: 1rem;
+  }
+
+  .WelcomeCoLogo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 1rem 1rem 0 0;
+    place-items: center;
+    padding: 1rem 2rem;
+    margin: 0;
+    gap: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    color: var(--Light-White);
+    max-width: 50vw;
+    min-height: 10vh;
+  }
+
+
+  .WelcomeCoImage {
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 2rem;
+  }
+
+  .AnnexLogo {
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    background: var(--Dark-Space);
+    margin: 0.5rem 0.5rem;
+    max-width: 4vw;
+    max-height: 8vh;
+    padding: 0.3rem 0.3rem;
+    border-radius: 50%;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(10, 10, 10, 0.7);
+  }
+
+  .AnnexLogo:hover {
+    background: var(--Darker-Black);
+    cursor: pointer;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: 3px 3px 3px -1px rgba(10, 99, 169, 0.16),
+      -3px -3px 3px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .WelcomeLogoII {
+    min-height: 100vh;
+    border-radius: 1rem;
+  }
+
+  .CarouselTwo {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .BestSelling {
+    font-weight: 800;
+    font-size: 1.6vw;
+    margin: .5em 0 0 0;
+    color: var(--Lighter-White);
+  }
+
+  .CoProducts {
+    font-size: 1.2vw;
+    color: var(--Dark-Blue);
+    border-radius: 1rem;
+    margin: .2rem 0 0 .8rem;
+    padding: 0.4rem 0.4rem;
+    box-shadow: -3px -3px 3px -1px var(--Darker-Blue),
+      -3px -3px 3px -1px var(--Dark-Blue);
+  }
+
+  .WelcomeTitle {
+    display: grid;
+    gap: 2em;
+  }
+
+  .GridProperty {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    background: var(--Lighter-White);
+    border-radius: 1rem;
+    padding: 5rem 0;
+    gap: 5rem;
+  }
+
+  .GridPropertyII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    background: var(--Lighter-White);
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    padding: 1em 0;
+    margin: 1rem 1rem;
+    gap: 5rem;
+  }
+
+  .GridPropertyIII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    border-radius: 1rem;
+    grid-gap: 1rem;
+
+  }
+
+  .GridPropertyVII {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    border-radius: 1rem;
+  }
+
+  .SecondGridPropertyIII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    background: linear-gradient(180deg, var(--Lighter-White), var(--Light-White));
+    border-radius: 1rem;
+    padding: 1rem 0;
+    margin: 1rem 1rem;
+    gap: 3rem;
+  }
+
+
+  .GridPropertyV {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    margin: 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .GridNumber {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridNumber:hover {
+    color: var(--Lighter-Green);
+
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainGridNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .MainGridNumber:hover {
+    color: var(--Matte-White);
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridBg {
+    background: var(--Dark-Morph);
+    backdrop-filter: blur(1rem);
+    box-shadow: -2px -2px 2px -1px var(--Lighter-White),
+      -2px -2px 2px -1px var(--Light-White);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+  }
+
+  .GridBgII {
+    background: var(--Dark-Space);
+    box-shadow: -2px -3px 2px -1px var(--Darker-Black),
+      2px 3px 2px -1px var(--Dark-Black);
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridBg:hover {
+    backdrop-filter: blur(1rem);
+    transition: all ease-in-out 300ms;
+    font-weight: 700;
+  }
+
+  .Field {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-content: center;
+  }
+
+  .FieldIcon {
+    display: grid;
+    font-size: 1vw;
+    padding: 4rem;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    background: var(--Dark-Space);
+    color: var(--Lighter-Green);
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .FieldIcon:hover {
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+  }
+
+  .FieldI {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 1em;
+  }
+
+  .FieldIconI {
+    display: grid;
+    font-size: 1vw;
+    padding: 8rem;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    background: var(--Light-Space);
+    color: var(--Dark-Black);
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .GridPropertyIV {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    background: var(--BlMorph);
+    border-radius: 1rem;
+    padding: 1rem 0;
+    margin: 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .GridPropertyVI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    background: var(--Dark-Space);
+    border-radius: 1rem;
+    padding: 1rem 0;
+    margin: 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .FieldII {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+    place-items: center;
+  }
+
+  .FieldIconII {
+    display: grid;
+    max-width: 4vw;
+    padding: 1.2rem;
+    clip-path: circle(1rem);
+    background: var(--Blue-Morph);
+    color: var(--Lighter-White);
+    box-shadow: -2px -2px 2px -1px var(--Darker-Blue),
+      -2px -2px 2px -1px var(--Dark-Blue);
+  }
+
+  .GridNumberIII {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--Lighter-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridNumberIII:hover {
+    color: var(--Light-Blue);
+    cursor: pointer;
+    font-weight: 700;
+    transition: all ease-in-out 300ms;
+  }
+
+  .GridBgIII {
+    background: var(--BlMorph);
+    backdrop-filter: blur(1rem);
+    padding: 0.5rem 0.5rem;
+    transition: all ease-in-out 300ms;
+    font-weight: 600;
+    border-radius: .5rem;
+  }
+
+  .GridBgIII:hover {
+    transition: all ease-in-out 300ms;
+    font-weight: 700;
+  }
+
+  .FieldIntroLinkI {
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldIntroLinkI:hover {
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldElement {
+    background: var(--Light-Space);
+    border-radius: 0.4rem;
+    min-height: 40vh;
+    min-width: 40vw;
+    transition: all ease-in-out 300ms;
+  }
+
+
+  .FieldElement:hover {
+    background: var(--Dark-Black);
+    min-width: 35vw;
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  .InnovativeSolutionElement {
+    background: var(--Light-Space);
+    border-radius: 0.4rem;
+    min-height: 50vh;
+    min-width: 20vw;
+    transition: all ease-in-out 300ms;
+  }
+
+
+  .InnovativeSolutionElement:hover {
+    background: var(--Dark-Black);
+    color: var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+
+  .FieldElementI {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Darker-Black),
+      2px 3px 5px -1px var(--Dark-Black);
+    margin: 1rem;
+    border-radius: 0.4rem;
+    min-height: 50vh;
+    min-width: 30vw;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldNumber {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--Lighter-Green);
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldNumber:hover {
+    transition: all ease-in-out 300ms;
+    color: var(--Lighter-Green);
+    cursor: pointer;
+
+  }
+
+  .WelcomeCOD {
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+    color: var(--Lighter-White);
+  }
+
+
+  .FieldBg {
+    background: var(--Lighter-White);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    box-shadow: inset 3px 3px 3px -1px var(--Lighter-White),
+      inset -3px -3px 3px -1px var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldBg:hover {
+    background: var(--Lighter-White);
+    backdrop-filter: blur(1rem);
+    box-shadow: 3px 3px 3px -1px var(--Lighter-White),
+      -3px -3px 3px -1px var(--Light-White);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldIntroLink {
+    font-weight: 700;
+    font-size: 1vw;
+    color: var(--Dark-Black);
+    background: var(--Light-Space);
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FieldIntroLink:hover {
+    color: var(--Lighter-Green);
+    background: var(--Dark-Space);
+    box-shadow: inset 10px 10px 10px -1px var(--Darker-Black),
+      inset -10px -10px 10px -1px var(--Dark-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  .WelcomeCompanyTitle {
+    background: var(--Dark-Space);
+    color: var(--Light-White);
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1vw;
+    border-radius: 1rem;
+    box-shadow: inset 2px 2px 2px -1px var(--Dark-Black),
+      inset -2px -2px 2px -1px var(--Darker-Black);
+  }
+
+  .WelcomeCompanyTitleII {
+    background: var(--Dark-Space);
+    color: var(--Lighter-White);
+    font-weight: 800;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1vw;
+    box-shadow: inset 2px 2px 2px -1px var(--Dark-Black),
+      inset -2px -2px 2px -1px var(--Darker-Black);
+  }
+
+  .WelcomeCompanyDescription {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    background: var(--BlMorph);
+    color: var(--Lighter-White);
+    font-size: 0.7rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    margin: 0 0 1.5rem 0;
+    font-weight: 600;
+    /*--min-width: 30vw;
+      min-height: 65vh;
+      border-radius: 1rem;
+      text-align: center;--*/
+  }
+
+  .LimitedCo {
+    background: var(--Lighter-Morph);
+    border-radius: 0.5rem 0 0 0.5rem;
+    color: var(--Darker-Black);
+    padding: 1rem 1.5rem;
+    box-shadow: inset 2px 2px 2px -1px var(--Lighter-White),
+      inset -2px -2px 2px -1px var(--Mid-Light-White);
+  }
+
+  .SkipNavigateFlex {
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
+
+  .SkipNavigateHero {
+    min-width: 12vw;
+    min-height: 15vh;
+    opacity: 0.9;
+  }
+
+  .SkipNavigateTitle {
+    font-weight: 600;
+    background: var(--Light-Space);
+    text-align: center;
+    color: var(--Dark-Black);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 300ms;
+    box-shadow: 2px 3px 5px -1px rgba(10, 99, 169, 0.16),
+      -2px -3px 5px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .SkipNavigateTitle:hover {
+    color: #000000;
+    background: #f8f8f8;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .Kal {
+    display: none;
+  }
+
+  .FooterGridColumnnI {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .FooterGridElement {
+    background: var(--Light-Space);
+    box-shadow: -2px -3px 5px -1px var(--Light-Suit),
+      2px 3px 5px -1px var(--Mid-Light-Black);
+    clip-path: circle(50%);
+    border-radius: 0.4rem;
+    transition: all ease-in-out 300ms;
+    margin: 0 0.5rem;
+  }
+
+  .SocialMediaIcons {
+    display: flex;
+    gap: 1em;
+    margin: 0 2rem;
+  }
+
+  .FooterGridElement:hover {
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    box-shadow: inset -3px -3px 5px 0px #302c2c,
+      -1px -1px 4px 0px var(--Darker-Blue),
+      inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
+      inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
+      1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGridColumnnII {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterGridMainColumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .FooterStatement {
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0.5rem;
+  }
+
+  .FooterIcon {
+    max-width: 2vw;
+    background: var(--Dark-Cloud);
+    color: var(--Light-White);
+    clip-path: circle(40%);
+    padding: 0.5rem 0.5rem;
+  }
+
+  .FooterIcon:hover {
+    background: var(--Blue-Space);
+    cursor: pointer;
+  }
+
+  .FooterWrap {
+    position: relative;
+    min-height: 20vh;
+    border-radius: 0.4rem;
+    max-width: 14vw;
+    overflow: hidden;
+  }
+
+  .Footercontent {
+    display: grid;
+    min-width: 50vw;
+    position: relative;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Footerhero {
+    min-width: 92vw;
+    min-height: 30vh;
+    box-shadow: 0 0 3px var(--Ocean-Blue);
+    border-radius: 1rem 0 0 1rem;
+    background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
+    padding-bottom: 1.8rem;
+    box-shadow: -3px -3px 6px 2px #ffffff, 5px 5px 8px 0px rgba(0, 0, 0, 0.699),
+      1px 2px 2px 0px rgb(0, 0, 0);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterGrid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .FooterFirstColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Dark-Space);
+    padding: 1rem;
+    color: var(--Light-White);
+  }
+
+  .FooterSecondColumn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-weight: 700;
+    gap: 2rem;
+    background: var(--Light-Cloud);
+    padding: 1rem;
+    color: var(--Light-Grey);
+  }
+}
+
+@media only screen and (min-width: 1791px) {
   .Menucontent {
     display: none;
   }
