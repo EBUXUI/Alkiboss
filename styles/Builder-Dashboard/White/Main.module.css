@@ -139,6 +139,15 @@
   }
 
   
+
+  .MainProductElementImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10vw;
+    max-height: 50vh;
+  }
+
   .MainProductElementXV {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
@@ -1152,6 +1161,15 @@
   }
 
   
+
+  .MainProductElementImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10vw;
+    max-height: 50vh;
+  }
+
   .MainProductElementXV {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
@@ -2154,6 +2172,15 @@
   }
 
   
+
+  .MainProductElementImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10vw;
+    max-height: 50vh;
+  }
+
   .MainProductElementXV {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
@@ -3186,6 +3213,15 @@
   }
 
   
+
+  .MainProductElementImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10vw;
+    max-height: 50vh;
+  }
+
   .MainProductElementXV {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
@@ -4422,6 +4458,7 @@
   }
 
   
+
   .MainProductElementXV {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
@@ -5672,6 +5709,8 @@
     transition: all ease-in-out 300ms;
   }
 
+  
+
   .MainProductElementImage{
     display: flex;
     align-items: center;
@@ -5680,7 +5719,6 @@
     max-height: 50vh;
   }
 
-  
   .MainProductElementXV {
     background: var(--Dark-Space);
     box-shadow: 2px -3px 5px -1px var(--Darker-White),
