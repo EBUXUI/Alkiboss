@@ -17,7 +17,7 @@ const NewSubmit: FC<NewSubmitProps> = ({ handleUpload, uploading }) => {
           disabled={uploading}
           className={styles.SubmitNavigateTitle}
         >
-          {uploading ? "Your journey is important to us..."  : "Schedule Consultation"}
+          {uploading ? "Your are important to us..."  : "Share The Love"}
         </button>
       </div>
     );
