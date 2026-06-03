@@ -49,9 +49,6 @@ export default function Home() {
                 <ProgrammesModule />
                 <ProgrammesModuleII/>                
                 <HomePictorial />
-                <Stats/>
-                {/*<MusicCatalog/>*/}
-                <DisabilityHero/>
                 <div id="BrandPartnerships">
                     <HeroComponentII/>
                 </div>
