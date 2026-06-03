@@ -2719,8 +2719,8 @@
     transition: all ease-in-out 300ms;
     background: var(--Lighter-White);
     padding: 0 3rem;
-    min-width: 100vw;
-    min-height: 100vw;
+    max-width: 30vw;
+    min-height: 50vw;
   }
 
 
