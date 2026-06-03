@@ -151,7 +151,7 @@ export default function HeroComponent() {
                                 htmlFor="queryHotelName"
                             >
                                 <button className={HeroCss.BookNow}>
-                                    <Link href="/TikTokContent" className={HeroCss.BookBtn}>
+                                    <Link target="_blank" href="https://www.tiktok.com/@alkiboss_classic" className={HeroCss.BookBtn}>
                                         Watch TikTok Content
                                     </Link>
                                 </button>
@@ -204,7 +204,7 @@ export default function HeroComponent() {
                                 htmlFor="queryHotelName"
                             >
                                 <button className={HeroCss.BookNow}>
-                                    <Link href="/FacebookContent" className={HeroCss.BookBtn}>
+                                    <Link target="_blank" href="https://www.facebook.com/Alkiboss/" className={HeroCss.BookBtn}>
                                         Explore Facebook Content
                                     </Link>
                                 </button>
@@ -257,7 +257,7 @@ export default function HeroComponent() {
                                 htmlFor="queryHotelName"
                             >
                                 <button className={HeroCss.BookNow}>
-                                    <Link href="/YouTubeContent" className={HeroCss.BookBtn}>
+                                    <Link target="_blank" href="https://www.youtube.com/@alkibossclassic" className={HeroCss.BookBtn}>
                                         Explore YouTube Content
                                     </Link>
                                 </button>
@@ -309,7 +309,7 @@ export default function HeroComponent() {
                                 htmlFor="queryHotelName"
                             >
                                 <button className={HeroCss.BookNow}>
-                                    <Link href="/InstagramContent" className={HeroCss.BookBtn}>
+                                    <Link target="_blank" href="https://www.instagram.com/alkiboss_classic" className={HeroCss.BookBtn}>
                                         View Instagram Content
                                     </Link>
                                 </button>
