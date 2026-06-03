@@ -301,7 +301,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -316,7 +316,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -338,7 +338,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -441,7 +441,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -459,7 +459,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -468,7 +468,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -482,7 +482,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -821,7 +821,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -836,7 +836,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -885,7 +885,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -1222,7 +1222,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -1237,7 +1237,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1281,7 +1281,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -1387,7 +1387,7 @@
     color: var(--Light-White);
     padding: 10rem 0 0 0;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1407,11 +1407,11 @@
 
   .BtnBrowse:hover {
     box-shadow: inset -3px -3px 5px 0px #5ca8ff,
-      -1px -1px 4px 0px var(--Lighter-Blue),
+      -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -1559,7 +1559,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -1600,7 +1600,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -2052,7 +2052,7 @@
     color: var(--Light-White);
     min-height: 35vh;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -2075,7 +2075,7 @@
     background: var(--Darker-Morph);
     font-weight: 800;
     text-align: center;
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .GridedHeader {
@@ -2182,9 +2182,9 @@
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    background: var(--Blue-Space);
-    box-shadow: inset -10px -10px 10px -1px var(--Darker-Blue),
-      inset 10px 10px 10px 1px var(--Dark-Blue);
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Darker-Green),
+      inset 10px 10px 10px 1px var(--Dark-Green);
     border-radius: 50%;
     padding: 1rem;
     animation-name: Entry;
@@ -2286,7 +2286,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -2300,8 +2300,8 @@
     font-size: 1.4vw;
     color: var(--Light-White);
     text-align: center;
-    box-shadow: 10px 10px 10px -1px var(--Darker-Blue),
-      -10px -10px 10px -1px var(--Dark-Blue);
+    box-shadow: 10px 10px 10px -1px var(--Darker-Green),
+      -10px -10px 10px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -2334,7 +2334,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -2385,7 +2385,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -2500,11 +2500,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -2522,7 +2522,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -2663,11 +2663,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -2685,7 +2685,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -2770,7 +2770,7 @@
     color: var(--Light-White);
     padding: 8rem 6rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -2869,12 +2869,12 @@
   }
 
   .RouselLink-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .RouselLink-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -2895,7 +2895,7 @@
     padding: .8em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -3078,7 +3078,7 @@
   }
 
   .TimeRangeLinkIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -3093,7 +3093,7 @@
   }
 
   .TimeRangeIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -3128,12 +3128,12 @@
     font-size: 1.5vw;
   }
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -3182,12 +3182,12 @@
     padding: 1em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Light-Space);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
   .TabFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
   
@@ -3310,7 +3310,7 @@
     grid-template-columns: 1fr minmax(100px, 7rem) 2fr 2fr 1fr;
     justify-content: center;
     align-content: end;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     padding: 1rem 1rem;
     border-radius: 1em 0 0 1em;
     margin: 4rem 0 0 2rem;
@@ -3546,17 +3546,17 @@
     background: var(--Dark-Space);
     color: var(--Lighter-White);
     box-shadow: inset -10px -10px 10px -1px var(--Darker-Black),
-                inset -10px -10px 10px -1px var(--Lighter-Blue);
+                inset -10px -10px 10px -1px var(--Lighter-Green);
     border-radius: 1em 1em 0 0;
   }
 
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -3583,7 +3583,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -3600,12 +3600,12 @@
   .PricebarFieldIcon {
     display: grid;
     border-radius:0;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .PricebarFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Cloud);
     cursor: pointer;
   }
@@ -3753,7 +3753,7 @@
     padding: 7rem 1rem;
     border-radius: .5rem .5rem .5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -3898,7 +3898,7 @@
     font-size: 1.2vw;
   }
   .FloatingMigrationLimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1.5rem 2.5rem;
     border-radius: 1em;
@@ -4021,7 +4021,7 @@
   }
 
   .LimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1rem 2.5rem;
     border-radius: 1em;
@@ -4045,14 +4045,14 @@
 
   .SubmitNavigateTitle {
     font-weight: 600;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     text-align: center;
     color: var(--Lighter-White);
     padding: 0.5rem 4rem;
     border-radius: 1rem;
     transition: all ease-in-out 300ms;
-    box-shadow: 2px 2px 2px -1px var(--Dark-Blue),
-      -2px -2px 2px -1px var(--Darker-Blue);
+    box-shadow: 2px 2px 2px -1px var(--Dark-Green),
+      -2px -2px 2px -1px var(--Darker-Green);
   }
 
   .SubmitNavigateTitle:hover {
@@ -4196,7 +4196,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -4228,7 +4228,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -4250,7 +4250,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -4584,11 +4584,11 @@
   }
 
   .RestaurantTitleI {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     font-family: var(--font-anton);
     color: var(--Lighter-White);
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
   }
 
   .RestaurantTitleAuth {
@@ -4652,7 +4652,7 @@
 
   @keyframes AuthAnime {
     0% {
-      background: var(--Light-Blue);
+      background: var(--Light-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -4663,7 +4663,7 @@
       transition: all ease-in-out 300ms;
     }
     80% {
-      background: var(--Lighter-Blue);
+      background: var(--Lighter-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -5153,7 +5153,7 @@
 
   .DropDownBg {
     transition: all ease-in-out 100ms;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(1, 1fr);
@@ -5572,7 +5572,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -5587,7 +5587,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -5609,7 +5609,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -5712,7 +5712,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -5730,7 +5730,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -5739,7 +5739,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -5753,7 +5753,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6092,7 +6092,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -6107,7 +6107,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6156,7 +6156,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -6493,7 +6493,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -6508,7 +6508,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6552,7 +6552,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -6658,7 +6658,7 @@
     color: var(--Light-White);
     padding: 10rem 0 0 0;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6678,11 +6678,11 @@
 
   .BtnBrowse:hover {
     box-shadow: inset -3px -3px 5px 0px #5ca8ff,
-      -1px -1px 4px 0px var(--Lighter-Blue),
+      -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -6830,7 +6830,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -6871,7 +6871,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -7323,7 +7323,7 @@
     color: var(--Light-White);
     min-height: 35vh;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -7346,7 +7346,7 @@
     background: var(--Darker-Morph);
     font-weight: 800;
     text-align: center;
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .GridedHeader {
@@ -7453,9 +7453,9 @@
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    background: var(--Blue-Space);
-    box-shadow: inset -10px -10px 10px -1px var(--Darker-Blue),
-      inset 10px 10px 10px 1px var(--Dark-Blue);
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Darker-Green),
+      inset 10px 10px 10px 1px var(--Dark-Green);
     border-radius: 50%;
     padding: 1rem;
     animation-name: Entry;
@@ -7557,7 +7557,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -7571,8 +7571,8 @@
     font-size: 1.4vw;
     color: var(--Light-White);
     text-align: center;
-    box-shadow: 10px 10px 10px -1px var(--Darker-Blue),
-      -10px -10px 10px -1px var(--Dark-Blue);
+    box-shadow: 10px 10px 10px -1px var(--Darker-Green),
+      -10px -10px 10px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -7605,7 +7605,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -7656,7 +7656,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -7771,11 +7771,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -7793,7 +7793,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -7934,11 +7934,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -7956,7 +7956,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -8041,7 +8041,7 @@
     color: var(--Light-White);
     padding: 8rem 6rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -8140,12 +8140,12 @@
   }
 
   .RouselLink-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .RouselLink-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -8166,7 +8166,7 @@
     padding: .8em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -8349,7 +8349,7 @@
   }
 
   .TimeRangeLinkIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -8364,7 +8364,7 @@
   }
 
   .TimeRangeIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -8399,12 +8399,12 @@
     font-size: 1.5vw;
   }
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -8453,12 +8453,12 @@
     padding: 1em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Light-Space);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
   .TabFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
   
@@ -8581,7 +8581,7 @@
     grid-template-columns: 1fr minmax(100px, 7rem) 2fr 2fr 1fr;
     justify-content: center;
     align-content: end;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     padding: 1rem 1rem;
     border-radius: 1em 0 0 1em;
     margin: 4rem 0 0 2rem;
@@ -8817,17 +8817,17 @@
     background: var(--Dark-Space);
     color: var(--Lighter-White);
     box-shadow: inset -10px -10px 10px -1px var(--Darker-Black),
-                inset -10px -10px 10px -1px var(--Lighter-Blue);
+                inset -10px -10px 10px -1px var(--Lighter-Green);
     border-radius: 1em 1em 0 0;
   }
 
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -8854,7 +8854,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -8871,12 +8871,12 @@
   .PricebarFieldIcon {
     display: grid;
     border-radius:0;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .PricebarFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Cloud);
     cursor: pointer;
   }
@@ -9024,7 +9024,7 @@
     padding: 7rem 1rem;
     border-radius: .5rem .5rem .5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -9169,7 +9169,7 @@
     font-size: 1.2vw;
   }
   .FloatingMigrationLimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1.5rem 2.5rem;
     border-radius: 1em;
@@ -9292,7 +9292,7 @@
   }
 
   .LimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1rem 2.5rem;
     border-radius: 1em;
@@ -9316,14 +9316,14 @@
 
   .SubmitNavigateTitle {
     font-weight: 600;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     text-align: center;
     color: var(--Lighter-White);
     padding: 0.5rem 4rem;
     border-radius: 1rem;
     transition: all ease-in-out 300ms;
-    box-shadow: 2px 2px 2px -1px var(--Dark-Blue),
-      -2px -2px 2px -1px var(--Darker-Blue);
+    box-shadow: 2px 2px 2px -1px var(--Dark-Green),
+      -2px -2px 2px -1px var(--Darker-Green);
   }
 
   .SubmitNavigateTitle:hover {
@@ -9467,7 +9467,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -9499,7 +9499,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -9521,7 +9521,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -9855,11 +9855,11 @@
   }
 
   .RestaurantTitleI {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     font-family: var(--font-anton);
     color: var(--Lighter-White);
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
   }
 
 
@@ -9924,7 +9924,7 @@
 
   @keyframes AuthAnime {
     0% {
-      background: var(--Light-Blue);
+      background: var(--Light-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -9935,7 +9935,7 @@
       transition: all ease-in-out 300ms;
     }
     80% {
-      background: var(--Lighter-Blue);
+      background: var(--Lighter-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -10429,7 +10429,7 @@
 
   .DropDownBg {
     transition: all ease-in-out 100ms;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(1, 1fr);
@@ -10848,7 +10848,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -10863,7 +10863,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -10885,7 +10885,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -10988,7 +10988,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -11006,7 +11006,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -11015,7 +11015,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -11029,7 +11029,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -11368,7 +11368,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -11383,7 +11383,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -11432,7 +11432,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -11769,7 +11769,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -11784,7 +11784,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -11828,7 +11828,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -11934,7 +11934,7 @@
     color: var(--Light-White);
     padding: 10rem 0 0 0;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -11954,11 +11954,11 @@
 
   .BtnBrowse:hover {
     box-shadow: inset -3px -3px 5px 0px #5ca8ff,
-      -1px -1px 4px 0px var(--Lighter-Blue),
+      -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -12106,7 +12106,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -12147,7 +12147,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -12599,7 +12599,7 @@
     color: var(--Light-White);
     min-height: 35vh;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -12622,7 +12622,7 @@
     background: var(--Darker-Morph);
     font-weight: 800;
     text-align: center;
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .GridedHeader {
@@ -12729,9 +12729,9 @@
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    background: var(--Blue-Space);
-    box-shadow: inset -10px -10px 10px -1px var(--Darker-Blue),
-      inset 10px 10px 10px 1px var(--Dark-Blue);
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Darker-Green),
+      inset 10px 10px 10px 1px var(--Dark-Green);
     border-radius: 50%;
     padding: 1rem;
     animation-name: Entry;
@@ -12833,7 +12833,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -12847,8 +12847,8 @@
     font-size: 1.4vw;
     color: var(--Light-White);
     text-align: center;
-    box-shadow: 10px 10px 10px -1px var(--Darker-Blue),
-      -10px -10px 10px -1px var(--Dark-Blue);
+    box-shadow: 10px 10px 10px -1px var(--Darker-Green),
+      -10px -10px 10px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -12881,7 +12881,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -12932,7 +12932,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -13047,11 +13047,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -13069,7 +13069,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -13210,11 +13210,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -13232,7 +13232,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -13317,7 +13317,7 @@
     color: var(--Light-White);
     padding: 8rem 6rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -13416,12 +13416,12 @@
   }
 
   .RouselLink-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .RouselLink-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -13442,7 +13442,7 @@
     padding: .8em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -13625,7 +13625,7 @@
   }
 
   .TimeRangeLinkIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -13640,7 +13640,7 @@
   }
 
   .TimeRangeIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -13675,12 +13675,12 @@
     font-size: 1.5vw;
   }
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -13729,12 +13729,12 @@
     padding: 1em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Light-Space);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
   .TabFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
   
@@ -13857,7 +13857,7 @@
     grid-template-columns: 1fr minmax(100px, 7rem) 2fr 2fr 1fr;
     justify-content: center;
     align-content: end;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     padding: 1rem 1rem;
     border-radius: 1em 0 0 1em;
     margin: 4rem 0 0 2rem;
@@ -14093,17 +14093,17 @@
     background: var(--Dark-Space);
     color: var(--Lighter-White);
     box-shadow: inset -10px -10px 10px -1px var(--Darker-Black),
-                inset -10px -10px 10px -1px var(--Lighter-Blue);
+                inset -10px -10px 10px -1px var(--Lighter-Green);
     border-radius: 1em 1em 0 0;
   }
 
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -14130,7 +14130,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -14147,12 +14147,12 @@
   .PricebarFieldIcon {
     display: grid;
     border-radius:0;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .PricebarFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Cloud);
     cursor: pointer;
   }
@@ -14300,7 +14300,7 @@
     padding: 7rem 1rem;
     border-radius: .5rem .5rem .5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -14445,7 +14445,7 @@
     font-size: 1.2vw;
   }
   .FloatingMigrationLimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1.5rem 2.5rem;
     border-radius: 1em;
@@ -14568,7 +14568,7 @@
   }
 
   .LimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1rem 2.5rem;
     border-radius: 1em;
@@ -14592,14 +14592,14 @@
 
   .SubmitNavigateTitle {
     font-weight: 600;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     text-align: center;
     color: var(--Lighter-White);
     padding: 0.5rem 4rem;
     border-radius: 1rem;
     transition: all ease-in-out 300ms;
-    box-shadow: 2px 2px 2px -1px var(--Dark-Blue),
-      -2px -2px 2px -1px var(--Darker-Blue);
+    box-shadow: 2px 2px 2px -1px var(--Dark-Green),
+      -2px -2px 2px -1px var(--Darker-Green);
   }
 
   .SubmitNavigateTitle:hover {
@@ -14743,7 +14743,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -14775,7 +14775,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -14797,7 +14797,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -15131,11 +15131,11 @@
   }
 
   .RestaurantTitleI {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     font-family: var(--font-anton);
     color: var(--Lighter-White);
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
   }
 
 
@@ -15200,7 +15200,7 @@
 
   @keyframes AuthAnime {
     0% {
-      background: var(--Light-Blue);
+      background: var(--Light-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -15211,7 +15211,7 @@
       transition: all ease-in-out 300ms;
     }
     80% {
-      background: var(--Lighter-Blue);
+      background: var(--Lighter-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -15704,7 +15704,7 @@
 
   .DropDownBg {
     transition: all ease-in-out 100ms;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(1, 1fr);
@@ -16123,7 +16123,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -16138,7 +16138,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -16160,7 +16160,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -16263,7 +16263,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -16281,7 +16281,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -16290,7 +16290,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -16304,7 +16304,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -16643,7 +16643,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -16658,7 +16658,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -16707,7 +16707,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17044,7 +17044,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -17059,7 +17059,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -17103,7 +17103,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17209,7 +17209,7 @@
     color: var(--Light-White);
     padding: 10rem 0 0 0;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -17229,11 +17229,11 @@
 
   .BtnBrowse:hover {
     box-shadow: inset -3px -3px 5px 0px #5ca8ff,
-      -1px -1px 4px 0px var(--Lighter-Blue),
+      -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -17381,7 +17381,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17422,7 +17422,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17874,7 +17874,7 @@
     color: var(--Light-White);
     min-height: 35vh;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -17897,7 +17897,7 @@
     background: var(--Darker-Morph);
     font-weight: 800;
     text-align: center;
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .GridedHeader {
@@ -18004,9 +18004,9 @@
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    background: var(--Blue-Space);
-    box-shadow: inset -10px -10px 10px -1px var(--Darker-Blue),
-      inset 10px 10px 10px 1px var(--Dark-Blue);
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Darker-Green),
+      inset 10px 10px 10px 1px var(--Dark-Green);
     border-radius: 50%;
     padding: 1rem;
     animation-name: Entry;
@@ -18108,7 +18108,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -18122,8 +18122,8 @@
     font-size: 1.4vw;
     color: var(--Light-White);
     text-align: center;
-    box-shadow: 10px 10px 10px -1px var(--Darker-Blue),
-      -10px -10px 10px -1px var(--Dark-Blue);
+    box-shadow: 10px 10px 10px -1px var(--Darker-Green),
+      -10px -10px 10px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -18156,7 +18156,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -18207,7 +18207,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -18322,11 +18322,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -18344,7 +18344,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -18485,11 +18485,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -18507,7 +18507,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -18592,7 +18592,7 @@
     color: var(--Light-White);
     padding: 8rem 6rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -18691,12 +18691,12 @@
   }
 
   .RouselLink-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .RouselLink-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -18717,7 +18717,7 @@
     padding: .8em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -18900,7 +18900,7 @@
   }
 
   .TimeRangeLinkIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -18915,7 +18915,7 @@
   }
 
   .TimeRangeIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -18950,12 +18950,12 @@
     font-size: 1.5vw;
   }
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -19004,12 +19004,12 @@
     padding: 1em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Light-Space);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
   .TabFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
   
@@ -19132,7 +19132,7 @@
     grid-template-columns: 1fr minmax(100px, 7rem) 2fr 2fr 1fr;
     justify-content: center;
     align-content: end;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     padding: 1rem 1rem;
     border-radius: 1em 0 0 1em;
     margin: 4rem 0 0 2rem;
@@ -19368,17 +19368,17 @@
     background: var(--Dark-Space);
     color: var(--Lighter-White);
     box-shadow: inset -10px -10px 10px -1px var(--Darker-Black),
-                inset -10px -10px 10px -1px var(--Lighter-Blue);
+                inset -10px -10px 10px -1px var(--Lighter-Green);
     border-radius: 1em 1em 0 0;
   }
 
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -19405,7 +19405,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -19422,12 +19422,12 @@
   .PricebarFieldIcon {
     display: grid;
     border-radius:0;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .PricebarFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Cloud);
     cursor: pointer;
   }
@@ -19575,7 +19575,7 @@
     padding: 7rem 1rem;
     border-radius: .5rem .5rem .5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -19720,7 +19720,7 @@
     font-size: 1.2vw;
   }
   .FloatingMigrationLimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1.5rem 2.5rem;
     border-radius: 1em;
@@ -19843,7 +19843,7 @@
   }
 
   .LimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1rem 2.5rem;
     border-radius: 1em;
@@ -19867,14 +19867,14 @@
 
   .SubmitNavigateTitle {
     font-weight: 600;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     text-align: center;
     color: var(--Lighter-White);
     padding: 0.5rem 4rem;
     border-radius: 1rem;
     transition: all ease-in-out 300ms;
-    box-shadow: 2px 2px 2px -1px var(--Dark-Blue),
-      -2px -2px 2px -1px var(--Darker-Blue);
+    box-shadow: 2px 2px 2px -1px var(--Dark-Green),
+      -2px -2px 2px -1px var(--Darker-Green);
   }
 
   .SubmitNavigateTitle:hover {
@@ -20018,7 +20018,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -20050,7 +20050,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -20072,7 +20072,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -20406,11 +20406,11 @@
   }
 
   .RestaurantTitleI {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     font-family: var(--font-anton);
     color: var(--Lighter-White);
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
   }
 
   .RestaurantTitleAuth {
@@ -20474,7 +20474,7 @@
 
   @keyframes AuthAnime {
     0% {
-      background: var(--Light-Blue);
+      background: var(--Light-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -20485,7 +20485,7 @@
       transition: all ease-in-out 300ms;
     }
     80% {
-      background: var(--Lighter-Blue);
+      background: var(--Lighter-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -20971,7 +20971,7 @@
 
   .DropDownBg {
     transition: all ease-in-out 100ms;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(1, 1fr);
@@ -21390,7 +21390,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -21405,7 +21405,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -21427,7 +21427,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -21530,7 +21530,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -21548,7 +21548,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -21557,7 +21557,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -21571,7 +21571,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -21910,7 +21910,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -21925,7 +21925,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -21974,7 +21974,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -22311,7 +22311,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -22326,7 +22326,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -22370,7 +22370,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -22476,7 +22476,7 @@
     color: var(--Light-White);
     padding: 10rem 0 0 0;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -22496,11 +22496,11 @@
 
   .BtnBrowse:hover {
     box-shadow: inset -3px -3px 5px 0px #5ca8ff,
-      -1px -1px 4px 0px var(--Lighter-Blue),
+      -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -22648,7 +22648,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -22689,7 +22689,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -23141,7 +23141,7 @@
     color: var(--Light-White);
     min-height: 35vh;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -23164,7 +23164,7 @@
     background: var(--Darker-Morph);
     font-weight: 800;
     text-align: center;
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .GridedHeader {
@@ -23271,9 +23271,9 @@
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    background: var(--Blue-Space);
-    box-shadow: inset -10px -10px 10px -1px var(--Darker-Blue),
-      inset 10px 10px 10px 1px var(--Dark-Blue);
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Darker-Green),
+      inset 10px 10px 10px 1px var(--Dark-Green);
     border-radius: 50%;
     padding: 1rem;
     animation-name: Entry;
@@ -23375,7 +23375,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -23389,8 +23389,8 @@
     font-size: 1.4vw;
     color: var(--Light-White);
     text-align: center;
-    box-shadow: 10px 10px 10px -1px var(--Darker-Blue),
-      -10px -10px 10px -1px var(--Dark-Blue);
+    box-shadow: 10px 10px 10px -1px var(--Darker-Green),
+      -10px -10px 10px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -23423,7 +23423,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -23474,7 +23474,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -23589,11 +23589,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -23611,7 +23611,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -23752,11 +23752,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -23774,7 +23774,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -23859,7 +23859,7 @@
     color: var(--Light-White);
     padding: 8rem 6rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -23958,12 +23958,12 @@
   }
 
   .RouselLink-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .RouselLink-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -23984,7 +23984,7 @@
     padding: .8em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -24167,7 +24167,7 @@
   }
 
   .TimeRangeLinkIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -24182,7 +24182,7 @@
   }
 
   .TimeRangeIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -24217,12 +24217,12 @@
     font-size: 1.5vw;
   }
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -24271,12 +24271,12 @@
     padding: 1em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Light-Space);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
   .TabFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
   
@@ -24399,7 +24399,7 @@
     grid-template-columns: 1fr minmax(100px, 7rem) 2fr 2fr 1fr;
     justify-content: center;
     align-content: end;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     padding: 1rem 1rem;
     border-radius: 1em 0 0 1em;
     margin: 4rem 0 0 2rem;
@@ -24635,17 +24635,17 @@
     background: var(--Dark-Space);
     color: var(--Lighter-White);
     box-shadow: inset -10px -10px 10px -1px var(--Darker-Black),
-                inset -10px -10px 10px -1px var(--Lighter-Blue);
+                inset -10px -10px 10px -1px var(--Lighter-Green);
     border-radius: 1em 1em 0 0;
   }
 
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -24672,7 +24672,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -24689,12 +24689,12 @@
   .PricebarFieldIcon {
     display: grid;
     border-radius:0;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .PricebarFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Cloud);
     cursor: pointer;
   }
@@ -24842,7 +24842,7 @@
     padding: 7rem 1rem;
     border-radius: .5rem .5rem .5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -24987,7 +24987,7 @@
     font-size: 1.2vw;
   }
   .FloatingMigrationLimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1.5rem 2.5rem;
     border-radius: 1em;
@@ -25110,7 +25110,7 @@
   }
 
   .LimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1rem 2.5rem;
     border-radius: 1em;
@@ -25134,14 +25134,14 @@
 
   .SubmitNavigateTitle {
     font-weight: 600;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     text-align: center;
     color: var(--Lighter-White);
     padding: 0.5rem 4rem;
     border-radius: 1rem;
     transition: all ease-in-out 300ms;
-    box-shadow: 2px 2px 2px -1px var(--Dark-Blue),
-      -2px -2px 2px -1px var(--Darker-Blue);
+    box-shadow: 2px 2px 2px -1px var(--Dark-Green),
+      -2px -2px 2px -1px var(--Darker-Green);
   }
 
   .SubmitNavigateTitle:hover {
@@ -25285,7 +25285,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -25317,7 +25317,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -25339,7 +25339,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -25674,11 +25674,11 @@
 
   .RestaurantTitleI {
 
-    font-size: 1.4rem;
+    font-size: .8rem;
     font-weight: 500;
     font-family: var(--font-anton);
     color: var(--Lighter-White);
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
   }
 
 
@@ -25743,7 +25743,7 @@
 
   @keyframes AuthAnime {
     0% {
-      background: var(--Light-Blue);
+      background: var(--Light-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -25754,7 +25754,7 @@
       transition: all ease-in-out 300ms;
     }
     80% {
-      background: var(--Lighter-Blue);
+      background: var(--Lighter-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -26240,7 +26240,7 @@
 
   .DropDownBg {
     transition: all ease-in-out 100ms;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(1, 1fr);
@@ -26660,7 +26660,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -26675,7 +26675,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -26697,7 +26697,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -26800,7 +26800,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -26818,7 +26818,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -26827,7 +26827,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -26841,7 +26841,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -27180,7 +27180,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -27195,7 +27195,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -27244,7 +27244,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -27581,7 +27581,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -27596,7 +27596,7 @@
     text-align: center;
     cursor: pointer;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -27640,7 +27640,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -27746,7 +27746,7 @@
     color: var(--Light-White);
     padding: 10rem 0 0 0;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -27766,11 +27766,11 @@
 
   .BtnBrowse:hover {
     box-shadow: inset -3px -3px 5px 0px #5ca8ff,
-      -1px -1px 4px 0px var(--Lighter-Blue),
+      -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -27918,7 +27918,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -27959,7 +27959,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -28411,7 +28411,7 @@
     color: var(--Light-White);
     min-height: 35vh;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -28434,7 +28434,7 @@
     background: var(--Darker-Morph);
     font-weight: 800;
     text-align: center;
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .GridedHeader {
@@ -28541,9 +28541,9 @@
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    background: var(--Blue-Space);
-    box-shadow: inset -10px -10px 10px -1px var(--Darker-Blue),
-      inset 10px 10px 10px 1px var(--Dark-Blue);
+    background: var(--Green-Space);
+    box-shadow: inset -10px -10px 10px -1px var(--Darker-Green),
+      inset 10px 10px 10px 1px var(--Dark-Green);
     border-radius: 50%;
     padding: 1rem;
     animation-name: Entry;
@@ -28645,7 +28645,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -28659,8 +28659,8 @@
     font-size: 1.4vw;
     color: var(--Light-White);
     text-align: center;
-    box-shadow: 10px 10px 10px -1px var(--Darker-Blue),
-      -10px -10px 10px -1px var(--Dark-Blue);
+    box-shadow: 10px 10px 10px -1px var(--Darker-Green),
+      -10px -10px 10px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -28693,7 +28693,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -28744,7 +28744,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -28859,11 +28859,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -28881,7 +28881,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -29022,11 +29022,11 @@
     color: var(--Lighter-White);
     transition: all ease-in-out 300ms;
     box-shadow: 4px 4px 4px -1px var(--Light-Black),
-      -4px -4px 4px -1px var(--Dark-Blue);
+      -4px -4px 4px -1px var(--Dark-Green);
   }
 
   .FieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
   }
 
   .FieldElement {
@@ -29044,7 +29044,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -29129,7 +29129,7 @@
     color: var(--Light-White);
     padding: 8rem 6rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -29228,12 +29228,12 @@
   }
 
   .RouselLink-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .RouselLink-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -29254,7 +29254,7 @@
     padding: .8em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -29437,7 +29437,7 @@
   }
 
   .TimeRangeLinkIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -29452,7 +29452,7 @@
   }
 
   .TimeRangeIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
 
@@ -29487,12 +29487,12 @@
     font-size: 1.5vw;
   }
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -29541,12 +29541,12 @@
     padding: 1em;
     border-radius: 0 0.5rem 0.5rem 0;
     background: var(--Light-Space);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
   .TabFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Space);
   }
   
@@ -29669,7 +29669,7 @@
     grid-template-columns: 1fr minmax(100px, 7rem) 2fr 2fr 1fr;
     justify-content: center;
     align-content: end;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     padding: 1rem 1rem;
     border-radius: 1em 0 0 1em;
     margin: 4rem 0 0 2rem;
@@ -29905,17 +29905,17 @@
     background: var(--Dark-Space);
     color: var(--Lighter-White);
     box-shadow: inset -10px -10px 10px -1px var(--Darker-Black),
-                inset -10px -10px 10px -1px var(--Lighter-Blue);
+                inset -10px -10px 10px -1px var(--Lighter-Green);
     border-radius: 1em 1em 0 0;
   }
 
   .Link-PadLink:hover {
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     font-size: 1.1vw;
   }
 
   .Link-PadLinkII:hover {
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     font-size: 1vw;
   }
 
@@ -29942,7 +29942,7 @@
     color: var(--Light-White);
     padding: 8rem 4rem;
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -29959,12 +29959,12 @@
   .PricebarFieldIcon {
     display: grid;
     border-radius:0;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .PricebarFieldIcon:hover {
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     background: var(--Dark-Cloud);
     cursor: pointer;
   }
@@ -30112,7 +30112,7 @@
     padding: 7rem 1rem;
     border-radius: .5rem .5rem .5rem 0;
     background: var(--Dark-White);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -30257,7 +30257,7 @@
     font-size: 1.2vw;
   }
   .FloatingMigrationLimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1.5rem 2.5rem;
     border-radius: 1em;
@@ -30380,7 +30380,7 @@
   }
 
   .LimitedCo {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     color: var(--Light-White);
     padding: 1rem 2.5rem;
     border-radius: 1em;
@@ -30404,14 +30404,14 @@
 
   .SubmitNavigateTitle {
     font-weight: 600;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     text-align: center;
     color: var(--Lighter-White);
     padding: 0.5rem 4rem;
     border-radius: 1rem;
     transition: all ease-in-out 300ms;
-    box-shadow: 2px 2px 2px -1px var(--Dark-Blue),
-      -2px -2px 2px -1px var(--Darker-Blue);
+    box-shadow: 2px 2px 2px -1px var(--Dark-Green),
+      -2px -2px 2px -1px var(--Darker-Green);
   }
 
   .SubmitNavigateTitle:hover {
@@ -30555,7 +30555,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     box-shadow: inset -3px -3px 5px 0px #302c2c,
-      -1px -1px 4px 0px var(--Darker-Blue),
+      -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -30587,7 +30587,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -30609,7 +30609,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -30943,11 +30943,11 @@
   }
 
   .RestaurantTitleI {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     font-family: var(--font-anton);
     color: var(--Lighter-White);
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
   }
 
   .RestaurantTitleAuth {
@@ -31011,7 +31011,7 @@
 
   @keyframes AuthAnime {
     0% {
-      background: var(--Light-Blue);
+      background: var(--Light-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -31022,7 +31022,7 @@
       transition: all ease-in-out 300ms;
     }
     80% {
-      background: var(--Lighter-Blue);
+      background: var(--Lighter-Green);
       color: var(--Darker-Black);
       transition: all ease-in-out 300ms;
     }
@@ -31508,7 +31508,7 @@
 
   .DropDownBg {
     transition: all ease-in-out 100ms;
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(1, 1fr);
