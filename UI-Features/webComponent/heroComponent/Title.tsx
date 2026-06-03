@@ -7,26 +7,26 @@ export default function CancerComponentTitle() {
         <div className={styles.FooterTitleModuleI}>
           <div className={styles.GridedFooterModule}>
             <div className={styles.ShopTitle}>
-              <h1
-                className={styles.MainSubTitle}
-
-              >
-                In the<span className={styles.TitleWolf}> Spirit </span>|<span className={styles.MainSubTitleI}>that refuses to <span className={styles.TitleWolf}>give up</span></span>
-              </h1>
+              <h1 className={styles.MainSubTitle}>
+  Meet <span className={styles.TitleWolf}>Alkiboss</span> | The Creator Who Turns
+  <span className={styles.MainSubTitleI}> Everyday Moments Into <span className={styles.TitleWolf}>Comedy Gold</span></span>
+</h1>
             </div>
             <div className={styles.WithTitle}>
-              <h2>We Rise. We Empower. We Inspire.</h2>
+              <h2>Millions Laugh. Millions Watch. The Story Continues.</h2>
             </div>
             <div className={styles.VisionTitle}>
               <h3>
-                Be part of a journey where limitations turn into possibilities, and challenges become victories, Together, we rise, we empower, we inspire.
+                From hilarious skits to unforgettable characters, discover the content
+  that has captured millions of views and built a community that keeps
+  coming back for more.
               </h3>
             </div>
             <div className={styles.Button}>
               <div
                 className={`${styles["DetectionProductGridNumberI"]} ${styles["DetectionProductGridBgI"]}`}
               >
-                <Link href="/LaunchingSoon">View Our Disability Schedule</Link>
+                <Link href="#AllContent">Watch The Latest Comedy</Link>
               </div>
             </div>
           </div>
