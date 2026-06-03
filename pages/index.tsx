@@ -58,12 +58,12 @@ export default function Home() {
 
     <meta
         property="og:image"
-        content="https://yourdomain.com/images/og-image.jpg"
+        content="https://alkiboss.vercel.app/MyPortraits/MainC.jpg"
     />
 
     <meta
         property="og:url"
-        content="https://yourdomain.com"
+        content="https://alkiboss.vercel.app"
     />
 
     <meta
@@ -78,23 +78,23 @@ export default function Home() {
 
     {/* Twitter / X */}
     <meta
-        name="twitter:card"
+        name="instagram:card"
         content="summary_large_image"
     />
 
     <meta
-        name="twitter:title"
+        name="instagram:title"
         content="Adrien (Alkiboss) | Urban Afro Fusion Creator & Entertainer"
     />
 
     <meta
-        name="twitter:description"
+        name="instagram:description"
         content="Comedy, culture, creativity, and unforgettable entertainment. Explore the official world of Adrien (Alkiboss)."
     />
 
     <meta
-        name="twitter:image"
-        content="https://yourdomain.com/images/twitter-image.jpg"
+        name="instagram:image"
+        content="https://www.instagram.com/p/DXZHKjpDb2y/"
     />
 
     {/* Search Engine Identity */}
