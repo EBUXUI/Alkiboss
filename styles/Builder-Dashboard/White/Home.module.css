@@ -2817,7 +2817,7 @@
 
   
   .BookNow {
-    font-size: .8rem;
+    font-size: .5rem;
     font-weight: 800;
     background: var(--Dark-Space);
     padding: .5rem 1rem;
@@ -2840,7 +2840,7 @@
     justify-content: center;
     text-align: center;
     color: var(--Darker-Black);
-    font-size: 2rem;
+    font-size: 1rem;
     gap: .5rem;
   }
 
@@ -2852,7 +2852,7 @@
     display: grid;
     text-align: center;
     color: var(--Darker-Black);
-    font-size: 1rem;
+    font-size: .75rem;
 
   }
 
@@ -2871,7 +2871,7 @@
   
   .MainTitle {
     font-weight: 600;
-    font-size: 0.7vw;
+    font-size: .3rem;
     color: var(--Darker-Black);
     transition: all ease-in-out 300ms;
   }
