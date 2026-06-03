@@ -2800,14 +2800,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 0 0;
-    gap: 2rem;
+    margin: .6rem 0 0 0;
+    gap: .6rem;
 
   }
 
     .MainIcon {
     grid-column: span 2;
-    border-radius: 5rem;
+    border-radius: 3rem;
   }
 
   
