@@ -88,7 +88,7 @@
     background: var(--Light-Cloud);
     color: var(--Light-White);
     min-height: 35vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -215,7 +215,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -408,7 +408,7 @@
   }
 
   .TitleWolf{
-    color: var(--Light-Blue);
+    color: var(--Light-Green);
   }
 
   
@@ -433,7 +433,7 @@
     font-size: 4vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     text-align: center;
   }
 
@@ -734,7 +734,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     max-height: 20vh;
@@ -748,7 +748,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -831,7 +831,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -928,7 +928,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -942,7 +942,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1101,7 +1101,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -1241,7 +1241,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -1255,7 +1255,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1397,7 +1397,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 80vw;
     padding: 4rem 0;
@@ -1412,7 +1412,7 @@
     padding: 10rem 0;
     min-width: 45vw;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1421,7 +1421,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 10rem 0;
@@ -1434,7 +1434,7 @@
     color: var(--Dark-Black);
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1535,7 +1535,7 @@
   .Welcomehero {
     max-width: 100vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -1604,7 +1604,7 @@
 
   .CoProducts {
     font-size: 5vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -1681,7 +1681,7 @@
     background: var(--Dark-Black);
     color: var(--Light-White);
     padding: 8rem 4.5rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1885,7 +1885,7 @@
   }
 
   .Products h1:hover {
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1rem Green;
     background: black;
     color: white;
     cursor: pointer;
@@ -1954,7 +1954,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -2080,7 +2080,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     min-height: 25vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -2102,11 +2102,11 @@
 
 
   .BtnBrowse:hover {
-    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Blue),
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
 
   }
@@ -2273,7 +2273,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -2797,7 +2797,7 @@
   .FooterGridElement:hover {
     background: var(--Dark-Cloud);
     color: var(--Light-White);
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -2831,7 +2831,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -2855,7 +2855,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -3029,7 +3029,7 @@
     background: var(--Light-Cloud);
     color: var(--Light-White);
     min-height: 35vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -3153,7 +3153,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -3346,7 +3346,7 @@
   }
 
   .TitleWolf{
-    color: var(--Light-Blue);
+    color: var(--Light-Green);
   }
 
   
@@ -3371,7 +3371,7 @@
     font-size: 4vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     text-align: center;
   }
 
@@ -3588,7 +3588,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 20vh;
@@ -3602,7 +3602,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -3663,7 +3663,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -3803,7 +3803,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -3817,7 +3817,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -3957,7 +3957,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 80vw;
     padding: 4rem 0;
@@ -3972,7 +3972,7 @@
     padding: 10rem 0;
     min-width: 45vw;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -3986,7 +3986,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 10rem 0;
@@ -3999,7 +3999,7 @@
     color: var(--Dark-Black);
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -4248,7 +4248,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     max-height: 20vh;
@@ -4262,7 +4262,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -4345,7 +4345,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -4514,7 +4514,7 @@
   .Welcomehero {
     max-width: 100vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -4581,7 +4581,7 @@
 
   .CoProducts {
     font-size: 5vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -4659,7 +4659,7 @@
     background: var(--Dark-Black);
     color: var(--Light-White);
     padding: 4rem 1rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -4830,7 +4830,7 @@
   }
 
   .Products h1:hover {
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1rem Green;
     background: black;
     color: white;
     cursor: pointer;
@@ -4901,7 +4901,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -5145,7 +5145,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     min-height: 25vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -5163,11 +5163,11 @@
   }
 
   .BtnBrowse:hover {
-    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Blue),
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
 
   }
@@ -5313,7 +5313,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -5720,7 +5720,7 @@
   .FooterGridElement:hover {
     background: var(--Dark-Cloud);
     color: var(--Light-White);
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -5754,7 +5754,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -5778,7 +5778,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -6025,7 +6025,7 @@
   }
 
   .Products h1:hover {
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1rem Green;
     background: black;
     color: white;
     cursor: pointer;
@@ -6262,7 +6262,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -6276,7 +6276,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6298,7 +6298,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -6410,7 +6410,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 80vw;
     padding: 4rem 0;
@@ -6425,7 +6425,7 @@
     padding: 10rem 0;
     min-width: 45vw;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6434,7 +6434,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -6447,7 +6447,7 @@
     color: var(--Dark-Black);
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6802,7 +6802,7 @@
 
   .MainProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 25vw;
     max-height: 40vh;
@@ -6816,7 +6816,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -6938,7 +6938,7 @@
   }
 
   .TitleWolf{
-    color: var(--Light-Blue);
+    color: var(--Light-Green);
   }
 
   
@@ -6963,7 +6963,7 @@
     font-size: 4vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     text-align: center;
   }
 
@@ -7037,7 +7037,7 @@
   .HeroModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -7407,7 +7407,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     max-height: 20vh;
@@ -7421,7 +7421,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -7468,7 +7468,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -7579,7 +7579,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     padding: 4rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -7599,11 +7599,11 @@
   }
 
   .BtnBrowse:hover {
-    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Blue),
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
 
   }
@@ -7752,7 +7752,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -7790,7 +7790,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -8231,7 +8231,7 @@
     background: var(--Light-Cloud);
     color: var(--Light-White);
     min-height: 35vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -8460,7 +8460,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -8512,7 +8512,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -8575,7 +8575,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -8683,7 +8683,7 @@
     background: var(--Dark-Black);
     color: var(--Light-White);
     padding: 8rem 6rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -8839,7 +8839,7 @@
   .FooterGridElement:hover {
     background: var(--Dark-Cloud);
     color: var(--Light-White);
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -8871,7 +8871,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -8895,7 +8895,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -9043,7 +9043,7 @@
   }
 
   .Products h1:hover {
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1rem Green;
     background: black;
     color: white;
     cursor: pointer;
@@ -9178,14 +9178,14 @@
     background: var(--Light-Morph);
     font-weight: 800;
     font-family: var(--Bold-font);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     min-width: 40vw;
     min-height: 10vh;
     border-radius: 2rem;
     margin: 2em 0;
     font-size: 1.2vw;
-    box-shadow: 3px 3px 3px -1px var(--Dark-Blue),
-      3px 3px 3px -1px var(--Darker-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Dark-Green),
+      3px 3px 3px -1px var(--Darker-Green);
   }
 
 
@@ -9334,7 +9334,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -9348,7 +9348,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -9370,7 +9370,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -9480,7 +9480,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -9495,7 +9495,7 @@
     padding: 10rem 0;
     min-width: 45vw;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -9504,7 +9504,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -9517,7 +9517,7 @@
     color: var(--Dark-Black);
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -10133,7 +10133,7 @@
   }
 
   .TitleWolf{
-    color: var(--Light-Blue);
+    color: var(--Light-Green);
   }
 
   
@@ -10158,7 +10158,7 @@
     font-size: 4vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     text-align: center;
   }
 
@@ -10191,8 +10191,8 @@
     font-family: var(--Italic-font);
     color: var(--Darker-Grey);
     backdrop-filter: blur(2em);
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     max-width: 30vw;
     display: grid;
     place-self: center;
@@ -10203,7 +10203,7 @@
     font-size: 3vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
   }
 
   .WithTitle {
@@ -10245,7 +10245,7 @@
   }
 
   .DetectionProductGridBgI {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -10254,13 +10254,13 @@
   }
 
   .DetectionProductGridBgI:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .DonationProductGridBgI {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -10269,8 +10269,8 @@
   }
 
   .DonationProductGridBgI:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -10287,7 +10287,7 @@
   }
 
   .DonationProductGridBgII {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -10296,8 +10296,8 @@
   }
 
   .DonationProductGridBgII:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -10315,7 +10315,7 @@
   }
 
   .DonationProductGridBgIV {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -10323,8 +10323,8 @@
   }
 
   .DonationProductGridBgIV:hover {
-    box-shadow: 3px 3px 3px -1px var(--Dark-Blue),
-      3px 3px 3px -1px var(--Darker-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Dark-Green),
+      3px 3px 3px -1px var(--Darker-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -10612,7 +10612,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -10626,7 +10626,7 @@
     padding: 0 0 3rem 0;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -10672,7 +10672,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -10783,7 +10783,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     padding: 0 0 6rem 0;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -10803,11 +10803,11 @@
   }
 
   .BtnBrowse:hover {
-    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Blue),
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
 
   }
@@ -10956,7 +10956,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -10994,7 +10994,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -11480,7 +11480,7 @@
     background: var(--Light-Cloud);
     color: var(--Light-White);
     min-height: 35vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -11727,7 +11727,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -11779,7 +11779,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -11842,7 +11842,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -11943,7 +11943,7 @@
     background: var(--Dark-Black);
     color: var(--Light-White);
     padding: 8rem 4rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -12091,7 +12091,7 @@
   .FooterGridElement:hover {
     background: var(--Dark-Cloud);
     color: var(--Light-White);
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -12123,7 +12123,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -12147,7 +12147,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -12250,7 +12250,7 @@
   }
 
   .Products h1:hover {
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1rem Green;
     background: black;
     color: white;
     cursor: pointer;
@@ -12385,14 +12385,14 @@
     background: var(--Light-Morph);
     font-weight: 800;
     font-family: var(--Bold-font);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     min-width: 40vw;
     min-height: 10vh;
     border-radius: 2rem;
     margin: 2em 0;
     font-size: 1.2vw;
-    box-shadow: 3px 3px 3px -1px var(--Dark-Blue),
-      3px 3px 3px -1px var(--Darker-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Dark-Green),
+      3px 3px 3px -1px var(--Darker-Green);
   }
 
 
@@ -12541,7 +12541,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -12555,7 +12555,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -12577,7 +12577,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -12687,7 +12687,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -12702,7 +12702,7 @@
     padding: 10rem 0;
     min-width: 45vw;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -12711,7 +12711,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -12724,7 +12724,7 @@
     color: var(--Dark-Black);
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -13340,7 +13340,7 @@
   }
 
   .TitleWolf{
-    color: var(--Light-Blue);
+    color: var(--Light-Green);
   }
 
   
@@ -13365,7 +13365,7 @@
     font-size: 4vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     text-align: center;
   }
 
@@ -13398,8 +13398,8 @@
     font-family: var(--Italic-font);
     color: var(--Darker-Grey);
     backdrop-filter: blur(2em);
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     max-width: 30vw;
     display: grid;
     place-self: center;
@@ -13410,7 +13410,7 @@
     font-size: 3vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
   }
 
   .WithTitle {
@@ -13452,7 +13452,7 @@
   }
 
   .DetectionProductGridBgI {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -13461,13 +13461,13 @@
   }
 
   .DetectionProductGridBgI:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .DonationProductGridBgI {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -13476,8 +13476,8 @@
   }
 
   .DonationProductGridBgI:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -13494,7 +13494,7 @@
   }
 
   .DonationProductGridBgII {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -13503,8 +13503,8 @@
   }
 
   .DonationProductGridBgII:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -13522,7 +13522,7 @@
   }
 
   .DonationProductGridBgIV {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -13530,8 +13530,8 @@
   }
 
   .DonationProductGridBgIV:hover {
-    box-shadow: 3px 3px 3px -1px var(--Dark-Blue),
-      3px 3px 3px -1px var(--Darker-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Dark-Green),
+      3px 3px 3px -1px var(--Darker-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -13819,7 +13819,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -13833,7 +13833,7 @@
     padding: 0 0 3rem 0;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -13879,7 +13879,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -13990,7 +13990,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     padding: 0 0 6rem 0;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -14010,11 +14010,11 @@
   }
 
   .BtnBrowse:hover {
-    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Blue),
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
 
   }
@@ -14163,7 +14163,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -14201,7 +14201,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -14687,7 +14687,7 @@
     background: var(--Light-Cloud);
     color: var(--Light-White);
     min-height: 35vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -14934,7 +14934,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -14986,7 +14986,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -15049,7 +15049,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -15150,7 +15150,7 @@
     background: var(--Dark-Black);
     color: var(--Light-White);
     padding: 8rem 4rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -15298,7 +15298,7 @@
   .FooterGridElement:hover {
     background: var(--Dark-Cloud);
     color: var(--Light-White);
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -15330,7 +15330,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -15354,7 +15354,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
@@ -15462,7 +15462,7 @@
   }
 
   .Products h1:hover {
-    box-shadow: 0 0 1rem blue;
+    box-shadow: 0 0 1rem Green;
     background: black;
     color: white;
     cursor: pointer;
@@ -15597,14 +15597,14 @@
     background: var(--Light-Morph);
     font-weight: 800;
     font-family: var(--Bold-font);
-    color: var(--Lighter-Blue);
+    color: var(--Lighter-Green);
     min-width: 40vw;
     min-height: 10vh;
     border-radius: 2rem;
     margin: 2em 0;
     font-size: 1.2vw;
-    box-shadow: 3px 3px 3px -1px var(--Dark-Blue),
-      3px 3px 3px -1px var(--Darker-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Dark-Green),
+      3px 3px 3px -1px var(--Darker-Green);
   }
 
 
@@ -15753,7 +15753,7 @@
 
   .CatalougeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 35vw;
     min-height: 50vh;
@@ -15767,7 +15767,7 @@
     padding: 5rem 1rem;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -15789,7 +15789,7 @@
   .CatalougePageModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -15899,7 +15899,7 @@
 
   .ChangeCatalougeBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 8rem 0;
@@ -15914,7 +15914,7 @@
     padding: 10rem 0;
     min-width: 45vw;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -15923,7 +15923,7 @@
 
   .ChangeDealershipBannerElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 100rem 0;
@@ -15936,7 +15936,7 @@
     color: var(--Dark-Black);
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -16552,7 +16552,7 @@
   }
 
   .TitleWolf{
-    color: var(--Light-Blue);
+    color: var(--Light-Green);
   }
 
   
@@ -16577,7 +16577,7 @@
     font-size: 4vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
     text-align: center;
   }
 
@@ -16610,8 +16610,8 @@
     font-family: var(--Italic-font);
     color: var(--Darker-Grey);
     backdrop-filter: blur(2em);
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     max-width: 30vw;
     display: grid;
     place-self: center;
@@ -16622,7 +16622,7 @@
     font-size: 3vw;
     font-weight: 800;
     font-family: var(--Italic-font);
-    color: var(--Darker-Blue);
+    color: var(--Darker-Green);
   }
 
   .WithTitle {
@@ -16664,7 +16664,7 @@
   }
 
   .DetectionProductGridBgI {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -16673,13 +16673,13 @@
   }
 
   .DetectionProductGridBgI:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
   .DonationProductGridBgI {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -16688,8 +16688,8 @@
   }
 
   .DonationProductGridBgI:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -16706,7 +16706,7 @@
   }
 
   .DonationProductGridBgII {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -16715,8 +16715,8 @@
   }
 
   .DonationProductGridBgII:hover {
-    box-shadow: 3px 3px 3px -1px var(--Darker-Blue),
-      3px 3px 3px -1px var(--Dark-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Darker-Green),
+      3px 3px 3px -1px var(--Dark-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -16734,7 +16734,7 @@
   }
 
   .DonationProductGridBgIV {
-    background: var(--Lighter-Blue);
+    background: var(--Lighter-Green);
     backdrop-filter: blur(1rem);
     padding: 0.5rem 0.5rem;
     transition: all ease-in-out 300ms;
@@ -16742,8 +16742,8 @@
   }
 
   .DonationProductGridBgIV:hover {
-    box-shadow: 3px 3px 3px -1px var(--Dark-Blue),
-      3px 3px 3px -1px var(--Darker-Blue);
+    box-shadow: 3px 3px 3px -1px var(--Dark-Green),
+      3px 3px 3px -1px var(--Darker-Green);
     transition: all ease-in-out 300ms;
   }
 
@@ -17031,7 +17031,7 @@
 
   .ChangeProductElement {
     background: var(--Light-Space);
-    box-shadow: -2px -3px 5px -1px var(--Light-Blue),
+    box-shadow: -2px -3px 5px -1px var(--Light-Green),
       2px 3px 5px -1px var(--Mid-Light-Black);
     min-width: 40vw;
     padding: 9rem 0;
@@ -17045,7 +17045,7 @@
     padding: 0 0 3rem 0;
     text-align: center;
     cursor: pointer;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -17091,7 +17091,7 @@
   .hero {
     min-width: 92vw;
     min-height: 80vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17202,7 +17202,7 @@
     background: var(--Dark-Cloud);
     color: var(--Light-White);
     padding: 0 0 6rem 0;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -17222,11 +17222,11 @@
   }
 
   .BtnBrowse:hover {
-    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Blue),
+    box-shadow: inset -3px -3px 5px 0px #5ca8ff, -1px -1px 4px 0px var(--Lighter-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: var(--Dark-Blue);
+    background: var(--Dark-Green);
     transition: all ease-in-out 300ms;
 
   }
@@ -17375,7 +17375,7 @@
   .AboutUsModule {
     min-width: 100vw;
     min-height: 100vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17413,7 +17413,7 @@
 
   .Abouthero {
     min-height: 70vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -17899,7 +17899,7 @@
     background: var(--Light-Cloud);
     color: var(--Light-White);
     min-height: 35vh;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -18146,7 +18146,7 @@
   }
 
   .GetStarted {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     min-width: 50vw;
     min-height: 10vh;
     position: fixed;
@@ -18198,7 +18198,7 @@
   .Welcomehero {
     min-width: 92vw;
     min-height: 90vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     border-radius: 1rem;
@@ -18261,7 +18261,7 @@
 
   .CoProducts {
     font-size: 1.8vw;
-    color: var(--Dark-Blue);
+    color: var(--Dark-Green);
   }
 
   .WelcomeTitle {
@@ -18362,7 +18362,7 @@
     background: var(--Dark-Black);
     color: var(--Light-White);
     padding: 8rem 4rem;
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -18510,7 +18510,7 @@
   .FooterGridElement:hover {
     background: var(--Dark-Cloud);
     color: var(--Light-White);
-    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Blue),
+    box-shadow: inset -3px -3px 5px 0px #302c2c, -1px -1px 4px 0px var(--Darker-Green),
       inset 5px 5px 10px 0px rgba(0, 0, 0, 0.12),
       inset 2px 2px 3px 0px rgba(0, 0, 0, 0.07),
       1px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -18542,7 +18542,7 @@
   }
 
   .FooterIcon:hover {
-    background: var(--Blue-Space);
+    background: var(--Green-Space);
     cursor: pointer;
   }
 
@@ -18566,7 +18566,7 @@
   .Footerhero {
     min-width: 92vw;
     min-height: 30vh;
-    box-shadow: 0 0 3px var(--Ocean-Blue);
+    box-shadow: 0 0 3px var(--Ocean-Green);
     border-radius: 1rem 0 0 1rem;
     background: linear-gradient(160deg, #f0f1f4 0%, #e4e6eb 100%);
     padding-bottom: 1.8rem;
