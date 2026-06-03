@@ -4,6 +4,88 @@
   }
 
   
+  .MainHeroLayedOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    gap: 2rem;
+
+  }
+
+    .MainIcon {
+    grid-column: span 2;
+    border-radius: 5rem;
+  }
+
+  
+  .MainContext {
+    text-align: center;
+  }
+
+  
+  .BookNow {
+    font-size: .8rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    padding: .5rem 1rem;
+    color: var(--Lighter-White);
+    box-shadow: 4px 4px 4px -1px var(--Mid-Dark-Red),
+      -4px -4px 4px -1px var(--Lighter-White);
+    transition: 100ms all ease-in-out;
+  }
+
+  .BookNow:hover {
+    color: var(--Lighter-Green);
+  }
+
+
+  
+  .MainSubTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 2rem;
+    gap: .5rem;
+  }
+
+  .TitleWolf {
+    color: var(--Light-Green);
+  }
+
+  .MainSubTitleI {
+    display: grid;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 1rem;
+
+  }
+
+
+  
+  .MainHeroIcon {
+    display: grid;
+    max-width: 20vw;
+    max-height: 20vw;
+    border-radius: .5rem;
+    color: var(--Lighter-Green);
+    box-shadow: 10px 10px 10px -1px var(--Dark-White),
+      -10px -10px 10px -1px var(--Light-White);
+  }
+
+
+  
+  .MainTitle {
+    font-weight: 600;
+    font-size: 0.7vw;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
+  }
+
+  
   .MainHeroII {
     display: flex;
     align-items: center;
@@ -2712,6 +2794,88 @@
     display: none;
   }
 
+  
+  .MainHeroLayedOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    gap: 2rem;
+
+  }
+
+    .MainIcon {
+    grid-column: span 2;
+    border-radius: 5rem;
+  }
+
+  
+  .MainContext {
+    text-align: center;
+  }
+
+  
+  .BookNow {
+    font-size: .8rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    padding: .5rem 1rem;
+    color: var(--Lighter-White);
+    box-shadow: 4px 4px 4px -1px var(--Mid-Dark-Red),
+      -4px -4px 4px -1px var(--Lighter-White);
+    transition: 100ms all ease-in-out;
+  }
+
+  .BookNow:hover {
+    color: var(--Lighter-Green);
+  }
+
+
+
+  
+  .MainSubTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 2rem;
+    gap: .5rem;
+  }
+
+  .TitleWolf {
+    color: var(--Light-Green);
+  }
+
+  .MainSubTitleI {
+    display: grid;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 1rem;
+
+  }
+
+
+  
+  .MainHeroIcon {
+    display: grid;
+    max-width: 20vw;
+    max-height: 20vw;
+    border-radius: .5rem;
+    color: var(--Lighter-Green);
+    box-shadow: 10px 10px 10px -1px var(--Dark-White),
+      -10px -10px 10px -1px var(--Light-White);
+  }
+
+  
+  .MainTitle {
+    font-weight: 600;
+    font-size: 0.7vw;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
+  }
+
     .MainHeroII {
     display: flex;
     align-items: center;
@@ -2719,8 +2883,8 @@
     transition: all ease-in-out 300ms;
     background: var(--Lighter-White);
     padding: 0 3rem;
-    max-width: 30vw;
-    min-height: 50vw;
+    max-width: 50vw;
+    min-height: 40vw;
   }
 
 
@@ -5407,6 +5571,88 @@
 @media only screen and (min-width: 550px) and (max-width: 1025px) {
   .HeadercontentI {
     display: none;
+  }
+
+  
+  .MainHeroLayedOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    gap: 2rem;
+
+  }
+
+    .MainIcon {
+    grid-column: span 2;
+    border-radius: 5rem;
+  }
+
+  
+  .MainContext {
+    text-align: center;
+  }
+
+  
+  .BookNow {
+    font-size: .8rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    padding: .5rem 1rem;
+    color: var(--Lighter-White);
+    box-shadow: 4px 4px 4px -1px var(--Mid-Dark-Red),
+      -4px -4px 4px -1px var(--Lighter-White);
+    transition: 100ms all ease-in-out;
+  }
+
+  .BookNow:hover {
+    color: var(--Lighter-Green);
+  }
+
+
+  
+  .MainSubTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 2rem;
+    gap: .5rem;
+  }
+
+  .TitleWolf {
+    color: var(--Light-Green);
+  }
+
+  .MainSubTitleI {
+    display: grid;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 1rem;
+
+  }
+
+
+  
+  .MainHeroIcon {
+    display: grid;
+    max-width: 20vw;
+    max-height: 20vw;
+    border-radius: .5rem;
+    color: var(--Lighter-Green);
+    box-shadow: 10px 10px 10px -1px var(--Dark-White),
+      -10px -10px 10px -1px var(--Light-White);
+  }
+
+
+  
+  .MainTitle {
+    font-weight: 600;
+    font-size: 0.7vw;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
   }
 
     .MainHeroII {
@@ -8244,6 +8490,88 @@
     font-weight: 800;
     color: var(--Dark-Black);
     background: var(--Light-White);
+  }
+
+  
+  .MainHeroLayedOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    gap: 2rem;
+
+  }
+
+    .MainIcon {
+    grid-column: span 2;
+    border-radius: 5rem;
+  }
+
+  
+  .MainContext {
+    text-align: center;
+  }
+
+  
+  .BookNow {
+    font-size: .8rem;
+    font-weight: 800;
+    background: var(--Dark-Space);
+    padding: .5rem 1rem;
+    color: var(--Lighter-White);
+    box-shadow: 4px 4px 4px -1px var(--Mid-Dark-Red),
+      -4px -4px 4px -1px var(--Lighter-White);
+    transition: 100ms all ease-in-out;
+  }
+
+  .BookNow:hover {
+    color: var(--Lighter-Green);
+  }
+
+
+  
+  .MainSubTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 2rem;
+    gap: .5rem;
+  }
+
+  .TitleWolf {
+    color: var(--Light-Green);
+  }
+
+  .MainSubTitleI {
+    display: grid;
+    text-align: center;
+    color: var(--Darker-Black);
+    font-size: 1rem;
+
+  }
+
+
+  
+  .MainHeroIcon {
+    display: grid;
+    max-width: 20vw;
+    max-height: 20vw;
+    border-radius: .5rem;
+    color: var(--Lighter-Green);
+    box-shadow: 10px 10px 10px -1px var(--Dark-White),
+      -10px -10px 10px -1px var(--Light-White);
+  }
+
+
+  
+  .MainTitle {
+    font-weight: 600;
+    font-size: 0.7vw;
+    color: var(--Darker-Black);
+    transition: all ease-in-out 300ms;
   }
 
     .MainHeroII {
@@ -11141,6 +11469,7 @@
 }
 
 @media only screen and (min-width: 1285px) and (max-width: 1790px) {
+
 
   .HSProperty {
     display: flex;
