@@ -437,14 +437,7 @@ export default function ManagerForm() {
   const [formData, setFormData] = useState({
     fullName: '',
     emailAddress: '',
-    countryDialCode: '',
-    phoneNumber: '',
-    scheduledDate: '',
-    cancerType: '',
-    cancerStage: '',
     sharedConcern: '',
-    communicationMethod: '',
-    communicationChannel: '',
   });
 
 
@@ -469,15 +462,8 @@ export default function ManagerForm() {
     let newErrors: { [key: string]: string } = {};
 
     if (!formData.fullName) newErrors.fullName = "Full Name is required!";
-    if (!formData.countryDialCode) newErrors.phone = "Country dial code is required.";
-    if (!formData.phoneNumber) newErrors.phoneNumber = "Phone number is required!";
     if (!formData.emailAddress) newErrors.emailAddress = "Email Address is required!";
-    if (!formData.scheduledDate) newErrors.scheduledDate = "Scheduled Date is required!";
-    if (!formData.cancerType) newErrors.cancerType = "Cancer Type is required!";
-    if (!formData.cancerStage) newErrors.cancerStage = "Cancer Stage is required";
-    if (!formData.sharedConcern) newErrors.cancerStage = "Shared Concern is required";
-    if (!formData.communicationChannel) newErrors.communicationChannel = "Communication Channel is required";
-    if (!formData.communicationMethod) newErrors.communicationMethod = "Communication Method is required"
+    if (!formData.sharedConcern) newErrors.emailAddress = "Your Concern is required!";
 
 
     setNewError(newErrors);
@@ -493,14 +479,14 @@ export default function ManagerForm() {
 
     setUploading(true);
 
-    const { fullName, emailAddress, countryDialCode, phoneNumber, scheduledDate, cancerType, cancerStage, sharedConcern, communicationMethod, communicationChannel } = formData;
+    const { fullName, emailAddress, sharedConcern } = formData;
 
     //Using the Secrey KeyPhrase as a Salt for the Hash to ensure it is unique
     const secretKey = process.env.NEXT_PUBLIC_HMAC_SECRET_KEY || "default_secret";
 
     //Generate a HMAC Key based on input
     const hmac = createHmac('sha256', secretKey);
-    hmac.update(`${fullName}:${emailAddress}:${phoneNumber}`);
+    hmac.update(`${fullName}:${emailAddress}:${sharedConcern}`);
     const encryptedKey = hmac.digest('hex');
 
     console.log('Generated HMAC Key: ', encryptedKey)
@@ -509,14 +495,7 @@ export default function ManagerForm() {
     const payLoad = {
       fullName,
       emailAddress,
-      countryDialCode,
-      phoneNumber,
-      scheduledDate,
-      cancerType,
-      cancerStage,
       sharedConcern,
-      communicationMethod,
-      communicationChannel,
       encryptedKey,
     };
 
