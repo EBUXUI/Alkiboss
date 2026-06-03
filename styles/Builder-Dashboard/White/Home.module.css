@@ -2882,7 +2882,7 @@
     justify-content: center;
     transition: all ease-in-out 300ms;
     background: var(--Lighter-White);
-    padding: 0 3rem;
+    padding: 0 7rem;
     max-width: 50vw;
     min-height: 40vw;
   }
