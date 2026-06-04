@@ -1,24 +1,25 @@
 'use client'
 import Head from 'next/head';
-import HomePictorial from '@/UI-Features/webComponent/backgroundComponent/LoginPictorial';
+import HeroSection from "./New/app/components/HeroSection";
+import CollaboratedWith from "./New/app/components/CollaboratedWith";
+import AboutSection from "./New/app/components/AboutSection";
+import FeedbackSection from "./New/app/components/FeedbackSection";
+import TikTokVideosSection from "./New/app/components/TikTokVideosSection";
+import BrandAwarenessSection from "./New/app/components/BrandAwarenessSection";
+import YouTubeSection from "./New/app/components/YouTubeSection";
+import StatsSection from "./New/app/components/StatsSection";
+import CTASection from "./New/app/components/CTASection";
 import Navbar from '@/UI-Features/webComponent/navigationComponent/HeadBar';
 import PageFormat from '@/UI-Features/webComponent/pageComponent/PageLoader';
 import PageFormatII from '@/UI-Features/webComponent/pageComponent/PageLoaderII';
 import Menu from '@/UI-Features/webComponent/menuComponent/Menu';
 import MenuHero from '@/UI-Features/webComponent/databaseComponent/menuHero';
-import ProgrammesModule from '@/UI-Features/webComponent/moduleComponent/programmesModule';
-import ProgrammesModuleII from '@/UI-Features/webComponent/moduleComponent/programmesModuleII';
-import DisabilityHero from '@/UI-Features/webComponent/heroComponent';
-import MainHero from '@/UI-Features/webComponent/heroComponent/MainHero';
-import Stats from "@/UI-Features/webComponent/heroComponent/CompanyStatsComponent/MainStatsComponent";
-import HeroComponentII from "@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/HeroComponentII";
-import FormComponent from "@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/FormComponent";
 import SectionComponent from "@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/SectionComponent"
 export default function Home() {
     return (
         <>
             <Head>
-                <title>Adrien (Alkiboss) | Urban Afro Fusion Creator, Comedian & Entertainer</title>
+                <title>Alkiboss Classic | UGC Creator, Brand Influencer & Viral Content Creator</title>
 
                 <meta
                     name="description"
@@ -128,30 +129,19 @@ export default function Home() {
                     href="/Ico.ico"
                 />
             </Head>
-            <Navbar />
-            <MenuHero />
             <PageFormat>
                 <SectionComponent>
-                    <MainHero />
-                <div id="AllContent">
-                    <HeroComponentII />
-                </div>
-                <div id="ContactUs">
-                    <FormComponent />
-                </div>
-                <ProgrammesModule />
-                <ProgrammesModuleII />
-                <HomePictorial />
-                <div id="BrandPartnerships">
-                    <HeroComponentII />
-                </div>
-
-                <MainHero />
+                          <HeroSection />
+                          <CollaboratedWith />
+                          <AboutSection />
+                          <FeedbackSection />
+                          <TikTokVideosSection />
+                          <BrandAwarenessSection />
+                          <YouTubeSection />
+                          <StatsSection />
+                          <CTASection />
                 </SectionComponent>
             </PageFormat>
-            <PageFormatII>
-                <MenuHero />
-            </PageFormatII>
 
         </>
     )
