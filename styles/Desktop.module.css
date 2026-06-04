@@ -3,10 +3,10 @@
   .sectionHolder{
     display:grid;
     grid-template-columns: repeat(1,1fr);
-    grid-gap: .5rem;
-    padding: .8rem;
+    grid-gap: 3rem;
+    padding: 2rem;
     overflow-x: hidden;
-  }
+    }
   
   .Menucontent {
     display: none;
@@ -5282,6 +5282,15 @@
   .Menucontent {
     display: none;
   }
+
+  
+  .sectionHolder{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 3rem;
+    padding: 2rem;
+    overflow-x: hidden;
+    }
 
    .loadingBar {
     height: 3px;
@@ -10559,6 +10568,15 @@
     display: none;
   }
 
+  
+  .sectionHolder{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 3rem;
+    padding: 2rem;
+    overflow-x: hidden;
+    }
+
    .loadingBar {
     height: 4px;
   }
@@ -15834,6 +15852,15 @@
     display: none;
   }
 
+  
+  .sectionHolder{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 3rem;
+    padding: 2rem;
+    overflow-x: hidden;
+    }
+
    .loadingBar {
     height: 4px;
   }
@@ -21100,6 +21127,15 @@
   .Menucontent {
     display: none;
   }
+
+  
+  .sectionHolder{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 3rem;
+    padding: 2rem;
+    overflow-x: hidden;
+    }
 
    .loadingBar {
     height: 5px;
@@ -26370,6 +26406,15 @@
   .Menucontent {
     display: none;
   }
+
+  
+  .sectionHolder{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 3rem;
+    padding: 2rem;
+    overflow-x: hidden;
+    }
 
    .loadingBar {
     height: 6px;
