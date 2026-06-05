@@ -82,7 +82,7 @@ export default function StatsSection() {
   const stats: StatItem[] = [
     {
       icon: "▶",
-      value: "1OM+",
+      value: "10M+",
       label: "YOUTUBE",
       sublabel: "VIEWS",
     },
