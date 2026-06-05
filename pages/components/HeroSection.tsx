@@ -201,7 +201,7 @@ export default function HeroSection() {
       
                 <figure itemProp="image">
   <Image
-    src="/images/C.png"
+    src="/images/C.webp"
     alt="Official portrait of Alkiboss Classic"
     width={520}
     height={680}
