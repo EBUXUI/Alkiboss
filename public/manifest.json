@@ -1,0 +1,30 @@
+{
+  "name": "Alkiboss Classic | Official Creator Website",
+  "short_name": "Alkiboss",
+  "description": "Official website of Alkiboss Classic — comedian, entertainer, digital influencer and content creator from Kenya.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#0178ff",
+  "lang": "en",
+  "orientation": "portrait",
+
+  "icons": [
+    {
+      "src": "/Ico.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
