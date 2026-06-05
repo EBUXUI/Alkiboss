@@ -25,44 +25,50 @@ function AutoPlayVideo({ src }: { src: string }) {
 
   const [loaded, setLoaded] = useState(false);
 
-useEffect(() => {
-  const video = ref.current;
-  if (!video) return;
+  useEffect(() => {
+    const video = ref.current;
+    if (!video) return;
 
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.isIntersecting) {
-        setLoaded(true);
-        video.play().catch(() => {});
-      } else {
-        video.pause();
-      }
-    },
-    { threshold: 0.4 }
-  );
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          if (!loaded) {
+            setLoaded(true);
 
-  observer.observe(video);
+            requestAnimationFrame(() => {
+              video.load();
+              video.play().catch(() => { });
+            });
+          } else {
+            video.play().catch(() => { });
+          }
+        }
+      },
+      { threshold: 0.4 }
+    );
 
-  return () => observer.disconnect();
-}, []);
+    observer.observe(video);
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
-  
+
     <video
-  ref={ref}
-  muted
-  loop
-  playsInline
-  preload="none"
-  poster="/images/C.png"
-  className="absolute inset-0 w-full h-full object-cover">
-  {loaded && (
-    <source
-      src={src}
-      type="video/mp4"
-    />
-  )}
-</video>
+      ref={ref}
+      muted
+      loop
+      playsInline
+      preload="none"
+      poster="/images/C.png"
+      className="absolute inset-0 w-full h-full object-cover">
+      {loaded && (
+        <source
+          src={src}
+          type="video/mp4"
+        />
+      )}
+    </video>
   );
 }
 
