@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useRef } from "react";
-import AlkiBoss from "@/MyPotraits/B.png"
 export default function HeroSection() {
   const heroRef = useRef<HTMLDivElement>(null);
 
@@ -182,7 +181,7 @@ export default function HeroSection() {
               <div className="relative" style={{ width: "clamp(280px, 40vw, 520px)", height: "clamp(360px, 52vw, 680px)" }}>
                 {/* Photo placeholder with creator styling - using TikTok profile image */}
                 <img
-                  src="/images/C.png"
+                  src="/images/C.webp"
                   alt="Alkiboss Classic"
                   className="w-full h-full object-cover object-top"
                   style={{
