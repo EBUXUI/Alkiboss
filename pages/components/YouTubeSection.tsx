@@ -178,7 +178,7 @@ export default function AndroidVideoGrid() {
           </h2>
         </div>
 
-        <p className="text-center text-gray-500 tracking-[0.25em] uppercase text-sm mb-10">
+        <p className="text-center text-slate-700 tracking-[0.25em] uppercase text-sm mb-10">
           Android Experience Grid
         </p>
 
