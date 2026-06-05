@@ -202,7 +202,7 @@ export default function HeroSection() {
                   width={520}
                   height={680}
                   itemProp="image"
-                  alt="alt="Alkiboss Classic comedian entertainer and digital content creator""
+                  alt="Alkiboss Classic comedian entertainer and digital content creator"
                   className="w-full h-full object-cover object-top"
                   style={{
                     mixBlendMode: "multiply",
