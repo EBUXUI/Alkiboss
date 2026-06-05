@@ -24,6 +24,7 @@ export default function HeroSection() {
   return (
     <section
       ref={heroRef}
+      itemType="https://schema.org/Person"
       className="hero-gradient min-h-screen relative overflow-hidden flex items-center
       shadow-lg
       shadow-blue-500/30
