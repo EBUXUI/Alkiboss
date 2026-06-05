@@ -34,6 +34,11 @@ export default function Home() {
   itemProp="description"
   content="Alkiboss Classic is a Kenyan comedian, entertainer, content creator and digital influencer known for viral comedy videos and brand collaborations."
 />
+                <meta
+  name="description"
+  content="Alkiboss Classic is a Kenyan comedian, entertainer, content creator, digital influencer, YouTube creator, TikTok creator and brand ambassador known across East Africa for viral comedy and entertainment content."
+/>
+                
 <meta name="keywords" content="Alkiboss Classic, Kenyan comedian, content creator, TikTok Kenya, YouTube comedy, East Africa influencer" />
   <meta
     name="robots"
