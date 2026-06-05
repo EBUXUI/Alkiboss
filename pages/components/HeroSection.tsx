@@ -53,7 +53,7 @@ export default function HeroSection() {
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 min-h-screen md:min-h-0 md:py-24">
 
           {/* LEFT: Text Content */}
-          <div className="flex-1 gap-4 text-center md:text-center z-10">
+          <div className="flex-1 flex items-center justify-center gap-4 text-center md:text-center z-10">
             {/* Name */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-100">
               <h1 itemProp="name"
