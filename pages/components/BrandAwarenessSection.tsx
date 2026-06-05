@@ -32,11 +32,17 @@ useEffect(() => {
   const observer = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
-        setLoaded(true);
-        video.play().catch(() => {});
-      } else {
-        video.pause();
-      }
+  if (!loaded) {
+    setLoaded(true);
+
+    requestAnimationFrame(() => {
+      video.load();
+      video.play().catch(() => {});
+    });
+  } else {
+    video.play().catch(() => {});
+  }
+}
     },
     { threshold: 0.4 }
   );
