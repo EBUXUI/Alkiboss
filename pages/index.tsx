@@ -24,13 +24,17 @@ export default function Home() {
   <title>
     Alkiboss Classic | Comedian, Entertainer, Content Creator & Digital Influencer
   </title>
+  <meta itemProp="jobTitle" content="Comedian" />
+<meta itemProp="jobTitle" content="Content Creator" />
+<meta itemProp="jobTitle" content="Digital Influencer" />
 
-  <meta
-    name="description"
-    content="Official website of Alkiboss Classic, comedian, entertainer, content creator and digital influencer. Explore viral comedy content, social media milestones, collaborations, videos, achievements and the journey behind one of East Africa's most recognized entertainment creators."
-  />
+<meta itemProp="nationality" content="Kenyan" />
 
-  <meta
+<meta
+  itemProp="description"
+  content="Alkiboss Classic is a Kenyan comedian, entertainer, content creator and digital influencer known for viral comedy videos and brand collaborations."
+/>
+  <meta/
     name="robots"
     content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
   />
