@@ -68,6 +68,15 @@ export default function HeroSection() {
   Comedian • Entertainer • Content Creator • Digital Influencer • Viral Video Creator
 </p>
             </div>
+            <div className="max-w-3xl mx-auto mt-10">
+  <p className="text-gray-700 leading-relaxed text-lg">
+    Alkiboss Classic is a comedian, entertainer, content creator and
+    digital influencer known for viral comedy content across YouTube,
+    TikTok, Facebook and Instagram. Through storytelling, humor and
+    engaging social media content, Alkiboss has reached millions of
+    viewers and collaborated with leading brands across East Africa.
+  </p>
+</div>
             {/* CTA */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-300">
               <a
@@ -182,7 +191,7 @@ export default function HeroSection() {
                 {/* Photo placeholder with creator styling - using TikTok profile image */}
                 <img
                   src="/images/C.png"
-                  alt="Alkiboss Classic"
+                  alt="alt="Alkiboss Classic comedian entertainer and digital content creator""
                   className="w-full h-full object-cover object-top"
                   style={{
                     mixBlendMode: "multiply",
