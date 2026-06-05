@@ -24,6 +24,15 @@ function AutoPlayVideo({ src }: { src: string }) {
   const ref = useRef<HTMLVideoElement>(null);
 
   const [loaded, setLoaded] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      setShowAll(true);
+    }, 1500);
+
+    return () => clearTimeout(t);
+  }, []);
 
   useEffect(() => {
     const video = ref.current;
