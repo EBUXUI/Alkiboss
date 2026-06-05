@@ -192,8 +192,9 @@ export default function HeroSection() {
           {/* RIGHT: Creator Photo */}
           <div className="flex-1 flex justify-center md:justify-end relative z-10">
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-1000 delay-200 animate-float relative">
-              {/* Decorative ring behind photo */}
-              <div className="absolute inset-0 rounded-full opacity-20 blur-2xl"
+              
+              {/* Subtle glow behind */}
+              <div className="absolute inset-0 blur-3xl opacity-30 rounded-full"
                 style={{ background: "radial-gradient(circle, #3b82f6, transparent)" }} />
 
               <div className="relative" style={{ width: "clamp(280px, 40vw, 520px)", height: "clamp(360px, 52vw, 680px)" }}>
