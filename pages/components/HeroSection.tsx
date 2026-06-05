@@ -147,7 +147,7 @@ and entertainer known across East Africa and Africa in entertainment, content cr
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-400">
               <div className="flex items-center gap-4 justify-center md:justify-center">
                 {/* Facebook */}
-                <a rel="me noopener noreferrer" href="https://www.facebook.com/Alkiboss/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.facebook.com/Alkiboss/" target="_blank" rel="noopener noreferrer"
                   className="social-icon" aria-label="Facebook">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
