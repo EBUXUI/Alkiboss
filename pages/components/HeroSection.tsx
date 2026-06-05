@@ -73,13 +73,18 @@ export default function HeroSection() {
             </div>
             <div className="max-w-3xl mx-auto mt-10">
   <p itemProp="description" className="text-gray-700 leading-relaxed text-lg">
-    Alkiboss Classic is a Kenyan comedian, viral content creator, digital influencer, YouTube creator, TikTok creator, Brand ambassador, Social media personality,
-and entertainer known across East Africa and Africa in entertainment, content creation and
-    digital influencing known for viral comedy content across YouTube,
-    TikTok, Facebook and Instagram. Through storytelling, humor and
-    engaging social media content, Alkiboss has reached millions of
-    viewers and collaborated with leading brands across East Africa.
-  </p>
+  Alkiboss Classic is a Kenyan comedian, digital creator,
+  entertainer and brand influencer recognized for producing
+  viral comedy videos, engaging social media campaigns and
+  high-performing branded content across YouTube, TikTok,
+  Facebook and Instagram.
+
+  Through comedy, storytelling and audience engagement,
+  Alkiboss has reached millions of viewers throughout Kenya,
+  East Africa and international markets while collaborating
+  with leading brands in gaming, technology,
+  telecommunications and digital services.
+</p>
 </div>
             <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm font-semibold">
   <span>10M+ YouTube Views</span>
@@ -199,40 +204,29 @@ and entertainer known across East Africa and Africa in entertainment, content cr
 
               <div className="relative" style={{ width: "clamp(280px, 40vw, 520px)", height: "clamp(360px, 52vw, 680px)" }}>
                 {/* Photo placeholder with creator styling - using TikTok profile image */}
-                <img
-                  src="/images/C.png"
-                  width={520}
-                  height={680}
-                  itemProp="image"
-                  alt="Alkiboss Classic Kenyan comedian entertainer digital influencer content creator and brand ambassador"
-                  className="w-full h-full object-cover object-top"
-                  style={{
-                    mixBlendMode: "multiply",
-                    filter: "contrast(1.05) brightness(1.02)",
-                    borderRadius: "0",
-                  }}
-                  onError={(e) => {
-                    // Fallback to a styled placeholder
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = "none";
-                    const parent = target.parentElement;
-                    if (parent) {
-                      parent.style.background = "linear-gradient(135deg, #93c5fd20, #3b82f640)";
-                      parent.innerHTML = `
-                        <div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;">
-                          <div style="font-size:120px;">🎭</div>
-                          <p style="font-family:Montserrat,sans-serif;font-weight:700;font-size:18px;color:#1d4ed8;text-align:center;padding:0 20px;">Alkiboss Classic</p>
-                          <p style="font-family:Montserrat,sans-serif;font-size:13px;color:#6b7280;text-align:center;padding:0 20px;">Kenya's #1 Comedy Creator</p>
-                        </div>
-                      `;
-                    }
-                  }}
-                >
-                <figcaption className="sr-only">
-Alkiboss Classic, Kenyan comedian, content creator,
-digital influencer and viral entertainment creator.
-</figcaption>
-                </img>
+      
+                <figure itemProp="image">
+  <Image
+    src="/images/C.png"
+    alt="Official portrait of Alkiboss Classic"
+    width={520}
+    height={680}
+    priority
+    className="w-full h-full object-cover object-top"
+    style={{
+      mixBlendMode: "multiply",
+      filter: "contrast(1.05) brightness(1.02)",
+      borderRadius: "0",
+    }}
+  />
+
+  <figcaption className="sr-only">
+    Official portrait of Alkiboss Classic, Kenyan comedian,
+    entertainer, content creator and digital influencer.
+  </figcaption>
+</figure>
+                
+                
                 
               </div>
             </div>
