@@ -325,15 +325,21 @@ export default function Home() {
                             <HeroSection />
                           </section>
                           <CollaboratedWith />
+                          <section id="about">
                           <AboutSection />
+                          </section>
                           <FeedbackSection />
+                          <section id="videos">
                           <TikTokVideosSection />
+                          </section>
                           <BrandAwarenessSection />
                           <YouTubeSection />
                           <section id="person">
                             <StatsSection/>
                           </section>
+                          <section id="contact">
                           <CTASection />
+                          </section>
                 </SectionComponent>
             </PageFormat>
 
