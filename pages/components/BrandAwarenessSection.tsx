@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 /**
  * Your real videos (8 items)
@@ -16,41 +16,53 @@ const videos = [
   "/Videos/VideoA.mp4",
 ];
 
+
 /**
  * Auto-play video only when visible
  */
 function AutoPlayVideo({ src }: { src: string }) {
   const ref = useRef<HTMLVideoElement>(null);
 
-  useEffect(() => {
-    const video = ref.current;
-    if (!video) return;
+  const [loaded, setLoaded] = useState(false);
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          video.play().catch(() => {});
-        } else {
-          video.pause();
-        }
-      },
-      { threshold: 0.6 }
-    );
+useEffect(() => {
+  const video = ref.current;
+  if (!video) return;
 
-    observer.observe(video);
-    return () => observer.disconnect();
-  }, []);
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        setLoaded(true);
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    },
+    { threshold: 0.4 }
+  );
+
+  observer.observe(video);
+
+  return () => observer.disconnect();
+}, []);
 
   return (
+  
     <video
-      ref={ref}
+  ref={ref}
+  muted
+  loop
+  playsInline
+  preload="none"
+  poster="/images/C.png"
+  className="absolute inset-0 w-full h-full object-cover">
+  {loaded && (
+    <source
       src={src}
-      muted
-      loop
-      playsInline
-      preload="metadata"
-      className="absolute inset-0 w-full h-full object-cover"
+      type="video/mp4"
     />
+  )}
+</video>
   );
 }
 
