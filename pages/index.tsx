@@ -264,7 +264,21 @@ export default function Home() {
     rel="icon"
     href="/Ico.ico"
   />
-
+  {/* Profile Schema */}
+              <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context":"https://schema.org",
+      "@type":"ProfilePage",
+      "@id":"https://alkiboss.vercel.app/#profile",
+      name:"Alkiboss Classic Official Website",
+      mainEntity:{
+        "@id":"https://alkiboss.vercel.app/#person"
+      }
+    })
+  }}
+/>
   {/* Person Schema */}
   <script
     type="application/ld+json"
@@ -336,7 +350,9 @@ export default function Home() {
 </Head>
             <PageFormat>
                 <SectionComponent>
-                          <HeroSection />
+                          <section id="profile">
+                            <HeroSection />
+                          </section>
                           <CollaboratedWith />
                           <AboutSection />
                           <FeedbackSection />
