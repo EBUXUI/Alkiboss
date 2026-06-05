@@ -55,7 +55,7 @@ export default function HeroSection() {
           <div className="flex-1 text-center md:text-center z-10">
             {/* Name */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-100">
-              <h1
+              <h1 itemProp="name"
   className="font-playfair font-black leading-none tracking-tight mb-8"
   style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
 >
