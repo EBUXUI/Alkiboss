@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block private / dev routes (if you add them later)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+
+# Sitemap location (CRITICAL)
+Sitemap: https://alkiboss.vercel.app/sitemap.xml
+
+# Crawl-delay (optional, mainly for Bing / low-impact crawlers)
+Crawl-delay: 1
