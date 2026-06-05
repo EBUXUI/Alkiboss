@@ -77,6 +77,11 @@ export default function HeroSection() {
     viewers and collaborated with leading brands across East Africa.
   </p>
 </div>
+            <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm font-semibold">
+  <span>10M+ YouTube Views</span>
+  <span>7M+ TikTok Likes</span>
+  <span>10+ Brand Collaborations</span>
+</div>
             {/* CTA */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-300">
               <a
