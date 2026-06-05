@@ -359,7 +359,9 @@ export default function Home() {
                           <TikTokVideosSection />
                           <BrandAwarenessSection />
                           <YouTubeSection />
-                          <StatsSection/>
+                          <section id="person">
+                            <StatsSection/>
+                          </section>
                           <CTASection />
                 </SectionComponent>
             </PageFormat>
