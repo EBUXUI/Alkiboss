@@ -71,7 +71,7 @@ export default function HeroSection() {
             </h2>
             <div className="max-w-3xl mx-auto mt-10">
   <p className="text-gray-700 leading-relaxed text-lg">
-    Alkiboss Classic is a Alkiboss Classic is a Kenyan comedian, viral content creator, digital influencer, YouTube creator, TikTok creator, Brand ambassador, Social media personality,
+    Alkiboss Classic is a Kenyan comedian, viral content creator, digital influencer, YouTube creator, TikTok creator, Brand ambassador, Social media personality,
 and entertainer known across East Africa and Africa in entertainment, content creation and
     digital influencing known for viral comedy content across YouTube,
     TikTok, Facebook and Instagram. Through storytelling, humor and
