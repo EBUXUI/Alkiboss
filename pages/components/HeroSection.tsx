@@ -66,10 +66,10 @@ export default function HeroSection() {
 
             {/* Tagline */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-200">
-              <p className="font-montserrat font-medium text-gray-700 mb-10 tracking-wide">
+              <h2 className="font-medium text-gray-700 mb-10 tracking-wide">
   Comedian • Entertainer • Content Creator • Digital Influencer • Viral Video Creator
 </p>
-            </div>
+            </h2>
             <div className="max-w-3xl mx-auto mt-10">
   <p className="text-gray-700 leading-relaxed text-lg">
     Alkiboss Classic is a comedian, entertainer, content creator and
