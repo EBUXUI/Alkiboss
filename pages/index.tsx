@@ -169,6 +169,7 @@ export default function Home() {
     rel="icon"
     href="/Ico.ico"
   />
+                
   {/*BreadCrumb */}
               <script
   type="application/ld+json"
@@ -231,7 +232,7 @@ export default function Home() {
       ]
     }
   ]
-})
+})}}/>
               
   {/* Profile Schema */}
               <script
