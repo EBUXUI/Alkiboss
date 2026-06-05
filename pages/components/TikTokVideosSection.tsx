@@ -44,7 +44,7 @@ function AutoPlayVideo({ src }: { src: string }) {
           }
         }
       },
-      { threshold: 0.4 }
+      { threshold: 0.2 }
     );
 
     observer.observe(video);
