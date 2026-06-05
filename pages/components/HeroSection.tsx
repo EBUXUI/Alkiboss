@@ -64,9 +64,9 @@ export default function HeroSection() {
 
             {/* Tagline */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-200">
-              <p className="font-montserrat font-medium text-gray-700 mb-10 tracking-widest uppercase text-sm md:text-base">
-                UGC Creator &bull; Brand Influencer &bull; Viral Content Creator
-              </p>
+              <p className="font-montserrat font-medium text-gray-700 mb-10 tracking-wide">
+  Comedian • Entertainer • Content Creator • Digital Influencer • Viral Video Creator
+</p>
             </div>
             {/* CTA */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-300">
