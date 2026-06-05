@@ -227,6 +227,10 @@ and entertainer known across East Africa and Africa in entertainment, content cr
                     }
                   }}
                 />
+                <figcaption className="sr-only">
+Alkiboss Classic, Kenyan comedian, content creator,
+digital influencer and viral entertainment creator.
+</figcaption>
               </div>
             </div>
           </div>
