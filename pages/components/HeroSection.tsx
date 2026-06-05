@@ -86,6 +86,7 @@ export default function HeroSection() {
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-300">
               <a
                 href="#contact"
+                rel="me noopener noreferrer"
                 className="
       group
       inline-flex
@@ -150,7 +151,7 @@ export default function HeroSection() {
                   </svg>
                 </a>
                 {/* Instagram */}
-                <a href="https://www.instagram.com/alkiboss_classic" target="_blank" rel="noopener noreferrer"
+                <a rel="me noopener noreferrer" href="https://www.instagram.com/alkiboss_classic" target="_blank" rel="noopener noreferrer"
                   className="social-icon" aria-label="Instagram">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
@@ -159,14 +160,14 @@ export default function HeroSection() {
                   </svg>
                 </a>
                 {/* TikTok */}
-                <a href="https://www.tiktok.com/@alkiboss_classic" target="_blank" rel="noopener noreferrer"
+                <a rel="me noopener noreferrer" href="https://www.tiktok.com/@alkiboss_classic" target="_blank" rel="noopener noreferrer"
                   className="social-icon" aria-label="TikTok">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.88a8.27 8.27 0 0 0 4.83 1.53V7a4.85 4.85 0 0 1-1.06-.31z" />
                   </svg>
                 </a>
                 {/* YouTube */}
-                <a href="https://www.youtube.com/@alkibossclassic" target="_blank" rel="noopener noreferrer"
+                <a rel="me noopener noreferrer" href="https://www.youtube.com/@alkibossclassic" target="_blank" rel="noopener noreferrer"
                   className="social-icon" aria-label="YouTube">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
@@ -174,7 +175,7 @@ export default function HeroSection() {
                   </svg>
                 </a>
                 {/* Email */}
-                <a href="mailto:alkibossclassic@gmail.com"
+                <a rel="me noopener noreferrer" href="mailto:alkibossclassic@gmail.com"
                   className="social-icon" aria-label="Email">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
