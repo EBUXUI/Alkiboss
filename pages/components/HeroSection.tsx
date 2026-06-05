@@ -78,12 +78,6 @@ export default function HeroSection() {
   viral comedy videos, engaging social media campaigns and
   high-performing branded content across YouTube, TikTok,
   Facebook and Instagram.
-
-  Through comedy, storytelling and audience engagement,
-  Alkiboss has reached millions of viewers throughout Kenya,
-  East Africa and international markets while collaborating
-  with leading brands in gaming, technology,
-  telecommunications and digital services.
 </p>
 </div>
             <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm font-semibold">
