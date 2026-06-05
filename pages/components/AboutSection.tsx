@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 
 export default function AboutSection() {
+   const heroRef = useRef<HTMLDivElement>(null);
   const ref = useRef<HTMLDivElement>(null);
 
 
