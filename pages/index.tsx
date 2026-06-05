@@ -192,7 +192,10 @@ export default function Home() {
                 
 
               {/* Stats Schema */}
-              __html: JSON.stringify({
+              <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
