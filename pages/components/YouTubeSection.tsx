@@ -71,6 +71,12 @@ function AutoPlayVideo({ src }: { src: string }) {
       preload="none"
       poster="/images/C.webp"
       className="absolute inset-0 w-full h-full object-cover">
+       <track
+    kind="captions"
+    src="/captions/empty.vtt"
+    srcLang="en"
+    label="English"
+  />
       {loaded && (
         <source
           src={src}
