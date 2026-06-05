@@ -81,9 +81,9 @@ export default function HeroSection() {
 </p>
 </div>
             <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm font-semibold">
-  <span>10M+ YouTube Views</span>
-  <span>7M+ TikTok Likes</span>
-  <span>10+ Brand Collaborations</span>
+  <span style={{ color: "#0178ff" }}>10M+ YouTube Views</span>
+  <span style={{ color: "#0178ff" }}>7M+ TikTok Likes</span>
+  <span style={{ color: "#0178ff" }}>10+ Brand Collaborations</span>
 </div>
             {/* CTA */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-300">
