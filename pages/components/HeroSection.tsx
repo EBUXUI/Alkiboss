@@ -53,14 +53,13 @@ export default function HeroSection() {
           <div className="flex-1 text-center md:text-center z-10">
             {/* Name */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-100">
-              <h1 className="font-playfair font-black leading-none tracking-tight mb-2"
-                style={{ fontSize: "clamp(3rem, 8vw, 7rem)", color: "#0a0a0a" }}>
-                ALKIBOSS
-              </h1>
-              <h1 className="font-playfair font-black leading-none tracking-tight mb-8"
-                style={{ fontSize: "clamp(2.5rem, 7vw, 6rem)", color: "#0178ffff" }}>
-                CLASSIC
-              </h1>
+              <h1
+  className="font-playfair font-black leading-none tracking-tight mb-8"
+  style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
+>
+  <span style={{ color: "#0a0a0a" }}>ALKIBOSS</span>{" "}
+  <span style={{ color: "#0178ff" }}>CLASSIC</span>
+</h1>
             </div>
 
             {/* Tagline */}
