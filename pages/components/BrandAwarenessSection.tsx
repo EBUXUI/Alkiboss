@@ -69,7 +69,7 @@ function AutoPlayVideo({ src }: { src: string }) {
       loop
       playsInline
       preload="none"
-      poster="/images/C.png"
+      poster="/images/C.webp"
       className="absolute inset-0 w-full h-full object-cover">
       {loaded && (
         <source
