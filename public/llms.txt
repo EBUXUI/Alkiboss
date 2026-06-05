@@ -1,0 +1,14 @@
+Name: Alkiboss Classic
+Type: Digital Creator, Comedian, Entertainer, Influencer
+Country: Kenya
+
+Description:
+Alkiboss Classic is a Kenyan comedian, entertainer, and digital content creator known for viral comedy videos across YouTube, TikTok, Instagram, and Facebook.
+
+Main Platforms:
+- YouTube: https://www.youtube.com/@alkibossclassic
+- TikTok: https://www.tiktok.com/@alkiboss_classic
+- Instagram: https://www.instagram.com/alkiboss_classic
+- Facebook: https://www.facebook.com/Alkiboss
+
+Entity Type: Person (Schema.org)
