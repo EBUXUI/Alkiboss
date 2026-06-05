@@ -6,6 +6,7 @@ import FeedbackSection from "./components/FeedbackSection";
 import TikTokVideosSection from "./components/TikTokVideosSection";
 import BrandAwarenessSection from "./components/BrandAwarenessSection";
 import YouTubeSection from "./components/YouTubeSection";
+import StatsSection from "./components/StatsSection";
 import CTASection from "./components/CTASection";
 import Navbar from '@/UI-Features/webComponent/navigationComponent/HeadBar';
 import PageFormat from '@/UI-Features/webComponent/pageComponent/PageLoader';
@@ -342,87 +343,7 @@ export default function Home() {
                           <TikTokVideosSection />
                           <BrandAwarenessSection />
                           <YouTubeSection />
-
-    <section
-      ref={ref}
-      className="relative overflow-hidden py-24 md:py-32 bg-[#0b0f19]"
-    >
-      {/* Luxury background glow */}
-      <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-blue-500/10 blur-[120px] rounded-full" />
-      <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-cyan-400/10 blur-[120px] rounded-full" />
-
-      <div className="container mx-auto px-6 md:px-12 lg:px-20 relative z-10">
-
-        {/* HEADER */}
-        <div className="text-center mb-16 flex items-center justify-center">
-          <h1 className="font-black tracking-tight text-white"
-            style={{ fontSize: "clamp(2.2rem, 5vw, 4rem)" }}
-          >
-            BY THE NUMBERS
-          </h1>
-
-          <div className="w-28 h-[2px] bg-gradient-to-r  mx-auto mt-4 rounded-full" />
-
-          <p className="mt-6 text-gray-400 max-w-2xl mx-auto text-center leading-relaxed">
-            Performance metrics reflecting reach, engagement, and impact across platforms.
-          </p>
-        </div>
-
-        {/* GRID */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
-
-          {stats.map((stat, i) => (
-            <div
-              key={i}
-              className="stat-anim opacity-0 translate-y-10 transition-all duration-700 group"
-            >
-              {/* CARD */}
-              <div className="
-                relative p-8 rounded-2xl
-                bg-white/5 backdrop-blur-xl
-                border border-white/10
-                shadow-[0_0_40px_rgba(0,0,0,0.4)]
-                hover:scale-[1.04] hover:border-white/20
-                transition-all duration-300 text-center
-              ">
-
-                {/* glow accent */}
-                <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition bg-gradient-to-tr from-blue-500/10 to-cyan-400/10" />
-
-                {/* ICON */}
-                <div className="text-2xl mb-6 opacity-80">
-                  {stat.icon}
-                </div>
-
-                {/* VALUE */}
-                <div className="text-white font-black tracking-tight mb-2"
-                  style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}
-                >
-                  {stat.value}
-                </div>
-
-                {/* LABEL */}
-                <div className="text-xs tracking-[0.25em] uppercase text-gray-300 font-semibold">
-                  {stat.label}
-                </div>
-
-                {/* SUBLABEL */}
-                {stat.sublabel && (
-                  <div className="text-[10px] tracking-[0.3em] uppercase text-gray-500 mt-1">
-                    {stat.sublabel}
-                  </div>
-                )}
-
-                {/* subtle shine line */}
-                <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-              </div>
-            </div>
-          ))}
-
-        </div>
-      </div>
-    </section>
- 
+                          <StatsSection/>
                           <CTASection />
                 </SectionComponent>
             </PageFormat>
