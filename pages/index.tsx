@@ -233,7 +233,12 @@ export default function Home() {
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Person",
+          "worksFor": {
+  "@type": "Organization",
+  "name": "Alkiboss Classic Media"
+},
         name: "Alkiboss Classic",
+          
         alternateName: [
           "Alkiboss",
           "alkiboss_classic",
