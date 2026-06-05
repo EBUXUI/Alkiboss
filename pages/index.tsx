@@ -1,4 +1,3 @@
-'use client'
 import Head from 'next/head';
 import HeroSection from "./components/HeroSection";
 import CollaboratedWith from "./components/CollaboratedWith";
@@ -7,7 +6,6 @@ import FeedbackSection from "./components/FeedbackSection";
 import TikTokVideosSection from "./components/TikTokVideosSection";
 import BrandAwarenessSection from "./components/BrandAwarenessSection";
 import YouTubeSection from "./components/YouTubeSection";
-import StatsSection from "./components/StatsSection";
 import CTASection from "./components/CTASection";
 import Navbar from '@/UI-Features/webComponent/navigationComponent/HeadBar';
 import PageFormat from '@/UI-Features/webComponent/pageComponent/PageLoader';
