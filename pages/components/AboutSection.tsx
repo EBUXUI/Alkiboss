@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
-
+import Image from "next/image";
 export default function AboutSection() {
    const heroRef = useRef<HTMLDivElement>(null);
   const ref = useRef<HTMLDivElement>(null);
