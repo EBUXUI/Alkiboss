@@ -191,46 +191,43 @@ export default function Home() {
                 
 
               {/* Stats Schema */}
-              <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(
+              __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://alkiboss.vercel.app/#profile",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Alkiboss Classic",
+        "interactionStatistic": [
+          {
+            "@type": "InteractionCounter",
+            "interactionType": "https://schema.org/WatchAction",
+            "userInteractionCount": 10000000
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://alkiboss.vercel.app/#person",
+      "name": "Alkiboss Classic",
+      "interactionStatistic": [
         {
- "@context":"https://schema.org",
- "@type":"ProfilePage",
- "mainEntity":{
-   "@type":"Person",
-   "name":"Alkiboss Classic",
-   "interactionStatistic":[
-     {
-       "@type":"InteractionCounter",
-       "interactionType":"https://schema.org/WatchAction",
-       "userInteractionCount":"10000000"
-     }
-   ]
- }
-},
-        {
-        
-      "@context":"https://schema.org",
-      "@type":"Person",
-        
-      "@id":"https://alkiboss.vercel.app/#person",
-      interactionStatistic:[
-        {
-          "@type":"InteractionCounter",
-          interactionType:"https://schema.org/WatchAction",
-          userInteractionCount:10000000
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/WatchAction",
+          "userInteractionCount": 10000000
         },
         {
-          "@type":"InteractionCounter",
-          interactionType:"https://schema.org/LikeAction",
-          userInteractionCount:7000000
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/LikeAction",
+          "userInteractionCount": 7000000
         }
       ]
-    })
-  }}
-/>
+    }
+  ]
+})
               
   {/* Profile Schema */}
               <script
