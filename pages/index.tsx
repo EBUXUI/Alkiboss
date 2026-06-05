@@ -16,107 +16,7 @@ import MenuHero from '@/UI-Features/webComponent/databaseComponent/menuHero';
 import SectionComponent from "@/UI-Features/webComponent/dashboardComponent/automationComponent/EarthBuilder/SectionComponent"
 import { useEffect, useRef, useState } from "react";
 
-interface StatItem {
-  icon: React.ReactNode;
-  value: string;
-  label: string;
-  sublabel?: string;
-}
-
-/**
- * Animated counter
- */
-function AnimatedNumber({ target, suffix = "" }: { target: number; suffix?: string }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  const started = useRef(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && !started.current) {
-          started.current = true;
-
-          const duration = 1600;
-          const steps = 60;
-          const increment = target / steps;
-
-          let current = 0;
-
-          const timer = setInterval(() => {
-            current += increment;
-
-            if (current >= target) {
-              setCount(target);
-              clearInterval(timer);
-            } else {
-              setCount(Math.floor(current));
-            }
-          }, duration / steps);
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, [target]);
-
-  return <span ref={ref}>{count}{suffix}</span>;
-}
-
 export default function Home() {
-      const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const els = entry.target.querySelectorAll(".stat-anim");
-
-            els.forEach((el, i) => {
-              setTimeout(() => {
-                el.classList.add("opacity-100", "translate-y-0");
-                el.classList.remove("opacity-0", "translate-y-10");
-              }, i * 120);
-            });
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
-
-  const stats: StatItem[] = [
-    {
-      icon: "▶",
-      value: "1OM+",
-      label: "YOUTUBE",
-      sublabel: "VIEWS",
-    },
-    {
-      icon: "👥",
-      value: "10+",
-      label: "BRAND",
-      sublabel: "COLLABORATIONS",
-    },
-    {
-      icon: "⚡",
-      value: "HIGH",
-      label: "ENGAGEMENT",
-      sublabel: "RATE",
-    },
-    {
-      icon: "🌐",
-      value: "MULTI",
-      label: "PLATFORM",
-      sublabel: "CREATOR",
-    },
-  ];
     return (
         <>
             <Head>
@@ -264,6 +164,49 @@ export default function Home() {
     rel="icon"
     href="/Ico.ico"
   />
+  {/*BreadCrumb */}
+              <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context":"https://schema.org",
+      "@type":"BreadcrumbList",
+      itemListElement:[
+        {
+          "@type":"ListItem",
+          position:1,
+          name:"Home",
+          item:"https://alkiboss.vercel.app"
+        }
+      ]
+    })
+  }}
+/>
+
+              {/* Stats Schema */}
+              <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context":"https://schema.org",
+      "@type":"Person",
+      "@id":"https://alkiboss.vercel.app/#person",
+      interactionStatistic:[
+        {
+          "@type":"InteractionCounter",
+          interactionType:"https://schema.org/WatchAction",
+          userInteractionCount:10000000
+        },
+        {
+          "@type":"InteractionCounter",
+          interactionType:"https://schema.org/LikeAction",
+          userInteractionCount:7000000
+        }
+      ]
+    })
+  }}
+/>
+              
   {/* Profile Schema */}
               <script
   type="application/ld+json"
