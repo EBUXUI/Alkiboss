@@ -191,6 +191,8 @@ export default function HeroSection() {
                 {/* Photo placeholder with creator styling - using TikTok profile image */}
                 <img
                   src="/images/C.png"
+                  width={520}
+                  height={680}
                   alt="alt="Alkiboss Classic comedian entertainer and digital content creator""
                   className="w-full h-full object-cover object-top"
                   style={{
