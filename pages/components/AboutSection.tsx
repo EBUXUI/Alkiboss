@@ -1,25 +1,27 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
-export default function AboutSection() {
-   const heroRef = useRef<HTMLDivElement>(null);
-  const ref = useRef<HTMLDivElement>(null);
 
+export default function AboutSection() {
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("opacity-100");
-            entry.target.classList.remove("opacity-0", "translate-y-8");
+            const els = entry.target.querySelectorAll(".about-anim");
+            els.forEach((el, i) => {
+              setTimeout(() => {
+                el.classList.add("opacity-100");
+                el.classList.remove("opacity-0", "translate-x-8", "-translate-x-8");
+              }, i * 150);
+            });
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.2 }
     );
-    const els = heroRef.current?.querySelectorAll(".about-anim");
-    els?.forEach((el) => observer.observe(el));
+    if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
 
@@ -48,27 +50,21 @@ export default function AboutSection() {
               <div className="absolute inset-0 blur-3xl opacity-30 rounded-full"
                 style={{ background: "radial-gradient(circle, #3b82f6, transparent)" }} />
 
-              <figure itemProp="image">
-  <Image
-    src="/images/C.webp"
-    alt="Official portrait of Alkiboss Classic"
-    width={520}
-    height={680}
-    priority
-    className="w-full h-full object-cover object-top"
-    style={{
-      mixBlendMode: "multiply",
-      filter: "contrast(1.05) brightness(1.02)",
-      borderRadius: "0",
-    }}
-  />
-
-  <figcaption className="sr-only">
-    Official portrait of Alkiboss Classic, Kenyan comedian,
-    entertainer, content creator and digital influencer.
-  </figcaption>
-</figure>
-              
+              <img
+                src="/images/C.webp"
+                alt="Alkiboss Classic"
+                className="w-full h-full object-cover object-top relative z-10"
+                style={{ mixBlendMode: "multiply" }}
+                onError={(e) => {
+                  const t = e.target as HTMLImageElement;
+                  t.src = "";
+                  t.style.display = "none";
+                  const p = t.parentElement;
+                  if (p) {
+                    p.innerHTML = `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:100px;z-index:10;position:relative;">🎭</div>`;
+                  }
+                }}
+              />
             </div>
           </div>
 
