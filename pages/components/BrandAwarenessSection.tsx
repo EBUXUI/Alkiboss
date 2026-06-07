@@ -229,7 +229,7 @@ export default function AndroidVideoGrid() {
         </p>
 
         {/* GRID */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-10">
           {videos.map((video, i) => (
             <div
               key={i}
