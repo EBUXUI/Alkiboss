@@ -69,7 +69,7 @@ export default function AboutSection() {
           </div>
 
           {/* RIGHT: Bio text */}
-          <div className="flex-1 flex flex-col text center items-center justify-center about-anim opacity-0 translate-x-8 transition-all duration-700 delay-200">
+          <div className="flex-1 flex flex-col text center gap-5 items-center justify-center about-anim opacity-0 translate-x-8 transition-all duration-700 delay-200">
             <h2
               className="font-dancing text center mb-6"
               style={{ fontSize: "clamp(3rem, 6vw, 5rem)", color: "#0a0a0a", lineHeight: 1.1 }}
@@ -77,14 +77,14 @@ export default function AboutSection() {
               Hey,
             </h2>
 
-            <p className="font-montserrat text-gray-800 leading-relaxed text-center md:text-left"
+            <p className="font-montserrat text-gray-800 leading-relaxed text-center md:text-center"
               style={{ fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               I&apos;m <strong>Alkiboss Classic</strong>, a content creator, comedian, and digital entertainer
               making waves across East Africa and beyond. I craft scroll-stopping prank, comedy, and
               lifestyle content that keeps audiences genuinely hooked from the first second to the last frame.
             </p>
 
-            <p className="font-montserrat text-gray-800 leading-relaxed mt-5 text-center md:text-left"
+            <p className="font-montserrat text-gray-800 leading-relaxed mt-5 text-center md:text-center"
               style={{ fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               Beyond the laughs, I partner with global brands to create authentic, high-performing
               promotional content that actually converts — not just views, but real engagement from a
@@ -94,7 +94,7 @@ export default function AboutSection() {
             </p>
 
 
-            <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
+            <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-center">
 
               {["Comedy", "Pranks", "Brand Deals", "UGC Creator", "Multi-Platform"].map((tag) => (
                 <span key={tag}
