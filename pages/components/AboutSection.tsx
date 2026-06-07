@@ -69,9 +69,9 @@ export default function AboutSection() {
           </div>
 
           {/* RIGHT: Bio text */}
-          <div className="flex-1 about-anim opacity-0 translate-x-8 transition-all duration-700 delay-200">
+          <div className="flex-1 flex text center items-center justify-center about-anim opacity-0 translate-x-8 transition-all duration-700 delay-200">
             <h2
-              className="font-dancing mb-6"
+              className="font-dancing text center mb-6"
               style={{ fontSize: "clamp(3rem, 6vw, 5rem)", color: "#0a0a0a", lineHeight: 1.1 }}
             >
               Hey,
