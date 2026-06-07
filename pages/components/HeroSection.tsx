@@ -27,7 +27,7 @@ export default function HeroSection() {
       ref={heroRef}
       itemScope
       itemType="https://schema.org/Person"
-      className="hero-gradient min-h-screen relative overflow-hidden flex items-center
+      className="hero-gradient min-h-screen relative overflow-hidden flex items-center pt-8 sm:pt-10 md:pt-0
       shadow-lg
       shadow-blue-500/30
       transition-all
@@ -49,42 +49,57 @@ export default function HeroSection() {
       <div className="absolute top-1/3 left-1/3 w-64 h-64 rounded-full opacity-15"
         style={{ background: "radial-gradient(circle, #bfdbfe 0%, transparent 70%)" }} />
 
-      <div className="container mx-auto px-6 md:px-12 lg:px-20 py-16 md:py-0">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 min-h-screen md:min-h-0 md:py-24">
-
+      <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-10 md:py-0">
+        <div
+          className="
+    flex
+    flex-col-reverse
+    md:flex-row
+    items-center
+    justify-between
+    gap-12
+    sm:gap-16
+    md:gap-8
+    min-h-screen
+    md:min-h-0
+    py-8
+    md:py-24
+  "
+        >
           {/* LEFT: Text Content */}
           <div className="flex-1 flex flex-col items-center justify-center gap-5 text-center md:text-center z-10">
             {/* Name */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-100">
-              <h1 itemProp="name"
-  className="font-playfair font-black leading-none tracking-tight mb-8"
-  style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
->
-  <span style={{ color: "#0a0a0a" }}>ALKIBOSS</span>{" "}
-  <span style={{ color: "#0178ff" }}>CLASSIC</span>
-</h1>
+              <h1
+                itemProp="name"
+                className="font-playfair font-black leading-[0.9] tracking-tight mb-6 sm:mb-8 px-2"
+                style={{ fontSize: "clamp(2.4rem, 7vw, 7rem)" }}
+              >
+                <span style={{ color: "#0a0a0a" }}>ALKIBOSS</span>{" "}
+                <span style={{ color: "#0178ff" }}>CLASSIC</span>
+              </h1>
             </div>
 
             {/* Tagline */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-200">
-              <h2 className="font-medium text-gray-700 mb-10 tracking-wide">
-  Comedian • Entertainer • Content Creator • Digital Influencer • Viral Video Creator
-            </h2>
+              <h2 className="font-medium text-gray-700 mb-8 sm:mb-10 tracking-wide px-2 text-sm sm:text-base md:text-lg">
+                Comedian • Entertainer • Content Creator • Digital Influencer • Viral Video Creator
+              </h2>
             </div>
-            <div className="max-w-3xl mx-auto mt-10">
-  <p itemProp="description" className="text-gray-700 leading-relaxed text-lg">
-  Alkiboss Classic is a Kenyan comedian, digital creator,
-  entertainer and brand influencer recognized for producing
-  viral comedy videos, engaging social media campaigns and
-  high-performing branded content across YouTube, TikTok,
-  Facebook and Instagram.
-</p>
-</div>
-            <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm font-semibold">
-  <span style={{ color: "#0178ff" }}>10M+ YouTube Views</span>
-  <span style={{ color: "#0178ff" }}>7M+ TikTok Likes</span>
-  <span style={{ color: "#0178ff" }}>10+ Brand Collaborations</span>
-</div>
+            <div className="max-w-3xl mx-auto mt-6 sm:mt-10 px-2">
+              <p itemProp="description" className="text-gray-700 leading-relaxed text-lg">
+                Alkiboss Classic is a Kenyan comedian, digital creator,
+                entertainer and brand influencer recognized for producing
+                viral comedy videos, engaging social media campaigns and
+                high-performing branded content across YouTube, TikTok,
+                Facebook and Instagram.
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 text-sm font-semibold px-2">
+              <span style={{ color: "#0178ff" }}>10M+ YouTube Views</span>
+              <span style={{ color: "#0178ff" }}>7M+ TikTok Likes</span>
+              <span style={{ color: "#0178ff" }}>10+ Brand Collaborations</span>
+            </div>
             {/* CTA */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-300">
               <a
@@ -145,7 +160,7 @@ export default function HeroSection() {
             </div>
             {/* Social Icons */}
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-700 delay-400">
-              <div className="flex items-center gap-4 justify-center md:justify-center">
+              <div className="flex items-center flex-wrap gap-4 justify-center">
                 {/* Facebook */}
                 <a href="https://www.facebook.com/Alkiboss/" target="_blank" rel="noopener noreferrer"
                   className="social-icon" aria-label="Facebook">
@@ -190,39 +205,60 @@ export default function HeroSection() {
           </div>
 
           {/* RIGHT: Creator Photo */}
-          <div className="flex-1 flex justify-center md:justify-end relative z-10">
+          <div
+            className="
+    flex-1
+    flex
+    justify-center
+    md:justify-end
+    relative
+    z-10
+    mb-8
+    sm:mb-10
+    md:mb-0
+  "
+          >
             <div className="anim-el opacity-0 translate-y-8 transition-all duration-1000 delay-200 animate-float relative">
-              
+
               {/* Subtle glow behind */}
               <div className="absolute inset-0 blur-3xl opacity-30 rounded-full"
                 style={{ background: "radial-gradient(circle, #3b82f6, transparent)" }} />
 
-              <div className="relative" style={{ width: "clamp(280px, 40vw, 520px)", height: "clamp(360px, 52vw, 680px)" }}>
+              <div
+                className="
+    relative
+    w-[75vw]
+    max-w-[520px]
+    min-w-[260px]
+  "
+              >
                 {/* Photo placeholder with creator styling - using TikTok profile image */}
-      
-                <figure itemProp="image">
-  <Image
-    src="/images/C.webp"
-    alt="Official portrait of Alkiboss Classic"
-    width={520}
-    height={680}
-    priority
-    className="w-full h-full object-cover object-top"
-    style={{
-      mixBlendMode: "multiply",
-      filter: "contrast(1.05) brightness(1.02)",
-      borderRadius: "0",
-    }}
-  />
 
-  <figcaption className="sr-only">
-    Official portrait of Alkiboss Classic, Kenyan comedian,
-    entertainer, content creator and digital influencer.
-  </figcaption>
-</figure>
-                
-                
-                
+                <figure itemProp="image">
+
+                  <Image
+                    src="/images/C.webp"
+                    alt="Official portrait of Alkiboss Classic"
+                    width={520}
+                    height={680}
+                    priority
+                    sizes="(max-width:640px) 75vw, (max-width:1024px) 50vw, 520px"
+                    className="w-full h-auto object-cover object-top"
+                    style={{
+                      mixBlendMode: "multiply",
+                      filter: "contrast(1.05) brightness(1.02)",
+                      borderRadius: "0",
+                    }}
+                  />
+
+                  <figcaption className="sr-only">
+                    Official portrait of Alkiboss Classic, Kenyan comedian,
+                    entertainer, content creator and digital influencer.
+                  </figcaption>
+                </figure>
+
+
+
               </div>
             </div>
           </div>
